@@ -7103,6 +7103,12 @@
 		(uuid "02a92208-2024-4987-ac4b-6276056a3e1e")
 	)
 	(junction
+		(at 546.1 444.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0436eca7-f67b-461d-ba9c-11c8db5fa12b")
+	)
+	(junction
 		(at 487.68 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7139,22 +7145,10 @@
 		(uuid "11f4f17a-0e17-4873-a06c-628506ecef60")
 	)
 	(junction
-		(at 448.31 267.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12287bef-393b-422a-a1b7-39b3230fae8f")
-	)
-	(junction
 		(at 582.93 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14cf790f-bce1-4b69-a085-e8966be07317")
-	)
-	(junction
-		(at 509.27 454.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14ecc251-93e1-4d37-8942-df12d19345b5")
 	)
 	(junction
 		(at 335.28 419.1)
@@ -7169,22 +7163,10 @@
 		(uuid "163a682c-8344-4453-9be5-fdbb7a2bfefb")
 	)
 	(junction
-		(at 562.61 372.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17a8a86f-4e4e-4454-b79c-fa1e928d7b29")
-	)
-	(junction
 		(at 455.93 643.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18efe365-5e1a-49f1-b229-ae0717e91d08")
-	)
-	(junction
-		(at 486.41 422.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b10b868-46ef-4a3d-b5bc-87b6a48d3b22")
 	)
 	(junction
 		(at 990.6 367.03)
@@ -7241,6 +7223,12 @@
 		(uuid "249dbea4-b3d7-4b40-9209-faf681727334")
 	)
 	(junction
+		(at 586.74 444.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2587c293-0a8d-49c2-9c64-084cc484d6d0")
+	)
+	(junction
 		(at 364.49 425.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7289,10 +7277,22 @@
 		(uuid "2f2ac865-9909-4950-8b05-3db765612e92")
 	)
 	(junction
+		(at 546.1 483.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f804c61-3646-416f-9a3f-9644d9eb2249")
+	)
+	(junction
 		(at 839.47 513.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fb2d0c8-b549-48fd-848f-05aea14d5788")
+	)
+	(junction
+		(at 505.46 444.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3124c43b-b124-4a6a-a50a-68998b1e99f5")
 	)
 	(junction
 		(at 685.8 372.11)
@@ -7313,7 +7313,7 @@
 		(uuid "342f189f-04f5-4a4e-b9cb-5c490a323686")
 	)
 	(junction
-		(at 467.36 443.23)
+		(at 462.28 443.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34ba80c3-61d6-4df9-87f1-9e3098da3409")
@@ -7331,10 +7331,10 @@
 		(uuid "36227f3f-6540-44ee-a332-470c9d6ba02f")
 	)
 	(junction
-		(at 547.37 434.34)
+		(at 586.74 483.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "381b02a6-77f1-450a-a881-a4b9b44b678a")
+		(uuid "388163e0-f9ec-43b0-8645-b981dd5e6cc9")
 	)
 	(junction
 		(at 692.15 372.11)
@@ -7349,6 +7349,12 @@
 		(uuid "393d207f-aae8-4140-a223-c15ad5afd592")
 	)
 	(junction
+		(at 505.46 483.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "394fc2b3-7c73-4536-bf0e-5c599ec12bfc")
+	)
+	(junction
 		(at 756.92 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7361,16 +7367,22 @@
 		(uuid "3b9b8e9c-9777-472e-aa4a-1bd685a4f323")
 	)
 	(junction
-		(at 562.61 422.91)
+		(at 492.76 444.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3c944372-052a-42f8-85a7-9c51791583a4")
+		(uuid "3ccc7c0c-e50e-4418-b320-d3d7faaa8ba2")
 	)
 	(junction
 		(at 589.28 444.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cd17fd0-da29-454b-a481-5160a23c9c38")
+	)
+	(junction
+		(at 567.69 372.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dadba6e-5ede-43b6-a2c1-b49dfbfbd818")
 	)
 	(junction
 		(at 648.97 499.11)
@@ -7445,12 +7457,6 @@
 		(uuid "5c06ead6-5198-4964-b905-ff2850f5802f")
 	)
 	(junction
-		(at 524.51 372.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c79428c-e4e6-4474-90d8-f969c85d29d0")
-	)
-	(junction
 		(at 1112.52 361.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7463,19 +7469,13 @@
 		(uuid "6427d8ee-7b5c-4e79-b5ba-3cb2a79d8476")
 	)
 	(junction
-		(at 562.61 454.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6507c424-b703-4301-9cb1-a95d0985811a")
-	)
-	(junction
-		(at 454.66 443.23)
+		(at 449.58 443.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "695676b6-6216-4e55-9a31-de50e39ff04b")
 	)
 	(junction
-		(at 448.31 372.11)
+		(at 443.23 372.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a17b0e5-95f4-493d-bf05-6bcea7bc684b")
@@ -7505,16 +7505,16 @@
 		(uuid "6f14622d-7e22-47c8-bccf-8135396dee7e")
 	)
 	(junction
+		(at 462.28 482.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71e9f25c-aa93-47e9-b043-5c3994c291bb")
+	)
+	(junction
 		(at 844.55 433.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73340cd0-42ab-48a1-892b-adc6e69fe61c")
-	)
-	(junction
-		(at 524.51 422.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73aeeffa-bbae-4da2-9ac5-ea2a84255f09")
 	)
 	(junction
 		(at 193.04 314.96)
@@ -7577,6 +7577,12 @@
 		(uuid "83dfb146-b746-4ccf-95c6-13a8de39649e")
 	)
 	(junction
+		(at 443.23 267.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8528c726-ce04-45d0-9f88-b5520c397d03")
+	)
+	(junction
 		(at 591.82 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7623,18 +7629,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d10e19c-b648-4769-9c55-e8859f71ee39")
-	)
-	(junction
-		(at 509.27 434.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fe302df-4ee5-4d3b-8ba9-e9a268556a67")
-	)
-	(junction
-		(at 524.51 454.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9181ec41-80f3-469e-b174-9dc693812672")
 	)
 	(junction
 		(at 765.81 462.28)
@@ -7703,16 +7697,16 @@
 		(uuid "a3f77830-831c-42f0-8fcf-8c042af86099")
 	)
 	(junction
-		(at 547.37 454.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a50f4fa2-e512-4691-9630-b685a7093692")
-	)
-	(junction
 		(at 163.83 389.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5c7de4c-ef25-402a-a872-4a7517a1e2aa")
+	)
+	(junction
+		(at 533.4 444.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad9e7cf2-af6b-4f40-b39e-e1a5e870d755")
 	)
 	(junction
 		(at 1112.52 373.38)
@@ -7737,12 +7731,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b529e842-b683-4aaf-85a8-6694b054fa91")
-	)
-	(junction
-		(at 471.17 454.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b54cb108-cdd6-4fa9-8421-124417e61323")
 	)
 	(junction
 		(at 163.83 302.26)
@@ -7823,6 +7811,12 @@
 		(uuid "c7de9661-53a0-4da3-8721-584831bbbbf2")
 	)
 	(junction
+		(at 527.05 372.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8de4673-598f-4f93-949b-e84f889d8485")
+	)
+	(junction
 		(at 1010.92 381)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7851,12 +7845,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf5d19c5-3abb-4e4a-8885-520810998888")
-	)
-	(junction
-		(at 467.36 463.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3d27486-6619-4af2-9575-1f4717a448ac")
 	)
 	(junction
 		(at 603.25 448.31)
@@ -7931,12 +7919,6 @@
 		(uuid "ebd0c8ee-f9d9-45b5-a39a-31183a827bfe")
 	)
 	(junction
-		(at 486.41 454.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed70d523-8c59-4e3d-9e6e-f1fb45f5f85c")
-	)
-	(junction
 		(at 858.52 492.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7973,10 +7955,10 @@
 		(uuid "f80e167d-11a6-427d-b110-9a22178accee")
 	)
 	(junction
-		(at 471.17 434.34)
+		(at 574.04 444.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fb359076-d09c-4186-9f81-f5af4d3e69b1")
+		(uuid "f9c9a6f5-6381-49f3-b0fa-9f23037e3249")
 	)
 	(junction
 		(at 839.47 372.11)
@@ -8013,7 +7995,7 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 443.23) (xy 454.66 443.23)
+			(xy 448.31 443.23) (xy 449.58 443.23)
 		)
 		(stroke
 			(width 0)
@@ -8157,6 +8139,16 @@
 	)
 	(wire
 		(pts
+			(xy 487.68 506.73) (xy 482.6 506.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07895e02-539b-454e-85b0-970b732d21f6")
+	)
+	(wire
+		(pts
 			(xy 820.42 372.11) (xy 820.42 425.45)
 		)
 		(stroke
@@ -8188,7 +8180,7 @@
 	)
 	(wire
 		(pts
-			(xy 462.28 525.78) (xy 462.28 520.7)
+			(xy 457.2 464.82) (xy 457.2 525.78)
 		)
 		(stroke
 			(width 0)
@@ -8210,6 +8202,16 @@
 	)
 	(wire
 		(pts
+			(xy 532.13 444.5) (xy 533.4 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a2273f5-c806-437d-8a11-f6881bd492c9")
+	)
+	(wire
+		(pts
 			(xy 265.43 397.51) (xy 265.43 302.26)
 		)
 		(stroke
@@ -8217,6 +8219,17 @@
 			(type default)
 		)
 		(uuid "0a8aa275-3b22-4bcc-abef-91c3e74ec402")
+	)
+	(wire
+		(pts
+			(xy 548.64 444.5) (xy 551.18 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "0aa9ff07-3fbb-4bf8-859b-01f84b6ece5e")
 	)
 	(wire
 		(pts
@@ -8248,6 +8261,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "0b255360-9222-4dd8-8a35-102c3f74cba8")
+	)
+	(wire
+		(pts
+			(xy 553.72 494.03) (xy 553.72 527.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b418dde-24d5-42bc-813d-f2dbfe6f365f")
 	)
 	(wire
 		(pts
@@ -8325,7 +8348,7 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 427.99) (xy 457.2 427.99)
+			(xy 448.31 427.99) (xy 452.12 427.99)
 		)
 		(stroke
 			(width 0)
@@ -8357,6 +8380,16 @@
 	)
 	(wire
 		(pts
+			(xy 574.04 444.5) (xy 575.31 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c969616-7940-4846-9404-38ff305a995d")
+	)
+	(wire
+		(pts
 			(xy 1029.97 373.38) (xy 1068.07 373.38)
 		)
 		(stroke
@@ -8368,14 +8401,13 @@
 	)
 	(wire
 		(pts
-			(xy 576.58 434.34) (xy 547.37 434.34)
+			(xy 518.16 444.5) (xy 521.97 444.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 0 0 1)
 		)
-		(uuid "0cc52d3a-06b0-4ba1-9f93-075764fcff47")
+		(uuid "0cca7106-873a-4f99-afc1-ef1f132f1f3f")
 	)
 	(wire
 		(pts
@@ -8411,16 +8443,6 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 454.66) (xy 486.41 463.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e3bb8d9-a019-49f5-a891-e750c40f4c95")
-	)
-	(wire
-		(pts
 			(xy 476.25 617.22) (xy 476.25 643.89)
 		)
 		(stroke
@@ -8439,17 +8461,6 @@
 			(type default)
 		)
 		(uuid "0e91160c-fb8e-4954-932a-871666ef28e5")
-	)
-	(wire
-		(pts
-			(xy 429.26 542.29) (xy 429.26 443.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "1021282e-73d6-41e4-8c61-3ff0174e2e1c")
 	)
 	(wire
 		(pts
@@ -8545,7 +8556,7 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 443.23) (xy 455.93 443.23)
+			(xy 449.58 443.23) (xy 450.85 443.23)
 		)
 		(stroke
 			(width 0)
@@ -8555,7 +8566,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 486.41) (xy 444.5 486.41)
+			(xy 444.5 505.46) (xy 439.42 505.46)
 		)
 		(stroke
 			(width 0)
@@ -8572,6 +8583,17 @@
 			(type default)
 		)
 		(uuid "12913f23-7436-484d-9507-f448905556ef")
+	)
+	(wire
+		(pts
+			(xy 508 466.09) (xy 508 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "12b8489f-71d6-4a3f-a061-258620dd43a4")
 	)
 	(wire
 		(pts
@@ -8682,6 +8704,16 @@
 	)
 	(wire
 		(pts
+			(xy 542.29 444.5) (xy 546.1 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "153265e7-bb39-4da4-a381-ac1c3cc5f1d6")
+	)
+	(wire
+		(pts
 			(xy 586.74 321.31) (xy 591.82 321.31)
 		)
 		(stroke
@@ -8714,6 +8746,17 @@
 	)
 	(wire
 		(pts
+			(xy 546.1 483.87) (xy 546.1 527.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "1775f40b-3a04-4c6b-a34d-b6f3bd0108a1")
+	)
+	(wire
+		(pts
 			(xy 1112.52 373.38) (xy 1112.52 364.49)
 		)
 		(stroke
@@ -8722,16 +8765,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "1783ec7e-5667-4c4f-aacb-d4138aa49506")
-	)
-	(wire
-		(pts
-			(xy 486.41 486.41) (xy 480.06 486.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "180aa66d-f1b4-4d75-b75b-487a2e072517")
 	)
 	(wire
 		(pts
@@ -8810,17 +8843,6 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 422.91) (xy 516.89 422.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "19f71b1b-2d33-40dc-8d63-5cace05456bb")
-	)
-	(wire
-		(pts
 			(xy 193.04 402.59) (xy 193.04 424.18)
 		)
 		(stroke
@@ -8840,6 +8862,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "1aa888c8-8126-449e-bc8d-76d37f35479a")
+	)
+	(wire
+		(pts
+			(xy 582.93 444.5) (xy 586.74 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1451df-7f1d-4bde-a633-988647f6a632")
 	)
 	(wire
 		(pts
@@ -8864,6 +8896,16 @@
 	)
 	(wire
 		(pts
+			(xy 568.96 491.49) (xy 574.04 491.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b76d8b1-1ba6-459c-932a-c3c2fa5af5e1")
+	)
+	(wire
+		(pts
 			(xy 200.66 284.48) (xy 270.51 284.48)
 		)
 		(stroke
@@ -8871,16 +8913,6 @@
 			(type default)
 		)
 		(uuid "1b95cbae-d478-4286-a06f-6ebc09339b83")
-	)
-	(wire
-		(pts
-			(xy 524.51 471.17) (xy 528.32 471.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bcd396d-42d1-4490-a6c6-61bc7f8ce0e4")
 	)
 	(wire
 		(pts
@@ -8917,16 +8949,6 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 525.78) (xy 515.62 525.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d2a2666-d1c2-440f-a3fc-e06b3a761d2c")
-	)
-	(wire
-		(pts
 			(xy 200.66 347.98) (xy 224.79 347.98)
 		)
 		(stroke
@@ -8956,6 +8978,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "1dbd82c8-5c19-486f-9836-b8a95878a120")
+	)
+	(wire
+		(pts
+			(xy 553.72 483.87) (xy 553.72 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd056fe-0eee-4299-8625-6936a6163773")
 	)
 	(wire
 		(pts
@@ -9010,7 +9042,7 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 427.99) (xy 467.36 427.99)
+			(xy 459.74 427.99) (xy 462.28 427.99)
 		)
 		(stroke
 			(width 0)
@@ -9048,6 +9080,17 @@
 			(type default)
 		)
 		(uuid "2027c141-d1e5-43a9-9cee-b0e9be13d844")
+	)
+	(wire
+		(pts
+			(xy 491.49 429.26) (xy 495.3 429.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "2062a7bd-7329-4958-a539-64483c34e333")
 	)
 	(wire
 		(pts
@@ -9156,6 +9199,16 @@
 	)
 	(wire
 		(pts
+			(xy 567.69 430.53) (xy 567.69 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "226eeb68-6b5d-411b-a8c0-f8ba2be45fe1")
+	)
+	(wire
+		(pts
 			(xy 877.57 452.12) (xy 877.57 525.78)
 		)
 		(stroke
@@ -9174,16 +9227,6 @@
 			(color 255 6 0 1)
 		)
 		(uuid "228663c6-c4d3-4086-b02f-fb08260a10e4")
-	)
-	(wire
-		(pts
-			(xy 566.42 525.78) (xy 558.8 525.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "228db293-0e98-4bc0-af19-e80aaf6f1e85")
 	)
 	(wire
 		(pts
@@ -9283,16 +9326,6 @@
 	)
 	(wire
 		(pts
-			(xy 566.42 471.17) (xy 566.42 525.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2549d0e3-2299-4ba2-85a4-6ace964991cf")
-	)
-	(wire
-		(pts
 			(xy 635 414.02) (xy 635 433.07)
 		)
 		(stroke
@@ -9346,13 +9379,13 @@
 	)
 	(wire
 		(pts
-			(xy 471.17 525.78) (xy 477.52 525.78)
+			(xy 553.72 527.05) (xy 561.34 527.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27647f62-0abe-4177-9cd6-f2b38101c272")
+		(uuid "26b08bff-3220-46ee-8be0-e47bd10dc21b")
 	)
 	(wire
 		(pts
@@ -9409,17 +9442,6 @@
 	)
 	(wire
 		(pts
-			(xy 448.31 267.97) (xy 487.68 267.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "290dd9c6-d0b7-49e3-ba26-8241b7c27e26")
-	)
-	(wire
-		(pts
 			(xy 508 242.57) (xy 591.82 242.57)
 		)
 		(stroke
@@ -9427,6 +9449,17 @@
 			(type default)
 		)
 		(uuid "29198084-45ae-45f9-a2a6-7f497ca40ea0")
+	)
+	(wire
+		(pts
+			(xy 548.64 466.09) (xy 548.64 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "296fbc7a-fcc5-466c-b270-23c6211beff1")
 	)
 	(wire
 		(pts
@@ -9544,6 +9577,17 @@
 	)
 	(wire
 		(pts
+			(xy 572.77 429.26) (xy 576.58 429.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "2d29d059-0295-44f9-a41e-f9425aeb8a97")
+	)
+	(wire
+		(pts
 			(xy 576.58 339.09) (xy 576.58 311.15)
 		)
 		(stroke
@@ -9581,6 +9625,17 @@
 			(type default)
 		)
 		(uuid "2db691d8-9473-4757-9414-5e4ef99bb171")
+	)
+	(wire
+		(pts
+			(xy 586.74 429.26) (xy 586.74 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "2dece2d0-8f0e-4b5d-b109-2cc991970fd4")
 	)
 	(wire
 		(pts
@@ -9639,6 +9694,27 @@
 	)
 	(wire
 		(pts
+			(xy 541.02 466.09) (xy 541.02 527.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "307d0313-e966-402c-a74d-e025891d57f2")
+	)
+	(wire
+		(pts
+			(xy 472.44 527.05) (xy 480.06 527.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "310310bb-eaa4-47ea-9a76-45a657da207c")
+	)
+	(wire
+		(pts
 			(xy 637.54 499.11) (xy 637.54 508)
 		)
 		(stroke
@@ -9667,6 +9743,16 @@
 			(type default)
 		)
 		(uuid "3197279e-a04a-44b2-8cca-f73e0eef2d2a")
+	)
+	(wire
+		(pts
+			(xy 513.08 527.05) (xy 520.7 527.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d47c61-bb8b-414f-90eb-683bd7cfa697")
 	)
 	(wire
 		(pts
@@ -9722,16 +9808,6 @@
 	)
 	(wire
 		(pts
-			(xy 562.61 454.66) (xy 562.61 463.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3341b625-6000-4f6b-845f-6c47c0928758")
-	)
-	(wire
-		(pts
 			(xy 844.55 466.09) (xy 866.14 466.09)
 		)
 		(stroke
@@ -9753,7 +9829,7 @@
 	)
 	(wire
 		(pts
-			(xy 567.69 391.16) (xy 567.69 393.7)
+			(xy 572.77 391.16) (xy 572.77 393.7)
 		)
 		(stroke
 			(width 0)
@@ -9774,6 +9850,17 @@
 	)
 	(wire
 		(pts
+			(xy 581.66 466.09) (xy 548.64 466.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "343817f8-26cc-4bd1-a64a-d971e497b857")
+	)
+	(wire
+		(pts
 			(xy 942.34 336.55) (xy 977.9 336.55)
 		)
 		(stroke
@@ -9781,6 +9868,17 @@
 			(type default)
 		)
 		(uuid "34487c85-4ae5-4942-9089-5edcec312bb3")
+	)
+	(wire
+		(pts
+			(xy 546.1 429.26) (xy 546.1 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "34599e9b-f882-48b6-9543-64ca303db192")
 	)
 	(wire
 		(pts
@@ -9885,17 +9983,6 @@
 			(type default)
 		)
 		(uuid "361649a9-e827-4705-b425-7e33b5689b2b")
-	)
-	(wire
-		(pts
-			(xy 538.48 434.34) (xy 509.27 434.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "364abb1d-4db2-4cba-ba86-295dc97c55a3")
 	)
 	(wire
 		(pts
@@ -10038,6 +10125,16 @@
 	)
 	(wire
 		(pts
+			(xy 472.44 483.87) (xy 472.44 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aea2531-67f1-4f9e-856e-d70e2d7ba2db")
+	)
+	(wire
+		(pts
 			(xy 839.47 472.44) (xy 847.09 472.44)
 		)
 		(stroke
@@ -10059,17 +10156,7 @@
 	)
 	(wire
 		(pts
-			(xy 562.61 486.41) (xy 556.26 486.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c2b25d7-9b55-4a77-bbe7-9450bb90389a")
-	)
-	(wire
-		(pts
-			(xy 444.5 486.41) (xy 444.5 525.78)
+			(xy 439.42 505.46) (xy 439.42 525.78)
 		)
 		(stroke
 			(width 0)
@@ -10122,7 +10209,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 476.25) (xy 450.85 486.41)
+			(xy 444.5 495.3) (xy 444.5 505.46)
 		)
 		(stroke
 			(width 0)
@@ -10154,6 +10241,17 @@
 	)
 	(wire
 		(pts
+			(xy 502.92 429.26) (xy 505.46 429.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "3ec729e6-c4c5-421b-a545-82b8159fbd09")
+	)
+	(wire
+		(pts
 			(xy 193.04 367.03) (xy 193.04 384.81)
 		)
 		(stroke
@@ -10176,7 +10274,7 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 453.39) (xy 454.66 443.23)
+			(xy 449.58 453.39) (xy 449.58 443.23)
 		)
 		(stroke
 			(width 0)
@@ -10214,6 +10312,17 @@
 			(color 255 6 0 1)
 		)
 		(uuid "4054ef8c-dce3-43a5-a418-16ef6b6ec57b")
+	)
+	(wire
+		(pts
+			(xy 505.46 483.87) (xy 505.46 527.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "406a4b3e-ddb0-4d14-96e2-8291834ac137")
 	)
 	(wire
 		(pts
@@ -10267,16 +10376,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "417c0c0f-d265-4dfd-acee-38524b26ee51")
-	)
-	(wire
-		(pts
-			(xy 556.26 486.41) (xy 556.26 525.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41a70133-ebf5-4b48-b0c3-34348a9eb51e")
 	)
 	(wire
 		(pts
@@ -10420,7 +10519,7 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 372.11) (xy 524.51 403.86)
+			(xy 527.05 372.11) (xy 527.05 403.86)
 		)
 		(stroke
 			(width 0)
@@ -10504,6 +10603,17 @@
 	)
 	(wire
 		(pts
+			(xy 528.32 483.87) (xy 546.1 483.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 253 0 0 1)
+		)
+		(uuid "4ab70bb9-53b9-4e76-a33b-e392aef9f9ea")
+	)
+	(wire
+		(pts
 			(xy 798.83 419.1) (xy 798.83 477.52)
 		)
 		(stroke
@@ -10536,6 +10646,16 @@
 	)
 	(wire
 		(pts
+			(xy 533.4 454.66) (xy 533.4 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3d0040-590d-45d5-b2fd-3f7b00ea9b56")
+	)
+	(wire
+		(pts
 			(xy 1112.52 373.38) (xy 1112.52 386.08)
 		)
 		(stroke
@@ -10554,17 +10674,6 @@
 			(type default)
 		)
 		(uuid "4ce91afe-dcd8-4465-bc8c-8bf6ce99d2f6")
-	)
-	(wire
-		(pts
-			(xy 509.27 454.66) (xy 509.27 434.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "4e24da56-6eec-4544-bb33-353af7c7fe26")
 	)
 	(wire
 		(pts
@@ -10641,16 +10750,6 @@
 	)
 	(wire
 		(pts
-			(xy 528.32 525.78) (xy 520.7 525.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50014082-4e2c-4045-a9c7-6be1007b7dca")
-	)
-	(wire
-		(pts
 			(xy 476.25 643.89) (xy 476.25 661.67)
 		)
 		(stroke
@@ -10693,14 +10792,13 @@
 	)
 	(wire
 		(pts
-			(xy 543.56 427.99) (xy 543.56 525.78)
+			(xy 533.4 527.05) (xy 525.78 527.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 255 6 0 1)
 		)
-		(uuid "50cde81f-832b-460b-bc6f-94b891171f52")
+		(uuid "50c77ab0-fcd5-4bca-815d-d6604cdc0b2a")
 	)
 	(wire
 		(pts
@@ -10714,6 +10812,17 @@
 	)
 	(wire
 		(pts
+			(xy 500.38 466.09) (xy 467.36 466.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "516c3a69-c6c6-4381-b5ef-fee8ed28c681")
+	)
+	(wire
+		(pts
 			(xy 186.69 384.81) (xy 193.04 384.81)
 		)
 		(stroke
@@ -10722,6 +10831,16 @@
 			(color 255 11 0 1)
 		)
 		(uuid "5198d9fd-5c1a-44fe-8ea7-668c8a6c8f0c")
+	)
+	(wire
+		(pts
+			(xy 568.96 506.73) (xy 563.88 506.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51aba8de-ba15-434f-8678-845fcadc86d0")
 	)
 	(wire
 		(pts
@@ -10767,6 +10886,16 @@
 	)
 	(wire
 		(pts
+			(xy 527.05 430.53) (xy 527.05 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526fe836-d5be-40dc-80f3-f7c8a7f56ab3")
+	)
+	(wire
+		(pts
 			(xy 186.69 372.11) (xy 200.66 372.11)
 		)
 		(stroke
@@ -10785,16 +10914,6 @@
 			(color 255 11 0 1)
 		)
 		(uuid "52ae51a7-4a0f-4cf2-a1de-7f34a86f49a5")
-	)
-	(wire
-		(pts
-			(xy 486.41 476.25) (xy 486.41 486.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52e0683c-6724-41ba-bc7b-13b30e673192")
 	)
 	(wire
 		(pts
@@ -10829,6 +10948,17 @@
 	)
 	(wire
 		(pts
+			(xy 491.49 419.1) (xy 491.49 429.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "5511637b-c6e3-48d5-a07f-847d8749f322")
+	)
+	(wire
+		(pts
 			(xy 163.83 284.48) (xy 163.83 302.26)
 		)
 		(stroke
@@ -10860,7 +10990,7 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 267.97) (xy 448.31 267.97)
+			(xy 415.29 267.97) (xy 443.23 267.97)
 		)
 		(stroke
 			(width 0)
@@ -10893,6 +11023,27 @@
 	)
 	(wire
 		(pts
+			(xy 444.5 482.6) (xy 462.28 482.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 253 0 0 1)
+		)
+		(uuid "563ea447-c1a1-4b66-b3de-40db7ee01fa1")
+	)
+	(wire
+		(pts
+			(xy 501.65 444.5) (xy 505.46 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5682b391-6088-49a3-aa73-b686585b6bd1")
+	)
+	(wire
+		(pts
 			(xy 721.36 372.11) (xy 692.15 372.11)
 		)
 		(stroke
@@ -10914,7 +11065,7 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 525.78) (xy 447.04 525.78)
+			(xy 449.58 525.78) (xy 441.96 525.78)
 		)
 		(stroke
 			(width 0)
@@ -11018,16 +11169,6 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 422.91) (xy 486.41 454.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b400346-77ab-4c0c-b2da-52621c435b4a")
-	)
-	(wire
-		(pts
 			(xy 205.74 424.18) (xy 340.36 424.18)
 		)
 		(stroke
@@ -11039,7 +11180,7 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 443.23) (xy 431.8 443.23)
+			(xy 424.18 443.23) (xy 426.72 443.23)
 		)
 		(stroke
 			(width 0)
@@ -11047,6 +11188,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "5c577e13-2cbc-4086-9ff4-0f191f8fa2a6")
+	)
+	(wire
+		(pts
+			(xy 508 444.5) (xy 510.54 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "5c6d34c7-a7f2-4dbc-b3b5-a9ff0c0e3ab7")
 	)
 	(wire
 		(pts
@@ -11058,16 +11210,6 @@
 			(color 21 0 255 1)
 		)
 		(uuid "5cd0ee54-06e0-4ca2-aa06-18371ec1b93d")
-	)
-	(wire
-		(pts
-			(xy 518.16 486.41) (xy 518.16 525.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ce618fc-be1a-4b9a-a642-52353d53c478")
 	)
 	(wire
 		(pts
@@ -11154,6 +11296,17 @@
 	)
 	(wire
 		(pts
+			(xy 568.96 483.87) (xy 586.74 483.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 253 0 0 1)
+		)
+		(uuid "60cf5fac-185b-445e-a5b1-e4d308232c06")
+	)
+	(wire
+		(pts
 			(xy 154.94 279.4) (xy 171.45 279.4)
 		)
 		(stroke
@@ -11164,7 +11317,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 463.55) (xy 467.36 525.78)
+			(xy 462.28 443.23) (xy 462.28 482.6)
 		)
 		(stroke
 			(width 0)
@@ -11268,6 +11421,16 @@
 	)
 	(wire
 		(pts
+			(xy 472.44 454.66) (xy 492.76 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "641d5ab5-b3b1-4864-9e06-99743a19cddd")
+	)
+	(wire
+		(pts
 			(xy 477.52 674.37) (xy 477.52 728.98)
 		)
 		(stroke
@@ -11353,16 +11516,6 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 454.66) (xy 524.51 454.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "657ec679-8686-4bd0-b17f-7f0d902ece82")
-	)
-	(wire
-		(pts
 			(xy 701.04 339.09) (xy 701.04 278.13)
 		)
 		(stroke
@@ -11426,16 +11579,6 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 454.66) (xy 513.08 454.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67781410-85b2-4e42-a05c-218994c3f1fa")
-	)
-	(wire
-		(pts
 			(xy 637.54 485.14) (xy 637.54 499.11)
 		)
 		(stroke
@@ -11444,17 +11587,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "67874836-43eb-42b3-b909-61213e2aa7e5")
-	)
-	(wire
-		(pts
-			(xy 567.69 419.1) (xy 567.69 427.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 6 0 1)
-		)
-		(uuid "67ad5e5a-93d9-4da4-a350-680698a9531c")
 	)
 	(wire
 		(pts
@@ -11500,6 +11632,16 @@
 	)
 	(wire
 		(pts
+			(xy 487.68 496.57) (xy 487.68 506.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a60bce2-2b3f-423b-b970-bae9eb0b9f5a")
+	)
+	(wire
+		(pts
 			(xy 697.23 440.69) (xy 697.23 443.23)
 		)
 		(stroke
@@ -11521,13 +11663,34 @@
 	)
 	(wire
 		(pts
-			(xy 448.31 419.1) (xy 448.31 421.64)
+			(xy 546.1 444.5) (xy 546.1 483.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "6afce4bd-10ae-415d-ab79-69290176658f")
+	)
+	(wire
+		(pts
+			(xy 443.23 419.1) (xy 443.23 421.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6b4eb7cf-7a82-4364-8753-9f8eea2ab92b")
+	)
+	(wire
+		(pts
+			(xy 528.32 496.57) (xy 528.32 506.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b7e05fc-af2c-44f0-af42-344cf56729fe")
 	)
 	(wire
 		(pts
@@ -11541,7 +11704,7 @@
 	)
 	(wire
 		(pts
-			(xy 562.61 372.11) (xy 562.61 403.86)
+			(xy 567.69 372.11) (xy 567.69 403.86)
 		)
 		(stroke
 			(width 0)
@@ -11552,13 +11715,14 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 422.91) (xy 524.51 454.66)
+			(xy 572.77 419.1) (xy 572.77 429.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 6 0 1)
 		)
-		(uuid "6c129b40-0d34-4bc1-b015-31bcdcfc8b10")
+		(uuid "6c15f464-d9f3-4124-b2ce-db6fba492800")
 	)
 	(wire
 		(pts
@@ -11625,6 +11789,27 @@
 	)
 	(wire
 		(pts
+			(xy 467.36 444.5) (xy 469.9 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "6e02ba96-6f47-47eb-8171-6a166cb84630")
+	)
+	(wire
+		(pts
+			(xy 492.76 444.5) (xy 494.03 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e0f3dca-037f-423d-9a17-775ad50685c9")
+	)
+	(wire
+		(pts
 			(xy 688.34 477.52) (xy 688.34 462.28)
 		)
 		(stroke
@@ -11633,6 +11818,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "6e36574d-248f-4c13-9950-a7ae69e1b985")
+	)
+	(wire
+		(pts
+			(xy 574.04 491.49) (xy 574.04 527.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e3cffcb-6fcf-46e2-8b3a-c13a2968b242")
 	)
 	(wire
 		(pts
@@ -11667,16 +11862,6 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 463.55) (xy 467.36 463.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f0a8842-0503-4adf-b1e9-92f39da24a08")
-	)
-	(wire
-		(pts
 			(xy 300.99 397.51) (xy 265.43 397.51)
 		)
 		(stroke
@@ -11684,6 +11869,16 @@
 			(type default)
 		)
 		(uuid "6fecf0a0-59e8-4d50-aa1d-82907ab71f79")
+	)
+	(wire
+		(pts
+			(xy 486.41 430.53) (xy 486.41 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7000a2a7-5113-4945-9d2f-670ad005d9d4")
 	)
 	(wire
 		(pts
@@ -11718,7 +11913,7 @@
 	)
 	(wire
 		(pts
-			(xy 567.69 401.32) (xy 567.69 403.86)
+			(xy 572.77 401.32) (xy 572.77 403.86)
 		)
 		(stroke
 			(width 0)
@@ -11736,6 +11931,17 @@
 			(color 255 6 0 1)
 		)
 		(uuid "71720184-7532-45fa-9e1f-874756411145")
+	)
+	(wire
+		(pts
+			(xy 581.66 466.09) (xy 581.66 527.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "71847b8a-7ae5-4c2e-bbe2-eec4a40f7988")
 	)
 	(wire
 		(pts
@@ -11833,17 +12039,6 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 372.11) (xy 562.61 372.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "74d9d56c-6a0a-48ea-89b6-7d19a6fe75d8")
-	)
-	(wire
-		(pts
 			(xy 1065.53 414.02) (xy 1065.53 388.62)
 		)
 		(stroke
@@ -11852,6 +12047,17 @@
 			(color 21 0 255 1)
 		)
 		(uuid "756a560b-1996-4371-baa2-7f71c262c040")
+	)
+	(wire
+		(pts
+			(xy 467.36 466.09) (xy 467.36 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "75b2a51e-ef82-4033-ad14-cd0356330293")
 	)
 	(wire
 		(pts
@@ -11883,16 +12089,6 @@
 			(color 255 11 0 1)
 		)
 		(uuid "76eeba91-1ffa-4894-af17-31c2794895a9")
-	)
-	(wire
-		(pts
-			(xy 471.17 454.66) (xy 474.98 454.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7702aed3-aca7-4d59-8ddb-f1c9d5e75048")
 	)
 	(wire
 		(pts
@@ -11976,16 +12172,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "78506de9-171a-4d19-872d-f36a1be9af75")
-	)
-	(wire
-		(pts
-			(xy 482.6 454.66) (xy 486.41 454.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "788fb9ec-f49e-4256-b943-ae42fa290e28")
 	)
 	(wire
 		(pts
@@ -12135,6 +12321,16 @@
 	)
 	(wire
 		(pts
+			(xy 477.52 444.5) (xy 481.33 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db18a50-5c0a-469e-852a-88ba4e0a23c1")
+	)
+	(wire
+		(pts
 			(xy 148.59 349.25) (xy 143.51 349.25)
 		)
 		(stroke
@@ -12156,7 +12352,7 @@
 	)
 	(wire
 		(pts
-			(xy 448.31 429.26) (xy 448.31 435.61)
+			(xy 443.23 429.26) (xy 443.23 435.61)
 		)
 		(stroke
 			(width 0)
@@ -12187,16 +12383,6 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 419.1) (xy 486.41 422.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f3385fc-179c-4f3c-8147-9baee5fb47dd")
-	)
-	(wire
-		(pts
 			(xy 726.44 339.09) (xy 726.44 252.73)
 		)
 		(stroke
@@ -12217,7 +12403,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 443.23) (xy 443.23 443.23)
+			(xy 434.34 443.23) (xy 438.15 443.23)
 		)
 		(stroke
 			(width 0)
@@ -12317,17 +12503,6 @@
 			(type default)
 		)
 		(uuid "82692829-e1d9-4d76-be6f-ec1e2e75851d")
-	)
-	(wire
-		(pts
-			(xy 547.37 454.66) (xy 547.37 434.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "828b6f96-56ed-4834-b8cd-ee3a1a6885dd")
 	)
 	(wire
 		(pts
@@ -12520,17 +12695,6 @@
 	)
 	(wire
 		(pts
-			(xy 547.37 434.34) (xy 547.37 422.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "8575d9ce-cb98-4716-b6b4-e9fb6cc5b301")
-	)
-	(wire
-		(pts
 			(xy 1010.92 368.3) (xy 1010.92 381)
 		)
 		(stroke
@@ -12596,6 +12760,26 @@
 	)
 	(wire
 		(pts
+			(xy 558.8 444.5) (xy 562.61 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87bcc6c7-f3ab-40a6-8d8e-203c2ae3d55c")
+	)
+	(wire
+		(pts
+			(xy 553.72 454.66) (xy 574.04 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c448aa-df95-47f1-907b-399571a396c1")
+	)
+	(wire
+		(pts
 			(xy 551.18 339.09) (xy 551.18 285.75)
 		)
 		(stroke
@@ -12603,16 +12787,6 @@
 			(type default)
 		)
 		(uuid "87da080e-275e-415c-862b-a6396981c50f")
-	)
-	(wire
-		(pts
-			(xy 471.17 473.71) (xy 471.17 525.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "881ca0ed-1a0c-45fb-a0d0-fba48ffee48c")
 	)
 	(wire
 		(pts
@@ -12700,13 +12874,23 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 463.55) (xy 435.61 453.39)
+			(xy 429.26 482.6) (xy 429.26 453.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "88ded16d-77f4-4a85-a3b4-7796e0620117")
+	)
+	(wire
+		(pts
+			(xy 528.32 491.49) (xy 533.4 491.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "893193c8-28fa-4920-ba83-1fa4e1204ed2")
 	)
 	(wire
 		(pts
@@ -12762,17 +12946,6 @@
 	)
 	(wire
 		(pts
-			(xy 567.69 427.99) (xy 581.66 427.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 6 0 1)
-		)
-		(uuid "8c78d96d-34eb-40a8-9768-f01248a053f6")
-	)
-	(wire
-		(pts
 			(xy 875.03 525.78) (xy 875.03 520.7)
 		)
 		(stroke
@@ -12784,16 +12957,6 @@
 	)
 	(wire
 		(pts
-			(xy 558.8 454.66) (xy 562.61 454.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cfee55a-20ae-4cf9-a4ac-b1dc0163bfd7")
-	)
-	(wire
-		(pts
 			(xy 495.3 339.09) (xy 495.3 229.87)
 		)
 		(stroke
@@ -12802,6 +12965,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "8d78c619-78f6-4ae2-8aea-5fcbe47435e0")
+	)
+	(wire
+		(pts
+			(xy 513.08 494.03) (xy 513.08 527.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d9963b2-58dc-412c-99b0-f6bd4ed507d5")
 	)
 	(wire
 		(pts
@@ -12855,16 +13028,6 @@
 			(color 255 11 0 1)
 		)
 		(uuid "8ef15cff-a8e4-4cbf-be10-043bcf1f321a")
-	)
-	(wire
-		(pts
-			(xy 490.22 471.17) (xy 490.22 525.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f165b31-ee33-4ac6-a483-5b9d80597f49")
 	)
 	(wire
 		(pts
@@ -12961,7 +13124,7 @@
 	)
 	(wire
 		(pts
-			(xy 463.55 443.23) (xy 467.36 443.23)
+			(xy 458.47 443.23) (xy 462.28 443.23)
 		)
 		(stroke
 			(width 0)
@@ -13012,6 +13175,27 @@
 	)
 	(wire
 		(pts
+			(xy 528.32 506.73) (xy 523.24 506.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93eac1ed-98fb-4e7c-9f37-f1454fc61c02")
+	)
+	(wire
+		(pts
+			(xy 584.2 429.26) (xy 586.74 429.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "93ff012a-8b5c-4fc1-a6c1-f1db397e3fc4")
+	)
+	(wire
+		(pts
 			(xy 1047.75 393.7) (xy 1010.92 393.7)
 		)
 		(stroke
@@ -13043,17 +13227,6 @@
 	)
 	(wire
 		(pts
-			(xy 471.17 434.34) (xy 471.17 422.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "95b66911-64a5-4931-b734-13f745ff7043")
-	)
-	(wire
-		(pts
 			(xy 186.69 354.33) (xy 200.66 354.33)
 		)
 		(stroke
@@ -13071,6 +13244,16 @@
 			(type default)
 		)
 		(uuid "9644720a-f366-47e8-a8b4-2edb61eabb00")
+	)
+	(wire
+		(pts
+			(xy 533.4 444.5) (xy 534.67 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971ff045-bef0-4e54-97db-acb3c047c980")
 	)
 	(wire
 		(pts
@@ -13104,18 +13287,7 @@
 	)
 	(wire
 		(pts
-			(xy 471.17 422.91) (xy 478.79 422.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "97ade19a-9689-417f-9900-20f901633b8b")
-	)
-	(wire
-		(pts
-			(xy 454.66 471.17) (xy 454.66 525.78)
+			(xy 449.58 490.22) (xy 449.58 525.78)
 		)
 		(stroke
 			(width 0)
@@ -13226,16 +13398,6 @@
 	)
 	(wire
 		(pts
-			(xy 562.61 476.25) (xy 562.61 486.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a6a27fe-b8a5-438a-ad78-eb7d0a49ec31")
-	)
-	(wire
-		(pts
 			(xy 652.78 321.31) (xy 657.86 321.31)
 		)
 		(stroke
@@ -13243,17 +13405,6 @@
 			(type default)
 		)
 		(uuid "9a710f58-b307-470d-88e4-28a8b74083c4")
-	)
-	(wire
-		(pts
-			(xy 547.37 422.91) (xy 554.99 422.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "9a7dd5b4-ef0a-4cea-a20c-c0a8570b57f8")
 	)
 	(wire
 		(pts
@@ -13311,16 +13462,6 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 471.17) (xy 490.22 471.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ec4ba24-bc98-4b76-9d9e-80a38eec01a6")
-	)
-	(wire
-		(pts
 			(xy 651.51 391.16) (xy 651.51 403.86)
 		)
 		(stroke
@@ -13328,17 +13469,6 @@
 			(type default)
 		)
 		(uuid "9f731649-8e4f-41c8-8c8c-06c456db737a")
-	)
-	(wire
-		(pts
-			(xy 529.59 427.99) (xy 543.56 427.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 6 0 1)
-		)
-		(uuid "9f7593ec-7324-4e98-9aca-77bc01988e72")
 	)
 	(wire
 		(pts
@@ -13362,7 +13492,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 427.99) (xy 467.36 443.23)
+			(xy 462.28 427.99) (xy 462.28 443.23)
 		)
 		(stroke
 			(width 0)
@@ -13370,6 +13500,17 @@
 			(color 255 6 0 1)
 		)
 		(uuid "a0aee4f2-124f-44b6-a7c6-a203d0a107ca")
+	)
+	(wire
+		(pts
+			(xy 541.02 466.09) (xy 508 466.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "a0c643d5-e161-489f-bb2e-8cae00326dc5")
 	)
 	(wire
 		(pts
@@ -13381,6 +13522,27 @@
 			(color 0 0 0 1)
 		)
 		(uuid "a0d71510-4c17-4d89-aa97-173ea6453841")
+	)
+	(wire
+		(pts
+			(xy 533.4 491.49) (xy 533.4 527.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12bf198-ce5f-4b21-b7a9-18562af819f2")
+	)
+	(wire
+		(pts
+			(xy 586.74 444.5) (xy 586.74 483.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "a1439a0f-8fe8-426b-b97a-fb518186a3b7")
 	)
 	(wire
 		(pts
@@ -13458,17 +13620,6 @@
 	)
 	(wire
 		(pts
-			(xy 562.61 372.11) (xy 589.28 372.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "a386c210-218b-4ccb-bc4f-f7ff40474881")
-	)
-	(wire
-		(pts
 			(xy 135.89 314.96) (xy 127 314.96)
 		)
 		(stroke
@@ -13508,6 +13659,16 @@
 			(type default)
 		)
 		(uuid "a4c03036-f4f1-49c7-ba6c-86a917e7b7a3")
+	)
+	(wire
+		(pts
+			(xy 563.88 506.73) (xy 563.88 527.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c9b1f4-06b7-4900-b372-11b79df465aa")
 	)
 	(wire
 		(pts
@@ -13584,6 +13745,17 @@
 	)
 	(wire
 		(pts
+			(xy 532.13 419.1) (xy 532.13 429.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "a704965f-9185-4213-b31f-0cb905c013db")
+	)
+	(wire
+		(pts
 			(xy 652.78 298.45) (xy 680.72 298.45)
 		)
 		(stroke
@@ -13622,17 +13794,6 @@
 			(type default)
 		)
 		(uuid "a8f5aceb-67a5-4437-af8a-6f9ab63b835c")
-	)
-	(wire
-		(pts
-			(xy 509.27 463.55) (xy 509.27 454.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "a8f9f04b-8e78-4032-b12b-4fa58d4512ba")
 	)
 	(wire
 		(pts
@@ -13721,7 +13882,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 401.32) (xy 529.59 403.86)
+			(xy 532.13 401.32) (xy 532.13 403.86)
 		)
 		(stroke
 			(width 0)
@@ -13738,6 +13899,16 @@
 			(type default)
 		)
 		(uuid "ae5649c8-74bf-4c72-abc6-6a38dc23b4c2")
+	)
+	(wire
+		(pts
+			(xy 523.24 506.73) (xy 523.24 527.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5dd6e6-4da8-4523-a496-9bc584b28c38")
 	)
 	(wire
 		(pts
@@ -13855,6 +14026,16 @@
 	)
 	(wire
 		(pts
+			(xy 472.44 494.03) (xy 472.44 527.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1de0175-9550-4da9-8cb4-47f37884a8e8")
+	)
+	(wire
+		(pts
 			(xy 556.26 290.83) (xy 591.82 290.83)
 		)
 		(stroke
@@ -13895,6 +14076,16 @@
 	)
 	(wire
 		(pts
+			(xy 492.76 491.49) (xy 492.76 527.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2723178-4e33-433e-bd39-067541c9274f")
+	)
+	(wire
+		(pts
 			(xy 844.55 266.7) (xy 844.55 398.78)
 		)
 		(stroke
@@ -13916,14 +14107,13 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 419.1) (xy 529.59 427.99)
+			(xy 492.76 527.05) (xy 485.14 527.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 255 6 0 1)
 		)
-		(uuid "b4e68244-8b68-4fda-87a7-1d26ee76315a")
+		(uuid "b513ddd0-d6b4-434c-a4a8-7547c28167aa")
 	)
 	(wire
 		(pts
@@ -13979,6 +14169,27 @@
 	)
 	(wire
 		(pts
+			(xy 572.77 444.5) (xy 574.04 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b74c1800-5b01-4eeb-8a84-350943cf6396")
+	)
+	(wire
+		(pts
+			(xy 443.23 267.97) (xy 487.68 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "b75160cf-efa8-4382-ad23-b2cc4973a9ff")
+	)
+	(wire
+		(pts
 			(xy 200.66 389.89) (xy 240.03 389.89)
 		)
 		(stroke
@@ -13986,16 +14197,6 @@
 			(type default)
 		)
 		(uuid "b764bc5d-c938-4551-9153-19dd4e3931a6")
-	)
-	(wire
-		(pts
-			(xy 509.27 473.71) (xy 509.27 525.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7a84c9b-1875-4641-a097-c053389b2961")
 	)
 	(wire
 		(pts
@@ -14016,6 +14217,28 @@
 			(type default)
 		)
 		(uuid "b8239bc4-8033-4b3c-904c-5d872eaa240d")
+	)
+	(wire
+		(pts
+			(xy 424.18 464.82) (xy 424.18 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "b842cd00-8984-441d-984e-a6c9b8683aa1")
+	)
+	(wire
+		(pts
+			(xy 500.38 466.09) (xy 500.38 527.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "b8a3aa86-5a06-4c4f-bf21-aad2b32261bc")
 	)
 	(wire
 		(pts
@@ -14040,7 +14263,7 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 419.1) (xy 453.39 427.99)
+			(xy 448.31 419.1) (xy 448.31 427.99)
 		)
 		(stroke
 			(width 0)
@@ -14213,17 +14436,6 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 427.99) (xy 505.46 525.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 6 0 1)
-		)
-		(uuid "bc8b7c79-2e1d-4d9a-bc2f-1cb614b5d47e")
-	)
-	(wire
-		(pts
 			(xy 1052.83 378.46) (xy 1035.05 378.46)
 		)
 		(stroke
@@ -14317,6 +14529,16 @@
 	)
 	(wire
 		(pts
+			(xy 568.96 496.57) (xy 568.96 506.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be6a379c-9df7-4241-b06d-c48a2a22f99f")
+	)
+	(wire
+		(pts
 			(xy 1047.75 383.54) (xy 1047.75 368.3)
 		)
 		(stroke
@@ -14337,6 +14559,17 @@
 	)
 	(wire
 		(pts
+			(xy 505.46 429.26) (xy 505.46 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "bf2883d9-1cb1-4ea8-aeb8-2e688688bc4c")
+	)
+	(wire
+		(pts
 			(xy 1065.53 429.26) (xy 866.14 429.26)
 		)
 		(stroke
@@ -14348,13 +14581,13 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 476.25) (xy 524.51 486.41)
+			(xy 487.68 491.49) (xy 492.76 491.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf53d2b2-9640-47e4-ae39-6f8f62c08499")
+		(uuid "bf5d17f4-9654-4f89-8849-81de1d901985")
 	)
 	(wire
 		(pts
@@ -14368,7 +14601,7 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 372.11) (xy 448.31 372.11)
+			(xy 486.41 372.11) (xy 443.23 372.11)
 		)
 		(stroke
 			(width 0)
@@ -14386,17 +14619,6 @@
 			(type default)
 		)
 		(uuid "c0161f0f-8c2e-446e-93be-2be80390cfae")
-	)
-	(wire
-		(pts
-			(xy 547.37 463.55) (xy 547.37 454.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "c0dbacf1-26f9-42cc-b2be-53f33ac2fc74")
 	)
 	(wire
 		(pts
@@ -14418,17 +14640,6 @@
 			(type default)
 		)
 		(uuid "c144d25a-2359-4d2e-a7e9-64c028af6f1d")
-	)
-	(wire
-		(pts
-			(xy 457.2 520.7) (xy 457.2 542.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "c151d13b-814c-461e-9a94-59fbdc08115f")
 	)
 	(wire
 		(pts
@@ -14480,17 +14691,6 @@
 			(type default)
 		)
 		(uuid "c1c6fc2b-4e2e-4444-a188-b2518a495f97")
-	)
-	(wire
-		(pts
-			(xy 500.38 434.34) (xy 471.17 434.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "c260faac-6163-4ae8-9ac9-cc4426a21188")
 	)
 	(wire
 		(pts
@@ -14589,16 +14789,6 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 486.41) (xy 518.16 486.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c69b44a8-4010-4b54-9bbc-b688e1821b24")
-	)
-	(wire
-		(pts
 			(xy 1010.92 342.9) (xy 1010.92 355.6)
 		)
 		(stroke
@@ -14660,17 +14850,6 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 427.99) (xy 505.46 427.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 6 0 1)
-		)
-		(uuid "c8872c71-c8f7-4e1a-891e-d38305ea3724")
-	)
-	(wire
-		(pts
 			(xy 566.42 339.09) (xy 566.42 300.99)
 		)
 		(stroke
@@ -14699,17 +14878,6 @@
 			(type default)
 		)
 		(uuid "c8cb2ba0-2d82-4490-aebb-6e1afd72b27f")
-	)
-	(wire
-		(pts
-			(xy 467.36 443.23) (xy 467.36 463.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 6 0 1)
-		)
-		(uuid "c942a7e4-cc82-4368-978f-47b0b821e680")
 	)
 	(wire
 		(pts
@@ -14786,6 +14954,16 @@
 	)
 	(wire
 		(pts
+			(xy 574.04 454.66) (xy 574.04 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa1bbff-7d76-4aae-a1d6-13b0512c2151")
+	)
+	(wire
+		(pts
 			(xy 774.7 477.52) (xy 765.81 477.52)
 		)
 		(stroke
@@ -14807,13 +14985,14 @@
 	)
 	(wire
 		(pts
-			(xy 490.22 525.78) (xy 482.6 525.78)
+			(xy 457.2 464.82) (xy 424.18 464.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 0 1)
 		)
-		(uuid "cc93336d-ea8c-444c-a814-b314de87ca8b")
+		(uuid "cc28fc27-8e11-4974-bdec-06f6f51d9da3")
 	)
 	(wire
 		(pts
@@ -14899,6 +15078,16 @@
 	)
 	(wire
 		(pts
+			(xy 567.69 419.1) (xy 567.69 422.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee68e10-e46d-4bb0-856e-946e6addac8f")
+	)
+	(wire
+		(pts
 			(xy 359.41 482.6) (xy 369.57 482.6)
 		)
 		(stroke
@@ -14931,7 +15120,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 525.78) (xy 441.96 525.78)
+			(xy 429.26 525.78) (xy 436.88 525.78)
 		)
 		(stroke
 			(width 0)
@@ -14991,6 +15180,17 @@
 			(color 255 11 0 1)
 		)
 		(uuid "d17649a3-0aa5-4740-9247-fe4600c8be84")
+	)
+	(wire
+		(pts
+			(xy 543.56 429.26) (xy 546.1 429.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "d2387e65-8f87-43dd-b678-6417130fe65f")
 	)
 	(wire
 		(pts
@@ -15058,16 +15258,6 @@
 	)
 	(wire
 		(pts
-			(xy 562.61 471.17) (xy 566.42 471.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c547bc-8886-4ec1-8d95-83688ae93d52")
-	)
-	(wire
-		(pts
 			(xy 335.28 419.1) (xy 335.28 420.37)
 		)
 		(stroke
@@ -15075,17 +15265,6 @@
 			(type default)
 		)
 		(uuid "d3fe4a05-ea2a-4b9f-aefe-31b15a08ff57")
-	)
-	(wire
-		(pts
-			(xy 462.28 520.7) (xy 457.2 520.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "d4accb9c-d9ac-4a7b-b3b9-e1740bf01b31")
 	)
 	(wire
 		(pts
@@ -15097,16 +15276,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "d4ea6d1e-0fe5-4879-9c4e-59126e577489")
-	)
-	(wire
-		(pts
-			(xy 547.37 454.66) (xy 551.18 454.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d571d663-bd95-4dd0-b877-f890307a3ccb")
 	)
 	(wire
 		(pts
@@ -15131,28 +15300,6 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 525.78) (xy 538.48 434.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "d653b702-8c3d-490a-9665-66033f4a1e24")
-	)
-	(wire
-		(pts
-			(xy 457.2 542.29) (xy 429.26 542.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "d66d3ab2-b024-4f24-952a-c6fea5e302fc")
-	)
-	(wire
-		(pts
 			(xy 492.76 339.09) (xy 492.76 274.32)
 		)
 		(stroke
@@ -15171,6 +15318,16 @@
 			(type default)
 		)
 		(uuid "d78b3bca-c3cb-4a68-9323-5c8289d649dc")
+	)
+	(wire
+		(pts
+			(xy 482.6 506.73) (xy 482.6 527.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c1816e-dc80-44e2-88fe-e8cad9293bfb")
 	)
 	(wire
 		(pts
@@ -15215,6 +15372,16 @@
 	)
 	(wire
 		(pts
+			(xy 513.08 483.87) (xy 513.08 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c2fdc0-fb3b-472a-bcbe-9c3dbd7dbf02")
+	)
+	(wire
+		(pts
 			(xy 303.53 400.05) (xy 260.35 400.05)
 		)
 		(stroke
@@ -15246,13 +15413,13 @@
 	)
 	(wire
 		(pts
-			(xy 528.32 471.17) (xy 528.32 525.78)
+			(xy 486.41 419.1) (xy 486.41 422.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9ce0222-4122-4c00-99e5-91f75aca5aaa")
+		(uuid "d9c29a04-e733-46cc-8dfe-fa48dd16d9a9")
 	)
 	(wire
 		(pts
@@ -15285,16 +15452,6 @@
 			(color 255 6 0 1)
 		)
 		(uuid "dacbac8f-dfcf-47e8-92eb-d39e9f95af39")
-	)
-	(wire
-		(pts
-			(xy 547.37 525.78) (xy 553.72 525.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dad9bede-6933-435a-b8b6-a6838988c2f7")
 	)
 	(wire
 		(pts
@@ -15349,17 +15506,7 @@
 	)
 	(wire
 		(pts
-			(xy 547.37 473.71) (xy 547.37 525.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dccb25ac-3c50-4da8-9840-dc1d94879da1")
-	)
-	(wire
-		(pts
-			(xy 453.39 391.16) (xy 453.39 393.7)
+			(xy 448.31 391.16) (xy 448.31 393.7)
 		)
 		(stroke
 			(width 0)
@@ -15532,6 +15679,16 @@
 	)
 	(wire
 		(pts
+			(xy 492.76 454.66) (xy 492.76 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3497006-cd83-48e1-ab11-99faae255885")
+	)
+	(wire
+		(pts
 			(xy 200.66 337.82) (xy 255.27 337.82)
 		)
 		(stroke
@@ -15560,17 +15717,6 @@
 			(type default)
 		)
 		(uuid "e416548b-e78c-4016-a3ae-3f8c5ddefe42")
-	)
-	(wire
-		(pts
-			(xy 471.17 463.55) (xy 471.17 454.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "e4502860-bf4f-4c91-8d88-bd5b83eb4e25")
 	)
 	(wire
 		(pts
@@ -15681,6 +15827,17 @@
 	)
 	(wire
 		(pts
+			(xy 586.74 483.87) (xy 586.74 527.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "e793a086-0082-4322-9dc0-455bca74ffb4")
+	)
+	(wire
+		(pts
 			(xy 500.38 339.09) (xy 500.38 234.95)
 		)
 		(stroke
@@ -15774,6 +15931,16 @@
 	)
 	(wire
 		(pts
+			(xy 491.49 444.5) (xy 492.76 444.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e928a489-751f-4f22-a010-3166e1d26fbd")
+	)
+	(wire
+		(pts
 			(xy 648.97 401.32) (xy 622.3 401.32)
 		)
 		(stroke
@@ -15858,7 +16025,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 473.71) (xy 435.61 525.78)
+			(xy 429.26 492.76) (xy 429.26 525.78)
 		)
 		(stroke
 			(width 0)
@@ -15921,7 +16088,7 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 372.11) (xy 524.51 372.11)
+			(xy 486.41 372.11) (xy 527.05 372.11)
 		)
 		(stroke
 			(width 0)
@@ -15929,17 +16096,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "ee600f50-ccb3-423e-846a-717d0f299d2f")
-	)
-	(wire
-		(pts
-			(xy 500.38 525.78) (xy 500.38 434.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "ee85fc31-9614-43be-bbba-ba427e0df98e")
 	)
 	(wire
 		(pts
@@ -15974,7 +16130,7 @@
 	)
 	(wire
 		(pts
-			(xy 448.31 372.11) (xy 448.31 403.86)
+			(xy 443.23 372.11) (xy 443.23 403.86)
 		)
 		(stroke
 			(width 0)
@@ -16005,13 +16161,24 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 471.17) (xy 454.66 471.17)
+			(xy 444.5 490.22) (xy 449.58 490.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f24056f5-ddfe-4fe1-8da2-afcfc9ab7019")
+	)
+	(wire
+		(pts
+			(xy 462.28 482.6) (xy 462.28 525.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "f274761f-1792-45dd-842c-73f675900a42")
 	)
 	(wire
 		(pts
@@ -16035,13 +16202,24 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 391.16) (xy 529.59 393.7)
+			(xy 532.13 391.16) (xy 532.13 393.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f38af699-4c1f-4c9e-99eb-15168ca1f26b")
+	)
+	(wire
+		(pts
+			(xy 487.68 483.87) (xy 505.46 483.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 253 0 0 1)
+		)
+		(uuid "f392453b-ab94-4c5a-a027-68b3a6c3fb79")
 	)
 	(wire
 		(pts
@@ -16066,13 +16244,14 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 486.41) (xy 480.06 525.78)
+			(xy 532.13 429.26) (xy 535.94 429.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 6 0 1)
 		)
-		(uuid "f3d94049-c3b8-42c5-8f1a-df49bd310bb1")
+		(uuid "f3c8e445-e32c-4869-9a76-d7babb82016e")
 	)
 	(wire
 		(pts
@@ -16086,6 +16265,16 @@
 	)
 	(wire
 		(pts
+			(xy 513.08 454.66) (xy 533.4 454.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f429b408-6972-4e1b-974f-b91ef00e9392")
+	)
+	(wire
+		(pts
 			(xy 420.37 274.32) (xy 340.36 274.32)
 		)
 		(stroke
@@ -16094,6 +16283,17 @@
 			(color 255 6 0 1)
 		)
 		(uuid "f4e96c39-e3be-49ee-9ec6-417a64305c5d")
+	)
+	(wire
+		(pts
+			(xy 527.05 372.11) (xy 567.69 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f4f1709b-034d-4b1c-8eb7-c8abc8d6f0c7")
 	)
 	(wire
 		(pts
@@ -16139,18 +16339,28 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 419.1) (xy 491.49 427.99)
+			(xy 505.46 444.5) (xy 505.46 483.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 255 6 0 1)
 		)
-		(uuid "f706bec2-889b-4c56-8d98-d97df0634a98")
+		(uuid "f5f954c7-e8da-4f34-8449-1adc09ee6274")
 	)
 	(wire
 		(pts
-			(xy 448.31 267.97) (xy 448.31 372.11)
+			(xy 527.05 419.1) (xy 527.05 422.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f643088c-94a1-46d8-b065-edfa6a768c59")
+	)
+	(wire
+		(pts
+			(xy 443.23 267.97) (xy 443.23 372.11)
 		)
 		(stroke
 			(width 0)
@@ -16171,7 +16381,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 453.39) (xy 454.66 453.39)
+			(xy 429.26 453.39) (xy 449.58 453.39)
 		)
 		(stroke
 			(width 0)
@@ -16201,16 +16411,6 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 454.66) (xy 524.51 463.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f891b72e-6ad5-441d-8aaf-be2f98581b2d")
-	)
-	(wire
-		(pts
 			(xy 492.76 227.33) (xy 582.93 227.33)
 		)
 		(stroke
@@ -16229,17 +16429,6 @@
 			(type default)
 		)
 		(uuid "f913019d-3cbd-4caf-a258-a4b4f5c020b0")
-	)
-	(wire
-		(pts
-			(xy 509.27 434.34) (xy 509.27 422.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "f94a551b-10c4-4a47-97a1-3fe4e9fe462f")
 	)
 	(wire
 		(pts
@@ -16296,16 +16485,6 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 419.1) (xy 524.51 422.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa4f58a0-b23a-4d27-b8ea-9f32f6062f1d")
-	)
-	(wire
-		(pts
 			(xy 858.52 492.76) (xy 872.49 492.76)
 		)
 		(stroke
@@ -16313,6 +16492,27 @@
 			(type default)
 		)
 		(uuid "fab1aba2-ef31-4a84-9ce2-837d2bac93f4")
+	)
+	(wire
+		(pts
+			(xy 567.69 372.11) (xy 589.28 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "fada2ccd-0061-4b02-ab44-7ce985f622d3")
+	)
+	(wire
+		(pts
+			(xy 574.04 527.05) (xy 566.42 527.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb17d3a6-6aa5-4e9a-80c8-ff5ca294eb77")
 	)
 	(wire
 		(pts
@@ -16333,17 +16533,6 @@
 			(type default)
 		)
 		(uuid "fb60eca5-cc89-486d-b278-bf7602c0bef1")
-	)
-	(wire
-		(pts
-			(xy 471.17 454.66) (xy 471.17 434.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "fba592fd-c54b-486d-b520-f0c2791db0de")
 	)
 	(wire
 		(pts
@@ -16368,16 +16557,6 @@
 	)
 	(wire
 		(pts
-			(xy 562.61 419.1) (xy 562.61 422.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd83a4b1-b0ef-4526-a515-a3aa241640e0")
-	)
-	(wire
-		(pts
 			(xy 453.39 586.74) (xy 453.39 601.98)
 		)
 		(stroke
@@ -16385,16 +16564,6 @@
 			(type default)
 		)
 		(uuid "fda34788-44be-4d4e-b165-7bd20844ae56")
-	)
-	(wire
-		(pts
-			(xy 562.61 422.91) (xy 562.61 454.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdf4d70e-d8ff-4017-b833-c144fe9e7a2c")
 	)
 	(wire
 		(pts
@@ -16408,35 +16577,13 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 401.32) (xy 453.39 403.86)
+			(xy 448.31 401.32) (xy 448.31 403.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "febd60bf-0305-4891-9001-dc2eb33ccf9f")
-	)
-	(wire
-		(pts
-			(xy 576.58 525.78) (xy 576.58 434.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "fed728ae-592e-4ee5-91aa-4d21d7c0978a")
-	)
-	(wire
-		(pts
-			(xy 581.66 427.99) (xy 581.66 525.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 6 0 1)
-		)
-		(uuid "ff33eb39-9c8c-4bce-b3b7-a7b3dac711eb")
 	)
 	(wire
 		(pts
@@ -16552,6 +16699,92 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4007")
+		(at 497.84 444.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "007adbce-f0c8-44e1-b344-316222892ede")
+		(property "Reference" "D11"
+			(at 497.84 440.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 497.84 440.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 497.84 440.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 497.84 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+			(at 497.84 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 497.84 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 497.84 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccb67862-7fb9-4fdc-84d2-9150b2aa1125")
+		)
+		(pin "2"
+			(uuid "37d331bb-5bb9-4ebd-a5dc-feb7f976cdc9")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -18823,85 +19056,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:Fujitsu_FTR-LYCA005x")
-		(at 554.99 468.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d3ba6a3-2ebe-4fe7-befd-06d9b0253ad3")
-		(property "Reference" "K4"
-			(at 554.99 481.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fujitsu FTR-LYCA005x"
-			(at 554.99 484.378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
-			(at 553.72 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.alldatasheet.com/html-pdf/194908/FUJITSU/FTR-LY/293/1/FTR-LY.html"
-			(at 551.18 485.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay, SPDT Form C, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 554.99 468.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "629fa26b-8170-49ec-b7ab-5d3776f86ea4")
-		)
-		(pin "A2"
-			(uuid "d9ea4dd6-2df9-4771-846f-9fcaae4f19e1")
-		)
-		(pin "A1"
-			(uuid "8ba41977-07c8-4185-a057-fb00b367cdac")
-		)
-		(pin "14"
-			(uuid "34bda8bd-48aa-4b36-96ad-2e2df10da985")
-		)
-		(pin "11"
-			(uuid "d5838588-eebc-452d-8a11-19855e2ac87f")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "K4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 825.5 386.08 90)
 		(unit 1)
@@ -19335,6 +19489,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:Q_NPN_EBC")
+		(at 527.05 441.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22f8b26d-ae16-4de7-8831-6fa8b55b761e")
+		(property "Reference" "Q11"
+			(at 527.05 448.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N2222A"
+			(at 527.05 450.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 529.59 447.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 527.05 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, emitter/base/collector"
+			(at 527.05 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 527.05 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 527.05 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "94c7b893-a893-4fab-88f8-e92f7e24e2ea")
+		)
+		(pin "1"
+			(uuid "41fc4ca3-5b64-4086-acde-1d794f8e9a6a")
+		)
+		(pin "2"
+			(uuid "4a766fc8-4651-45fa-a9f5-c29f14f67ea8")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 72.39 331.47 0)
 		(unit 1)
@@ -19476,81 +19719,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 502.92 530.86 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "26562bc5-3ed2-468c-a084-5ab78f299d62")
-		(property "Reference" "J0_22"
-			(at 500.126 534.924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
-			(at 501.6501 528.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
-			(at 502.92 530.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 502.92 530.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Terminales de tornillo espaciados en 3.5mm"
-			(at 502.92 530.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "134fe4c4-d891-4050-85e8-2fd9b0d11990")
-		)
-		(pin "1"
-			(uuid "8eb87573-2e5b-4634-b90c-fd56010ecbee")
-		)
-		(pin "2"
-			(uuid "2bc67bf0-b425-43ed-8885-5315cbd6033d")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "J0_22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 464.82 530.86 270)
+		(at 459.74 530.86 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19559,7 +19728,7 @@
 		(dnp no)
 		(uuid "2766825b-725e-4481-8af0-9bdaf726a7ec")
 		(property "Reference" "J0_20"
-			(at 462.026 534.924 90)
+			(at 456.946 534.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19568,7 +19737,7 @@
 			)
 		)
 		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
-			(at 463.5501 528.32 0)
+			(at 458.4701 528.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19578,7 +19747,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
-			(at 464.82 530.86 0)
+			(at 459.74 530.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19587,7 +19756,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 464.82 530.86 0)
+			(at 459.74 530.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19596,7 +19765,7 @@
 			)
 		)
 		(property "Description" "Terminales de tornillo espaciados en 3.5mm"
-			(at 464.82 530.86 0)
+			(at 459.74 530.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19683,6 +19852,80 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "PX22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 502.92 532.13 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27cd047f-c85e-4449-a457-a0cb7019934d")
+		(property "Reference" "J0_11"
+			(at 500.126 536.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
+			(at 501.6501 529.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+			(at 502.92 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 502.92 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Terminales de tornillo espaciados en 3.5mm"
+			(at 502.92 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a20b9f0c-cd5a-4694-9212-11fdb25e8400")
+		)
+		(pin "1"
+			(uuid "a48a4745-73c6-4af3-b71f-d09df0d58e91")
+		)
+		(pin "2"
+			(uuid "3815143d-713d-4bc7-9f14-1a3e81feded8")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J0_11")
 					(unit 1)
 				)
 			)
@@ -20388,7 +20631,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 435.61 443.23 270)
+		(at 430.53 443.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20397,23 +20640,24 @@
 		(fields_autoplaced yes)
 		(uuid "355bc4a6-765b-4487-a8c0-e2bfc97116f8")
 		(property "Reference" "R55"
-			(at 435.61 436.88 90)
+			(at 430.53 436.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "50"
-			(at 435.61 439.42 90)
+		(property "Value" "Depende de la tensión aplicada a la bobina del rele"
+			(at 430.53 439.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 435.356 444.246 90)
+			(at 430.276 444.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20422,7 +20666,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 435.61 443.23 0)
+			(at 430.53 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20431,7 +20675,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 435.61 443.23 0)
+			(at 430.53 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20589,7 +20833,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 453.39 397.51 180)
+		(at 448.31 397.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20597,7 +20841,7 @@
 		(dnp no)
 		(uuid "38002583-c8fe-4ed1-be80-d10b70fdca51")
 		(property "Reference" "R41"
-			(at 457.454 397.51 0)
+			(at 452.374 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20605,7 +20849,7 @@
 			)
 		)
 		(property "Value" "270Ω  -  1/4 W"
-			(at 449.58 397.51 90)
+			(at 444.5 397.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20614,7 +20858,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 452.374 397.256 90)
+			(at 447.294 397.256 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20623,7 +20867,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 453.39 397.51 0)
+			(at 448.31 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20632,7 +20876,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 453.39 397.51 0)
+			(at 448.31 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20650,6 +20894,160 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 567.69 426.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "396babc3-8e8e-4999-bd1c-b33067184b04")
+		(property "Reference" "R60"
+			(at 570.738 426.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Depende de la tensión aplicada a la bobina del rele"
+			(at 563.88 426.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+			(at 566.674 426.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 567.69 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 567.69 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "febf0894-a853-4d82-8b55-40c9dcec9beb")
+		)
+		(pin "1"
+			(uuid "b9e9d2bd-fd0b-48a3-952b-7dc8a30ec9a6")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4007")
+		(at 579.12 444.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a4ba567-f4a6-48b1-b178-9759f1e391c7")
+		(property "Reference" "D13"
+			(at 579.12 440.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 579.12 440.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 579.12 440.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 579.12 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+			(at 579.12 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 579.12 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 579.12 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a59a80c8-6480-421d-ace5-b73e514d570f")
+		)
+		(pin "2"
+			(uuid "e0645cc2-9041-4fd2-a494-be3ca9e87cb2")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -21139,7 +21537,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
-		(at 450.85 411.48 270)
+		(at 445.77 411.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21147,7 +21545,7 @@
 		(dnp no)
 		(uuid "3dc34e00-e884-4f89-ba41-912dd8a3d3c8")
 		(property "Reference" "U16"
-			(at 461.01 409.194 90)
+			(at 455.93 409.194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21155,7 +21553,7 @@
 			)
 		)
 		(property "Value" "TLP521-1"
-			(at 461.01 411.734 90)
+			(at 455.93 411.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21163,7 +21561,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-			(at 445.77 406.4 0)
+			(at 440.69 406.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21174,7 +21572,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.rs-online.com/d620/0900766b800287f7.pdf"
-			(at 450.85 411.48 0)
+			(at 445.77 411.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21184,7 +21582,7 @@
 			)
 		)
 		(property "Description" "Fototransistor opticamente acoplado"
-			(at 450.85 411.48 0)
+			(at 445.77 411.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21491,7 +21889,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 448.31 425.45 180)
+		(at 443.23 425.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21499,7 +21897,7 @@
 		(dnp no)
 		(uuid "468385cc-a413-42b2-9904-a078cb963b57")
 		(property "Reference" "R42"
-			(at 451.358 425.196 90)
+			(at 446.278 425.196 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21507,7 +21905,7 @@
 			)
 		)
 		(property "Value" "Depende de la tensión aplicada a la bobina del rele"
-			(at 444.5 425.45 90)
+			(at 439.42 425.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21516,7 +21914,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
-			(at 447.294 425.196 90)
+			(at 442.214 425.196 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21525,7 +21923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 448.31 425.45 0)
+			(at 443.23 425.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21534,7 +21932,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 448.31 425.45 0)
+			(at 443.23 425.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21558,36 +21956,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 480.06 530.86 270)
-		(mirror x)
+		(lib_id "Device:R_US")
+		(at 499.11 429.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "47642173-3daa-4af6-adae-3dddb7cefe01")
-		(property "Reference" "J0_21"
-			(at 477.52 534.924 90)
+		(uuid "473342a7-8140-4716-b314-70e99f59915b")
+		(property "Reference" "R57"
+			(at 499.364 432.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
-			(at 478.7901 528.32 0)
+		(property "Value" "Depende de la tensión aplicada a la bobina del rele"
+			(at 499.11 425.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
-			(at 480.06 530.86 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+			(at 499.364 428.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21596,7 +21991,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 480.06 530.86 0)
+			(at 499.11 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21604,28 +21999,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Terminales de tornillo espaciados en 3.5mm"
-			(at 480.06 530.86 0)
+		(property "Description" "Resistor, US symbol"
+			(at 499.11 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "f7e454b4-2dca-4385-afb7-4291318c0ef8")
-		)
-		(pin "1"
-			(uuid "3887525f-d97b-4721-99f5-99bf313c0aad")
 		)
 		(pin "2"
-			(uuid "69dc770a-3819-4261-9dae-39b8bd45adf4")
+			(uuid "5e83e97b-580f-4746-a860-d307c61f0896")
+		)
+		(pin "1"
+			(uuid "732fe3e1-5922-4476-8d89-17da8c00ea4b")
 		)
 		(instances
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "J0_21")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -21633,7 +22025,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
-		(at 527.05 411.48 270)
+		(at 529.59 411.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21641,7 +22033,7 @@
 		(dnp no)
 		(uuid "47f351c0-7885-4e1d-83b2-7c02db47894d")
 		(property "Reference" "U22"
-			(at 537.21 409.194 90)
+			(at 539.75 409.194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21649,7 +22041,7 @@
 			)
 		)
 		(property "Value" "TLP521-1"
-			(at 537.21 411.734 90)
+			(at 539.75 411.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21657,7 +22049,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-			(at 521.97 406.4 0)
+			(at 524.51 406.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21668,7 +22060,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.rs-online.com/d620/0900766b800287f7.pdf"
-			(at 527.05 411.48 0)
+			(at 529.59 411.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21678,7 +22070,7 @@
 			)
 		)
 		(property "Description" "Fototransistor opticamente acoplado"
-			(at 527.05 411.48 0)
+			(at 529.59 411.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21843,6 +22235,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 527.05 426.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bd8be72-fdba-4860-b776-171cacb865ee")
+		(property "Reference" "R58"
+			(at 530.098 426.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Depende de la tensión aplicada a la bobina del rele"
+			(at 523.24 426.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+			(at 526.034 426.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 527.05 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 527.05 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3684f4cd-c19f-45e5-b578-31f87711000e")
+		)
+		(pin "1"
+			(uuid "9ae2c2a1-ad14-43b0-af41-e281afdd9623")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 568.96 344.17 270)
 		(unit 1)
@@ -21910,7 +22370,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 529.59 397.51 180)
+		(at 532.13 397.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21918,7 +22378,7 @@
 		(dnp no)
 		(uuid "4cb0fddc-84e8-43f1-bbbb-eab51cb8e1a8")
 		(property "Reference" "R46"
-			(at 533.654 397.51 0)
+			(at 536.194 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21926,7 +22386,7 @@
 			)
 		)
 		(property "Value" "270Ω  -  1/4 W"
-			(at 525.78 397.51 90)
+			(at 528.32 397.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21935,7 +22395,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 528.574 397.256 90)
+			(at 531.114 397.256 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21944,7 +22404,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 529.59 397.51 0)
+			(at 532.13 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21953,7 +22413,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 529.59 397.51 0)
+			(at 532.13 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22264,7 +22724,7 @@
 	)
 	(symbol
 		(lib_id "Relay:Fujitsu_FTR-LYCA005x")
-		(at 443.23 468.63 270)
+		(at 436.88 487.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22272,7 +22732,7 @@
 		(dnp no)
 		(uuid "4eb8a342-b862-40f5-b502-67e212e5cd29")
 		(property "Reference" "K1"
-			(at 443.23 481.838 90)
+			(at 436.88 500.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22280,7 +22740,7 @@
 			)
 		)
 		(property "Value" "Fujitsu FTR-LYCA005x"
-			(at 443.23 484.378 90)
+			(at 436.88 503.428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22289,7 +22749,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
-			(at 441.96 480.06 0)
+			(at 435.61 499.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22299,7 +22759,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.alldatasheet.com/html-pdf/194908/FUJITSU/FTR-LY/293/1/FTR-LY.html"
-			(at 439.42 485.14 0)
+			(at 433.07 504.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22309,7 +22769,7 @@
 			)
 		)
 		(property "Description" "Relay, SPDT Form C, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 443.23 468.63 0)
+			(at 436.88 487.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22416,33 +22876,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_EBC")
-		(at 448.31 440.69 270)
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 482.6 532.13 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "514c5dc3-2b0c-4399-9632-ff9d39966f5d")
-		(property "Reference" "Q9"
-			(at 448.31 447.04 90)
+		(uuid "4ff05a09-b241-4baf-a590-107a80332ed5")
+		(property "Reference" "J0_4"
+			(at 480.06 536.194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "2N2222A"
-			(at 448.31 449.58 90)
+		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
+			(at 481.3301 529.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
-			(at 450.85 445.77 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+			(at 482.6 532.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22451,7 +22914,152 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 448.31 440.69 0)
+			(at 482.6 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Terminales de tornillo espaciados en 3.5mm"
+			(at 482.6 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "274164e9-9e80-4a86-9828-281509900f72")
+		)
+		(pin "1"
+			(uuid "3ac67f69-9922-4115-a255-8483f26ee4f0")
+		)
+		(pin "2"
+			(uuid "f5f8e599-eca0-4f04-920d-32271bb07e93")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J0_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 523.24 532.13 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50632b2a-9c93-4e6b-873a-e4666b21bcdf")
+		(property "Reference" "J0_12"
+			(at 520.7 536.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
+			(at 521.9701 529.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+			(at 523.24 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 523.24 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Terminales de tornillo espaciados en 3.5mm"
+			(at 523.24 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c4d3644c-8981-4a7b-9cf9-4c8fe46ce655")
+		)
+		(pin "1"
+			(uuid "4c743bdf-d073-4c8e-bcda-18ed0fcc88f9")
+		)
+		(pin "2"
+			(uuid "49817006-199c-4971-92cd-6d3ee9cdb5d2")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J0_12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_NPN_EBC")
+		(at 443.23 440.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "514c5dc3-2b0c-4399-9632-ff9d39966f5d")
+		(property "Reference" "Q9"
+			(at 443.23 447.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N2222A"
+			(at 443.23 449.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 445.77 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 443.23 440.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22460,7 +23068,7 @@
 			)
 		)
 		(property "Description" "NPN transistor, emitter/base/collector"
-			(at 448.31 440.69 0)
+			(at 443.23 440.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22469,7 +23077,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 448.31 440.69 0)
+			(at 443.23 440.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22478,7 +23086,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 448.31 440.69 0)
+			(at 443.23 440.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23773,6 +24381,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:Q_NPN_EBC")
+		(at 486.41 441.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63425ff9-72d5-4056-bf95-10c03fdecf45")
+		(property "Reference" "Q10"
+			(at 486.41 448.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N2222A"
+			(at 486.41 450.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 488.95 447.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 486.41 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, emitter/base/collector"
+			(at 486.41 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 486.41 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 486.41 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "97ee4c7e-cce7-4d1a-9361-6c5271ae07c9")
+		)
+		(pin "1"
+			(uuid "f1ddcf51-91a9-425e-9fff-f15a3217ba6a")
+		)
+		(pin "2"
+			(uuid "7aa82f53-8a1c-4044-a260-f11e2bcf358c")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 200.66 393.7 0)
 		(unit 1)
@@ -23838,6 +24535,74 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 486.41 426.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "638849c1-b2da-409d-b713-82eb58a6139e")
+		(property "Reference" "R56"
+			(at 489.458 426.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Depende de la tensión aplicada a la bobina del rele"
+			(at 482.6 426.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+			(at 485.394 426.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 486.41 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 486.41 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e57c4f8-491a-4118-abd2-09e3f27ea41b")
+		)
+		(pin "1"
+			(uuid "256a846a-ad51-45e9-977d-187787697153")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -24050,6 +24815,75 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "PX10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 473.71 444.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6676a296-3155-4590-b791-a2ac70b07798")
+		(property "Reference" "R43"
+			(at 473.71 438.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Depende de la tensión aplicada a la bobina del rele"
+			(at 473.71 440.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 473.456 445.516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 473.71 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 473.71 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56f8d701-8204-4a94-998f-82541f809092")
+		)
+		(pin "1"
+			(uuid "275d5a91-cbf8-48e5-afbb-28fc9ee11cde")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -24947,7 +25781,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4007")
-		(at 459.74 443.23 180)
+		(at 454.66 443.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24955,7 +25789,7 @@
 		(dnp no)
 		(uuid "6fcda719-98a4-4dc2-8215-1a8ac283e3b3")
 		(property "Reference" "D9"
-			(at 459.74 439.674 0)
+			(at 454.66 439.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24963,7 +25797,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 459.74 439.42 0)
+			(at 454.66 439.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24972,7 +25806,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 459.74 438.785 0)
+			(at 454.66 438.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24981,7 +25815,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 459.74 443.23 0)
+			(at 454.66 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24990,7 +25824,7 @@
 			)
 		)
 		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 459.74 443.23 0)
+			(at 454.66 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24999,7 +25833,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 459.74 443.23 0)
+			(at 454.66 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25008,7 +25842,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 459.74 443.23 0)
+			(at 454.66 443.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25093,6 +25927,95 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "PX37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_NPN_EBC")
+		(at 567.69 441.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71f92dcb-db1d-49d9-9a20-2d6eb3c009e2")
+		(property "Reference" "Q12"
+			(at 567.69 448.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N2222A"
+			(at 567.69 450.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 570.23 447.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 567.69 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, emitter/base/collector"
+			(at 567.69 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 567.69 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 567.69 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "949474f1-721e-4116-874a-58defa9a9c2f")
+		)
+		(pin "1"
+			(uuid "11f9e7d2-03e8-4f3a-ab31-d87dc96a6d74")
+		)
+		(pin "2"
+			(uuid "59f81e86-9c08-491b-88e7-5866750eaae2")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -25238,85 +26161,6 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "R50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Fujitsu_FTR-LYCA005x")
-		(at 516.89 468.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7696c9e7-f08f-407a-91a5-9eca3d443676")
-		(property "Reference" "K3"
-			(at 516.89 481.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fujitsu FTR-LYCA005x"
-			(at 516.89 484.378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
-			(at 515.62 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.alldatasheet.com/html-pdf/194908/FUJITSU/FTR-LY/293/1/FTR-LY.html"
-			(at 513.08 485.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay, SPDT Form C, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 516.89 468.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "46178904-6f1d-4f34-bbf3-fa68f1af389b")
-		)
-		(pin "A2"
-			(uuid "1fe563b0-37f8-47b3-a9cc-2ff0a423e1ef")
-		)
-		(pin "A1"
-			(uuid "1d890001-600c-4d87-a529-5aab232ae159")
-		)
-		(pin "14"
-			(uuid "f3416f2f-30ca-4db0-a213-734633b732fd")
-		)
-		(pin "11"
-			(uuid "8508adfe-74ea-4d76-9012-382a5c81af4a")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "K3")
 					(unit 1)
 				)
 			)
@@ -25860,7 +26704,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 567.69 386.08 90)
+		(at 572.77 386.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25868,7 +26712,7 @@
 		(dnp no)
 		(uuid "7e2aaeed-af0c-4da6-a4ba-7fcafa6a728c")
 		(property "Reference" "PX72"
-			(at 567.69 382.016 0)
+			(at 572.77 382.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25877,7 +26721,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 571.5 386.08 0)
+			(at 576.58 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25886,7 +26730,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 567.69 386.08 0)
+			(at 572.77 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25895,7 +26739,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 567.69 386.08 0)
+			(at 572.77 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25904,7 +26748,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 567.69 386.08 0)
+			(at 572.77 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25926,7 +26770,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 444.5 530.86 270)
+		(at 439.42 530.86 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25935,7 +26779,7 @@
 		(dnp no)
 		(uuid "7e549c3d-a705-46e8-8127-5080675e26e8")
 		(property "Reference" "J0_19"
-			(at 441.96 534.924 90)
+			(at 436.88 534.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25944,7 +26788,7 @@
 			)
 		)
 		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
-			(at 443.2301 528.32 0)
+			(at 438.1501 528.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25954,7 +26798,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
-			(at 444.5 530.86 0)
+			(at 439.42 530.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25963,7 +26807,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 444.5 530.86 0)
+			(at 439.42 530.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25972,7 +26816,7 @@
 			)
 		)
 		(property "Description" "Terminales de tornillo espaciados en 3.5mm"
-			(at 444.5 530.86 0)
+			(at 439.42 530.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26068,7 +26912,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 529.59 386.08 90)
+		(at 532.13 386.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26076,7 +26920,7 @@
 		(dnp no)
 		(uuid "820b6ee0-c776-4cf5-ace2-5e91a547c5c8")
 		(property "Reference" "PX67"
-			(at 529.59 382.016 0)
+			(at 532.13 382.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26085,7 +26929,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 533.4 386.08 0)
+			(at 535.94 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26094,7 +26938,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 529.59 386.08 0)
+			(at 532.13 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26103,7 +26947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 529.59 386.08 0)
+			(at 532.13 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26112,7 +26956,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 529.59 386.08 0)
+			(at 532.13 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26416,6 +27260,80 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 584.2 532.13 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86172cca-b4db-4649-847f-44c73fe7e8e4")
+		(property "Reference" "J0_21"
+			(at 581.406 536.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
+			(at 582.9301 529.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+			(at 584.2 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 584.2 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Terminales de tornillo espaciados en 3.5mm"
+			(at 584.2 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "80940a36-0c5b-4657-a65a-67f1c01a39ac")
+		)
+		(pin "1"
+			(uuid "75fd63d9-f93f-4323-8511-7301a52c449e")
+		)
+		(pin "2"
+			(uuid "e5c1d88e-adc4-48a3-b885-16f34e99d656")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J0_21")
 					(unit 1)
 				)
 			)
@@ -27502,6 +28420,148 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 580.39 429.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93f77e9c-800e-474a-85b2-31c8f3153460")
+		(property "Reference" "R61"
+			(at 580.644 432.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Depende de la tensión aplicada a la bobina del rele"
+			(at 580.39 425.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+			(at 580.644 428.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 580.39 429.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 580.39 429.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51d52043-68f3-4b90-8b34-68f2a49dbbe0")
+		)
+		(pin "1"
+			(uuid "19dc0a23-5a49-493b-b6c0-7d462156ce16")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 563.88 532.13 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94dd8141-7c8e-49c4-ac5d-8a2ea27cc28d")
+		(property "Reference" "J0_17"
+			(at 561.34 536.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
+			(at 562.6101 529.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+			(at 563.88 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 563.88 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Terminales de tornillo espaciados en 3.5mm"
+			(at 563.88 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "deedc9b0-8370-496d-bb83-6e1265352c69")
+		)
+		(pin "1"
+			(uuid "3d37746e-f829-4cc4-98e4-f1de2cf886ef")
+		)
+		(pin "2"
+			(uuid "acc66296-cbeb-4d11-b101-54856fab910d")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J0_17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 749.3 344.17 90)
 		(mirror x)
@@ -27562,6 +28622,85 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "P36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Fujitsu_FTR-LYCA005x")
+		(at 520.7 488.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9673846e-540e-4a53-9864-1438790bebd1")
+		(property "Reference" "K3"
+			(at 520.7 502.158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fujitsu FTR-LYCA005x"
+			(at 520.7 504.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
+			(at 519.43 500.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alldatasheet.com/html-pdf/194908/FUJITSU/FTR-LY/293/1/FTR-LY.html"
+			(at 516.89 505.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay, SPDT Form C, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(at 520.7 488.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "a99deb6f-8df5-4d47-a7ff-76e6bd669a00")
+		)
+		(pin "A2"
+			(uuid "bbb8f4f2-0046-49b5-9b46-ca92b8f6c748")
+		)
+		(pin "A1"
+			(uuid "4da30df8-37ba-4d1c-a159-8aeda1ff0475")
+		)
+		(pin "14"
+			(uuid "cfeef6f7-3735-43a8-b7a2-c180b1c3b313")
+		)
+		(pin "11"
+			(uuid "9d8c8718-a8d7-477c-b220-87fc2c5a57a5")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "K3")
 					(unit 1)
 				)
 			)
@@ -27764,178 +28903,6 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "TX1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4007")
-		(at 554.99 454.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99072002-5095-46fe-8d47-cfc1407da45e")
-		(property "Reference" "D13"
-			(at 554.99 451.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 554.99 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 554.99 450.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 554.99 454.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 554.99 454.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 554.99 454.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 554.99 454.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9594014-e446-492e-b354-35957ccc4f28")
-		)
-		(pin "2"
-			(uuid "95c4cf9b-158d-4a92-84c1-ef49c3c795a8")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4007")
-		(at 478.79 454.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a5c2d3f-c3e4-482e-a328-9367e0fc4ca6")
-		(property "Reference" "D11"
-			(at 478.79 451.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 478.79 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 478.79 450.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 478.79 454.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 478.79 454.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 478.79 454.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 478.79 454.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9cda7ce3-be0d-416f-94ff-8cce695d8bdc")
-		)
-		(pin "2"
-			(uuid "f71a1919-ab4e-4699-93f5-fe9bed6de244")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -28295,6 +29262,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:Fujitsu_FTR-LYCA005x")
+		(at 480.06 488.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a06372ad-ddda-40e8-aef1-f305f5a6eaf5")
+		(property "Reference" "K2"
+			(at 480.06 502.158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fujitsu FTR-LYCA005x"
+			(at 480.06 504.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
+			(at 478.79 500.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alldatasheet.com/html-pdf/194908/FUJITSU/FTR-LY/293/1/FTR-LY.html"
+			(at 476.25 505.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay, SPDT Form C, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(at 480.06 488.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "8a49e7a5-0e89-4e96-990c-eea143c91478")
+		)
+		(pin "A2"
+			(uuid "0074c170-1ce5-481c-bdde-2ee37fd33c1e")
+		)
+		(pin "A1"
+			(uuid "8f3a505f-a8a5-4e11-b9a3-27c42fbee9f7")
+		)
+		(pin "14"
+			(uuid "12d4ab2d-d3d0-40de-b82c-5739d84493d2")
+		)
+		(pin "11"
+			(uuid "580be75f-c4dc-46c0-b1eb-cf296b52a469")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 359.41 458.47 180)
 		(unit 1)
@@ -28431,85 +29477,6 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Fujitsu_FTR-LYCA005x")
-		(at 478.79 468.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a51341cf-28b4-45e1-a373-4f1abb079d75")
-		(property "Reference" "K2"
-			(at 478.79 481.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fujitsu FTR-LYCA005x"
-			(at 478.79 484.378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
-			(at 477.52 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.alldatasheet.com/html-pdf/194908/FUJITSU/FTR-LY/293/1/FTR-LY.html"
-			(at 474.98 485.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay, SPDT Form C, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 478.79 468.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "55100c6f-0771-4699-b2dd-830e290b167e")
-		)
-		(pin "A2"
-			(uuid "8cac5b27-f5b6-44ff-a225-713ec9c6306b")
-		)
-		(pin "A1"
-			(uuid "9603481a-8645-4f32-838f-17c0852690ae")
-		)
-		(pin "14"
-			(uuid "5d9da151-b16c-4ba1-b4ac-833267876111")
-		)
-		(pin "11"
-			(uuid "4620d8fe-b449-4fd4-b47d-86bfe5a8672a")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -29125,80 +30092,6 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "PX36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 556.26 530.86 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aae00123-6ac2-4996-a17c-1ac883773523")
-		(property "Reference" "J0_25"
-			(at 553.72 534.924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
-			(at 554.9901 528.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
-			(at 556.26 530.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 556.26 530.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Terminales de tornillo espaciados en 3.5mm"
-			(at 556.26 530.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c51b3ba8-cb5c-4fcf-b5e6-ed4ddfcdfcac")
-		)
-		(pin "1"
-			(uuid "8f9e74be-67ea-4244-9013-242b6f316cb7")
-		)
-		(pin "2"
-			(uuid "1ab2becf-84c2-4231-93e3-b0f52541639c")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "J0_25")
 					(unit 1)
 				)
 			)
@@ -30071,6 +30964,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4007")
+		(at 538.48 444.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b31e5dae-2c85-48eb-a964-936fc600c778")
+		(property "Reference" "D12"
+			(at 538.48 440.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 538.48 440.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 538.48 440.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 538.48 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+			(at 538.48 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 538.48 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 538.48 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d90228bb-c4ff-4c38-b054-10b65675bd00")
+		)
+		(pin "2"
+			(uuid "82ac51fc-254a-4748-9f6f-daa524580375")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 1000.76 330.2 90)
 		(unit 1)
@@ -30336,80 +31315,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 518.16 530.86 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b7848b2e-9c73-4eb4-8ae5-5fa7b6583b42")
-		(property "Reference" "J0_23"
-			(at 515.62 534.924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
-			(at 516.8901 528.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
-			(at 518.16 530.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 518.16 530.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Terminales de tornillo espaciados en 3.5mm"
-			(at 518.16 530.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7a34b6bb-a99f-421e-8c4e-bd22e7da57e9")
-		)
-		(pin "1"
-			(uuid "d995cc88-1775-4655-8915-dd815e5c4ad2")
-		)
-		(pin "2"
-			(uuid "14abefd0-be71-4806-8a3b-6db59b0222c8")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "J0_23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Converter_DCDC:MEE1S0315SC")
 		(at 337.82 408.94 270)
 		(unit 1)
@@ -30488,7 +31393,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 453.39 386.08 90)
+		(at 448.31 386.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30496,7 +31401,7 @@
 		(dnp no)
 		(uuid "b8cb900f-f983-4185-80e8-71873e7145d4")
 		(property "Reference" "PX69"
-			(at 453.39 382.016 0)
+			(at 448.31 382.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30505,7 +31410,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 457.2 386.08 0)
+			(at 452.12 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30514,7 +31419,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 453.39 386.08 0)
+			(at 448.31 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30523,7 +31428,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 453.39 386.08 0)
+			(at 448.31 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30532,7 +31437,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 453.39 386.08 0)
+			(at 448.31 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30968,7 +31873,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 567.69 397.51 180)
+		(at 572.77 397.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30976,7 +31881,7 @@
 		(dnp no)
 		(uuid "bc4b99a6-8ae8-4a65-8464-ff39e6afbd77")
 		(property "Reference" "R48"
-			(at 571.754 397.51 0)
+			(at 576.834 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30984,7 +31889,7 @@
 			)
 		)
 		(property "Value" "270Ω  -  1/4 W"
-			(at 563.88 397.51 90)
+			(at 568.96 397.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30993,7 +31898,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 566.674 397.256 90)
+			(at 571.754 397.256 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31002,7 +31907,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 567.69 397.51 0)
+			(at 572.77 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31011,7 +31916,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 567.69 397.51 0)
+			(at 572.77 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31407,80 +32312,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 541.02 530.86 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c34f179e-8b8c-402b-bd4d-a818a7ce239e")
-		(property "Reference" "J0_24"
-			(at 538.226 534.924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
-			(at 539.7501 528.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
-			(at 541.02 530.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 541.02 530.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Terminales de tornillo espaciados en 3.5mm"
-			(at 541.02 530.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "07fa34a4-7c48-4aa1-abea-7d894923c842")
-		)
-		(pin "1"
-			(uuid "5196cfe2-b50b-4174-8c74-aa4fa09a092d")
-		)
-		(pin "2"
-			(uuid "0fead8c8-dc1a-46ed-af25-ae732ba8feda")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "J0_24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 739.14 344.17 90)
 		(mirror x)
@@ -31541,80 +32372,6 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "P34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 579.12 530.86 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c481dea3-6324-4b58-a4e6-93262c0685ea")
-		(property "Reference" "J0_26"
-			(at 576.326 534.924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
-			(at 577.8501 528.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
-			(at 579.12 530.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 579.12 530.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Terminales de tornillo espaciados en 3.5mm"
-			(at 579.12 530.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ab65cb93-1367-4935-b4fa-5a16d855e09f")
-		)
-		(pin "1"
-			(uuid "6a816162-490d-40fc-b0c7-6ce6a64216f1")
-		)
-		(pin "2"
-			(uuid "74ffe542-24e7-420f-ab44-149b7d2ee614")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "J0_26")
 					(unit 1)
 				)
 			)
@@ -31692,6 +32449,75 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "PS7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 554.99 444.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5254cc6-19a2-49af-b599-6a8f3d9e56f3")
+		(property "Reference" "R47"
+			(at 554.99 438.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Depende de la tensión aplicada a la bobina del rele"
+			(at 554.99 440.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 554.736 445.516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 554.99 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 554.99 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e2743a2-39cd-45ee-9d6a-3eb6f214d04a")
+		)
+		(pin "1"
+			(uuid "55f4935b-5165-46db-963b-5238f0a0f839")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -31890,74 +32716,6 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "PX19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 520.7 422.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca5d8f32-7923-499c-aa0c-7cf475601d24")
-		(property "Reference" "R45"
-			(at 520.954 425.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Depende de la tensión aplicada a la bobina del rele"
-			(at 520.7 419.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
-			(at 520.954 421.894 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 520.7 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 520.7 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c1be7eb9-0799-47f2-9d28-6ab4eba97320")
-		)
-		(pin "1"
-			(uuid "16716bd7-6459-4e2f-b9bb-666cff10c0f4")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -33352,7 +34110,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
-		(at 565.15 411.48 270)
+		(at 570.23 411.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33360,7 +34118,7 @@
 		(dnp no)
 		(uuid "e5b71330-09b3-4cd1-a2a5-9bdfec37ca83")
 		(property "Reference" "U23"
-			(at 575.31 409.194 90)
+			(at 580.39 409.194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33368,7 +34126,7 @@
 			)
 		)
 		(property "Value" "TLP521-1"
-			(at 575.31 411.734 90)
+			(at 580.39 411.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33376,7 +34134,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-			(at 560.07 406.4 0)
+			(at 565.15 406.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33387,7 +34145,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.rs-online.com/d620/0900766b800287f7.pdf"
-			(at 565.15 411.48 0)
+			(at 570.23 411.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33397,7 +34155,7 @@
 			)
 		)
 		(property "Description" "Fototransistor opticamente acoplado"
-			(at 565.15 411.48 0)
+			(at 570.23 411.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33563,6 +34321,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 543.56 532.13 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e660785b-49be-40a1-998c-ebba5127a222")
+		(property "Reference" "J0_15"
+			(at 540.766 536.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
+			(at 542.2901 529.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+			(at 543.56 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 543.56 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Terminales de tornillo espaciados en 3.5mm"
+			(at 543.56 532.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "08e37c05-0385-49c2-a4cf-829b4638325e")
+		)
+		(pin "1"
+			(uuid "45ef99b1-6dde-4246-b3be-cab145ac2f2d")
+		)
+		(pin "2"
+			(uuid "0df8e1ee-ef29-4524-9ef6-5634edbb078b")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J0_15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 530.86 344.17 270)
 		(unit 1)
@@ -33622,6 +34454,85 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "P16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Fujitsu_FTR-LYCA005x")
+		(at 561.34 488.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6da37a1-ab23-4533-853d-55368e7273db")
+		(property "Reference" "K4"
+			(at 561.34 502.158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fujitsu FTR-LYCA005x"
+			(at 561.34 504.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
+			(at 560.07 500.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alldatasheet.com/html-pdf/194908/FUJITSU/FTR-LY/293/1/FTR-LY.html"
+			(at 557.53 505.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay, SPDT Form C, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(at 561.34 488.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "e9129c82-8ba1-405f-96c1-19ce27623d9d")
+		)
+		(pin "A2"
+			(uuid "50e72487-4e83-4ec2-9cd3-1abfbbc82390")
+		)
+		(pin "A1"
+			(uuid "d3bef73b-c744-44c2-b869-b8d3a7d98663")
+		)
+		(pin "14"
+			(uuid "6c932668-3287-4393-9042-116606083b76")
+		)
+		(pin "11"
+			(uuid "def0c8ce-49ba-4917-84a7-9e47e170c475")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "K4")
 					(unit 1)
 				)
 			)
@@ -33919,74 +34830,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 558.8 422.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed5e0ecc-ffca-4293-a227-80666c7215bc")
-		(property "Reference" "R47"
-			(at 559.054 425.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Depende de la tensión aplicada a la bobina del rele"
-			(at 558.8 419.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
-			(at 559.054 421.894 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 558.8 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 558.8 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5f69a20-9926-4b41-b103-6d469c58f3ba")
-		)
-		(pin "1"
-			(uuid "40d26784-1dc9-4b70-9386-194c54be45c4")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 396.24 386.08 90)
 		(unit 1)
@@ -34263,15 +35106,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 482.6 422.91 90)
+		(at 539.75 429.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f2d7e8f2-f1fa-4607-a42b-c0efc70cfe94")
-		(property "Reference" "R43"
-			(at 482.854 425.958 90)
+		(uuid "f3c64062-77d0-44ab-9fd4-7789c8d301f8")
+		(property "Reference" "R59"
+			(at 540.004 432.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34279,7 +35122,7 @@
 			)
 		)
 		(property "Value" "Depende de la tensión aplicada a la bobina del rele"
-			(at 482.6 419.1 90)
+			(at 539.75 425.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34288,7 +35131,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
-			(at 482.854 421.894 90)
+			(at 540.004 428.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34297,7 +35140,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 482.6 422.91 0)
+			(at 539.75 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34306,7 +35149,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 482.6 422.91 0)
+			(at 539.75 429.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34315,15 +35158,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "310d7751-332a-4ca5-ad91-1000be15b509")
+			(uuid "fb2f7236-4818-4c28-b1dd-6c06c52fd59d")
 		)
 		(pin "1"
-			(uuid "2bf69ddd-9a58-46ec-91ad-6a4d747d9112")
+			(uuid "ca1d26dc-442c-4afa-8717-b7baeae3e76b")
 		)
 		(instances
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "R43")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -34541,92 +35384,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4007")
-		(at 516.89 454.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8d63e40-ba14-447a-b550-da9ba3ead6bb")
-		(property "Reference" "D12"
-			(at 516.89 451.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 516.89 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 516.89 450.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 516.89 454.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 516.89 454.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 516.89 454.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 516.89 454.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89bc8bcb-4e6c-4d33-9b5b-819f485e41d0")
-		)
-		(pin "2"
-			(uuid "0d24d7b0-f7c2-49ec-9f83-63aff7d0e703")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x20")
 		(at 596.9 245.11 0)
 		(unit 1)
@@ -34820,7 +35577,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 461.01 427.99 90)
+		(at 455.93 427.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34828,7 +35585,7 @@
 		(dnp no)
 		(uuid "f95db3e0-637b-4c68-bbc5-7867402eb0cf")
 		(property "Reference" "R54"
-			(at 461.264 431.038 90)
+			(at 456.184 431.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34836,7 +35593,7 @@
 			)
 		)
 		(property "Value" "Depende de la tensión aplicada a la bobina del rele"
-			(at 461.01 424.18 90)
+			(at 455.93 424.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34845,7 +35602,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
-			(at 461.264 426.974 90)
+			(at 456.184 426.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34854,7 +35611,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 461.01 427.99 0)
+			(at 455.93 427.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34863,7 +35620,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 461.01 427.99 0)
+			(at 455.93 427.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34881,6 +35638,75 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 514.35 444.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb7f0b31-eaea-4815-8d51-5fdabb24dfed")
+		(property "Reference" "R45"
+			(at 514.35 438.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Depende de la tensión aplicada a la bobina del rele"
+			(at 514.35 440.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 514.096 445.516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 514.35 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 514.35 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea7a5edc-5e06-47b0-873b-7f35d7f3a32a")
+		)
+		(pin "1"
+			(uuid "c276d416-109c-4107-9a11-cb313d4268dc")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "R45")
 					(unit 1)
 				)
 			)
