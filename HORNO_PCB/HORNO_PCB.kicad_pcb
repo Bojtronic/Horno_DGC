@@ -2439,6 +2439,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 100 "Net-(J0_6-Pin_2)")
+			(pintype "passive")
 			(uuid "61eec386-dce1-4c9e-a183-8df075759cdb")
 		)
 		(pad "12" thru_hole circle
@@ -2447,6 +2449,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 99 "Net-(J0_6-Pin_1)")
+			(pintype "passive")
 			(uuid "71a8da06-bee8-46e9-bbdb-919bb0d70d07")
 		)
 		(pad "14" thru_hole circle
@@ -2455,6 +2459,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 98 "Net-(J0_6-Pin_3)")
+			(pintype "passive")
 			(uuid "a3e391e0-51fc-4b68-8040-387f16c53227")
 		)
 		(pad "A1" thru_hole rect
@@ -2463,6 +2469,8 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 38 "Net-(D13-K)")
+			(pintype "passive")
 			(uuid "7145f6bf-3d5d-4c19-a447-5b5216080791")
 		)
 		(pad "A2" thru_hole circle
@@ -2471,6 +2479,8 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 16 "Net-(D10-A)")
+			(pintype "passive")
 			(uuid "cfd57d0a-3eda-4852-9f37-a81dc11c6d1c")
 		)
 		(embedded_fonts no)
@@ -13418,6 +13428,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 105 "Net-(J0_8-Pin_2)")
+			(pintype "passive")
 			(uuid "d27a957c-736a-492c-bb29-979c111e4a28")
 		)
 		(pad "12" thru_hole circle
@@ -13426,6 +13438,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 106 "Net-(J0_8-Pin_1)")
+			(pintype "passive")
 			(uuid "74eb43de-9411-4fbe-949c-a0d26e5ebdc9")
 		)
 		(pad "14" thru_hole circle
@@ -13434,6 +13448,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 104 "Net-(J0_8-Pin_3)")
+			(pintype "passive")
 			(uuid "86474f68-1a69-4c96-ad17-8786dfeab2e6")
 		)
 		(pad "A1" thru_hole rect
@@ -13442,6 +13458,8 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 25 "Net-(D11-K)")
+			(pintype "passive")
 			(uuid "a364fbd8-a2d2-4819-8c72-185797b81908")
 		)
 		(pad "A2" thru_hole circle
@@ -13450,6 +13468,8 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 16 "Net-(D10-A)")
+			(pintype "passive")
 			(uuid "736bce37-27a2-43cb-bd89-d5a712c5f6f1")
 		)
 		(embedded_fonts no)
@@ -14730,6 +14750,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 112 "Net-(J0_10-Pin_2)")
+			(pintype "passive")
 			(uuid "d7148d80-c8f6-4b6a-82ac-618a3f479f65")
 		)
 		(pad "12" thru_hole circle
@@ -14738,6 +14760,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 110 "Net-(J0_10-Pin_1)")
+			(pintype "passive")
 			(uuid "e7305bc7-9c76-4f55-84e0-43b83148f143")
 		)
 		(pad "14" thru_hole circle
@@ -14746,6 +14770,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 111 "Net-(J0_10-Pin_3)")
+			(pintype "passive")
 			(uuid "e42d4195-d820-4477-a348-c64996600a01")
 		)
 		(pad "A1" thru_hole rect
@@ -14754,6 +14780,8 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 14 "Net-(D9-K)")
+			(pintype "passive")
 			(uuid "e69af5fe-04e7-40d0-9479-39e90bac4f85")
 		)
 		(pad "A2" thru_hole circle
@@ -14762,6 +14790,8 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 16 "Net-(D10-A)")
+			(pintype "passive")
 			(uuid "f7a639c8-834d-4172-9650-f2c00a849121")
 		)
 		(embedded_fonts no)
@@ -22768,6 +22798,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 107 "Net-(J0_9-Pin_2)")
+			(pintype "passive")
 			(uuid "173b6908-a2c2-4d6b-9821-0a42b6952d8a")
 		)
 		(pad "12" thru_hole circle
@@ -22776,6 +22808,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 108 "Net-(J0_9-Pin_1)")
+			(pintype "passive")
 			(uuid "d98bf625-49aa-45d3-89d3-6422f1f704a6")
 		)
 		(pad "14" thru_hole circle
@@ -22784,6 +22818,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 109 "Net-(J0_9-Pin_3)")
+			(pintype "passive")
 			(uuid "992eba17-3cc0-45a4-9e68-9e4396a31cca")
 		)
 		(pad "A1" thru_hole rect
@@ -22792,6 +22828,8 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 18 "Net-(D10-K)")
+			(pintype "passive")
 			(uuid "9cd5460b-91ab-4bca-b84e-5301b4ab6e22")
 		)
 		(pad "A2" thru_hole circle
@@ -22800,6 +22838,8 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 16 "Net-(D10-A)")
+			(pintype "passive")
 			(uuid "afef2cae-19dd-4d4f-ba99-23f90779206d")
 		)
 		(embedded_fonts no)
@@ -25002,6 +25042,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 102 "Net-(J0_7-Pin_2)")
+			(pintype "passive")
 			(uuid "b4356b6a-f152-4880-909c-b509b1092da9")
 		)
 		(pad "12" thru_hole circle
@@ -25010,6 +25052,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 101 "Net-(J0_7-Pin_1)")
+			(pintype "passive")
 			(uuid "c330c7a5-c368-40c1-94a6-d37bd5df1dcc")
 		)
 		(pad "14" thru_hole circle
@@ -25018,6 +25062,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 103 "Net-(J0_7-Pin_3)")
+			(pintype "passive")
 			(uuid "b75fdc0d-27bb-4134-8e74-bb14f5ece1b0")
 		)
 		(pad "A1" thru_hole rect
@@ -25026,6 +25072,8 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 36 "Net-(D12-K)")
+			(pintype "passive")
 			(uuid "6243be6c-2b2b-49bb-8038-3716660eafa6")
 		)
 		(pad "A2" thru_hole circle
@@ -25034,6 +25082,8 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 16 "Net-(D10-A)")
+			(pintype "passive")
 			(uuid "85eb6930-7ab8-4254-bdad-538fde52a33c")
 		)
 		(embedded_fonts no)
@@ -25570,6 +25620,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 95 "Net-(J0_4-Pin_2)")
+			(pintype "passive")
 			(uuid "b30a9101-cb0e-4a87-81cb-65c2c008bfe4")
 		)
 		(pad "12" thru_hole circle
@@ -25578,6 +25630,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 96 "Net-(J0_4-Pin_1)")
+			(pintype "passive")
 			(uuid "43cdd8a1-a65c-4349-86cd-3937947f7304")
 		)
 		(pad "14" thru_hole circle
@@ -25586,6 +25640,8 @@
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 97 "Net-(J0_4-Pin_3)")
+			(pintype "passive")
 			(uuid "e2108af2-6a86-4b50-9caa-1e04d7b11c0a")
 		)
 		(pad "A1" thru_hole rect
@@ -25594,6 +25650,8 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 94 "Net-(D14-K)")
+			(pintype "passive")
 			(uuid "9a36e6d1-770b-4ee5-88af-3ac1aa142e12")
 		)
 		(pad "A2" thru_hole circle
@@ -25602,6 +25660,8 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 16 "Net-(D10-A)")
+			(pintype "passive")
 			(uuid "e94c59be-cc4e-4082-9e79-138d9d34a7d4")
 		)
 		(embedded_fonts no)
