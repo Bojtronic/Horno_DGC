@@ -764,6 +764,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -3641,7 +3777,7 @@
 	)
 	(text "24 VDC"
 		(exclude_from_sim no)
-		(at 604.266 707.644 0)
+		(at 604.266 721.614 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -3651,7 +3787,7 @@
 	)
 	(text "Fuente step-down"
 		(exclude_from_sim no)
-		(at 688.848 637.54 0)
+		(at 688.848 651.51 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -3661,7 +3797,7 @@
 	)
 	(text "12 VDC"
 		(exclude_from_sim no)
-		(at 689.61 642.366 0)
+		(at 689.61 656.336 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -3691,7 +3827,7 @@
 	)
 	(text "5 VDC"
 		(exclude_from_sim no)
-		(at 750.57 641.858 0)
+		(at 750.57 655.828 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -3699,7 +3835,7 @@
 		)
 		(uuid "2dce07cf-4e13-4859-819b-ae3e1e5eee1a")
 	)
-	(text "-5 voltios"
+	(text "-12 voltios"
 		(exclude_from_sim no)
 		(at 734.822 434.594 0)
 		(effects
@@ -3711,7 +3847,7 @@
 	)
 	(text "Fuente step-down"
 		(exclude_from_sim no)
-		(at 749.808 636.27 0)
+		(at 749.808 650.24 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -3731,7 +3867,7 @@
 	)
 	(text "Fuente step-down"
 		(exclude_from_sim no)
-		(at 892.048 637.54 0)
+		(at 892.048 651.51 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -3771,7 +3907,7 @@
 	)
 	(text "3.3 VDC"
 		(exclude_from_sim no)
-		(at 817.88 641.858 0)
+		(at 817.88 655.828 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -3779,7 +3915,7 @@
 		)
 		(uuid "9b613705-fd73-4592-8054-01e57cdb296e")
 	)
-	(text "-5 voltios"
+	(text "-12 voltios"
 		(exclude_from_sim no)
 		(at 655.32 436.626 0)
 		(effects
@@ -3821,7 +3957,7 @@
 	)
 	(text "Fuente step-down"
 		(exclude_from_sim no)
-		(at 817.118 636.27 0)
+		(at 817.118 650.24 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -3831,7 +3967,7 @@
 	)
 	(text "12 VDC"
 		(exclude_from_sim no)
-		(at 892.81 642.366 0)
+		(at 892.81 656.336 0)
 		(effects
 			(font
 				(size 2.286 2.286)
@@ -3860,7 +3996,7 @@
 		(uuid "fd219b36-b453-4d70-bec6-d9fd8caeec97")
 	)
 	(junction
-		(at 726.44 661.67)
+		(at 726.44 675.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00a7d2a1-b864-4654-b53b-dcde2d60dc86")
@@ -3902,7 +4038,7 @@
 		(uuid "0c2e2b74-7f1e-4f22-b5a8-b66cb4f28731")
 	)
 	(junction
-		(at 694.69 612.14)
+		(at 694.69 626.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0cf65e47-76e8-4fb8-8ea9-5f18f66f6a4d")
@@ -4022,13 +4158,7 @@
 		(uuid "34e547a7-e27a-45b2-b54a-bd043542ef46")
 	)
 	(junction
-		(at 665.48 462.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37450951-a3ab-412a-a091-e90b70eb485c")
-	)
-	(junction
-		(at 745.49 661.67)
+		(at 745.49 675.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38b6356d-36ed-458a-ba0a-b9894f66a981")
@@ -4040,7 +4170,7 @@
 		(uuid "3984ebd0-bb97-459d-b9f1-0c50eae7ca49")
 	)
 	(junction
-		(at 600.71 661.67)
+		(at 600.71 675.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3bcfd86e-3ab3-40aa-8443-e9475c69a8ea")
@@ -4052,7 +4182,7 @@
 		(uuid "441837f7-0ba6-412a-921f-ae2c2fd6eb48")
 	)
 	(junction
-		(at 755.65 612.14)
+		(at 755.65 626.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4479a402-c450-4237-81a9-c4709ff6e498")
@@ -4064,22 +4194,28 @@
 		(uuid "4525839c-3ee4-4653-b384-3f36cf39c63b")
 	)
 	(junction
+		(at 717.55 603.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48c950c2-cc63-4446-83d0-d66de580b47b")
+	)
+	(junction
 		(at 466.09 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49d26651-1342-438b-b372-661daab8e4c0")
 	)
 	(junction
-		(at 812.8 661.67)
+		(at 605.79 671.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4daa7c9f-692b-4ef5-8262-7e7e400ef94e")
+	)
+	(junction
+		(at 812.8 675.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e0dc093-8def-44a3-be7a-93737c89dcd2")
-	)
-	(junction
-		(at 735.33 582.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e5bf668-57c1-49ef-8dc5-59bbfdee9265")
 	)
 	(junction
 		(at 386.08 530.86)
@@ -4100,12 +4236,6 @@
 		(uuid "533ff0f3-7cc1-4da6-9f22-112d99587702")
 	)
 	(junction
-		(at 652.78 572.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54b31a15-b49a-4626-b2e2-2df00ac95c28")
-	)
-	(junction
 		(at 897.89 482.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4124,7 +4254,7 @@
 		(uuid "59ab9be2-4fe9-412c-8750-7a55c15e8ceb")
 	)
 	(junction
-		(at 632.46 669.29)
+		(at 632.46 683.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a581be2-14bc-453e-9134-58fd8cf2e43d")
@@ -4142,16 +4272,22 @@
 		(uuid "5c06ead6-5198-4964-b905-ff2850f5802f")
 	)
 	(junction
-		(at 822.96 669.29)
+		(at 822.96 683.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61a03bcf-45ab-4d31-87be-be2c24ffdf22")
 	)
 	(junction
-		(at 684.53 661.67)
+		(at 684.53 675.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62a3d034-95a7-43ca-95bf-a3badfef46af")
+	)
+	(junction
+		(at 665.48 462.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64bb7549-ccff-400e-9b75-0670117d87be")
 	)
 	(junction
 		(at 589.28 372.11)
@@ -4160,7 +4296,7 @@
 		(uuid "6a197a5a-b638-4aae-9573-3d936f666dd3")
 	)
 	(junction
-		(at 622.3 661.67)
+		(at 622.3 675.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e4c35c3-f61c-4160-9372-e643fc705ed7")
@@ -4176,6 +4312,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70d29ee7-f02c-4893-8c79-fa5bcaaa4f05")
+	)
+	(junction
+		(at 897.89 609.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73da3759-2c30-43e3-8ffb-c99cc8cc334d")
 	)
 	(junction
 		(at 759.46 462.28)
@@ -4200,6 +4342,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83dfb146-b746-4ccf-95c6-13a8de39649e")
+	)
+	(junction
+		(at 735.33 609.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8989baab-d617-438b-8977-67f5aca99634")
 	)
 	(junction
 		(at 570.23 270.51)
@@ -4256,12 +4404,6 @@
 		(uuid "a04df8b4-b4e0-4271-9ed5-b6788e93debb")
 	)
 	(junction
-		(at 652.78 612.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a14bfea9-3e62-401d-8206-7e9d58f12d77")
-	)
-	(junction
 		(at 163.83 320.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4296,12 +4438,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b01fa55a-6ba1-4da0-9373-22b2098e38aa")
-	)
-	(junction
-		(at 605.79 657.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2862a2b-c69e-4395-b7f9-a2c182df3a09")
 	)
 	(junction
 		(at 977.9 336.55)
@@ -4382,7 +4518,7 @@
 		(uuid "da08fd08-efbd-4c0e-b66b-52338ce274eb")
 	)
 	(junction
-		(at 694.69 669.29)
+		(at 694.69 683.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dacf2b80-acbc-4475-b18b-9fdeb434fa2a")
@@ -4418,7 +4554,7 @@
 		(uuid "e6b77303-aafc-4485-9df6-aff082c23f65")
 	)
 	(junction
-		(at 694.69 599.44)
+		(at 694.69 613.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6d61be8-1712-4abb-9857-e9895eee05c8")
@@ -4428,12 +4564,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e716034b-6fe3-4f36-bf5e-4a0bdc6dbec7")
-	)
-	(junction
-		(at 617.22 462.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e81180a3-15c7-4c62-8772-8d160d82971c")
 	)
 	(junction
 		(at 341.63 541.02)
@@ -4466,13 +4596,7 @@
 		(uuid "f02e4125-5a12-4722-af9a-c9dda018dc29")
 	)
 	(junction
-		(at 567.69 530.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4381611-b2a4-4013-bc82-0089fc65621b")
-	)
-	(junction
-		(at 622.3 612.14)
+		(at 622.3 626.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f73f5749-9595-4716-8c54-a58fe22193f0")
@@ -4501,9 +4625,15 @@
 		(color 0 0 0 0)
 		(uuid "fe177430-4ea8-404e-95b0-36baa7f8270c")
 	)
+	(junction
+		(at 887.73 603.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff80fe7c-f014-486d-a310-96bf3d42fb49")
+	)
 	(wire
 		(pts
-			(xy 684.53 661.67) (xy 726.44 661.67)
+			(xy 684.53 675.64) (xy 726.44 675.64)
 		)
 		(stroke
 			(width 0)
@@ -4552,6 +4682,16 @@
 			(color 255 11 0 1)
 		)
 		(uuid "03559349-d9d8-4984-b877-0406e8e79ded")
+	)
+	(wire
+		(pts
+			(xy 502.92 629.92) (xy 502.92 613.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ab3026-6ab3-4cbe-a8ff-ddd701d1018f")
 	)
 	(wire
 		(pts
@@ -4628,16 +4768,6 @@
 	)
 	(wire
 		(pts
-			(xy 502.92 622.3) (xy 502.92 629.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0be76959-d856-415e-a765-0a9236dd97e5")
-	)
-	(wire
-		(pts
 			(xy 679.45 462.28) (xy 683.26 462.28)
 		)
 		(stroke
@@ -4690,17 +4820,6 @@
 	)
 	(wire
 		(pts
-			(xy 617.22 356.87) (xy 617.22 462.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 6 0 1)
-		)
-		(uuid "0fa7f23e-d156-4a6f-91a4-26d7dff20b17")
-	)
-	(wire
-		(pts
 			(xy 575.31 257.81) (xy 575.31 273.05)
 		)
 		(stroke
@@ -4708,6 +4827,27 @@
 			(type default)
 		)
 		(uuid "0ffbf205-6565-4913-8967-31bf5f1b9180")
+	)
+	(wire
+		(pts
+			(xy 897.89 609.6) (xy 897.89 636.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "1077b092-95ed-4064-9574-935069d1c25a")
+	)
+	(wire
+		(pts
+			(xy 502.92 613.41) (xy 492.76 613.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107ff9e5-c5d3-4b32-96f3-1cc483c1fe6a")
 	)
 	(wire
 		(pts
@@ -4752,6 +4892,17 @@
 	)
 	(wire
 		(pts
+			(xy 665.48 462.28) (xy 669.29 462.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "135eb132-f359-4f7b-b499-3df90b67d751")
+	)
+	(wire
+		(pts
 			(xy 163.83 284.48) (xy 86.36 284.48)
 		)
 		(stroke
@@ -4770,6 +4921,16 @@
 			(type default)
 		)
 		(uuid "143d6b99-cff6-466b-b222-26bc07aad5a3")
+	)
+	(wire
+		(pts
+			(xy 363.22 613.41) (xy 363.22 565.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148ad752-69aa-41dd-8682-9dab3e4b552b")
 	)
 	(wire
 		(pts
@@ -4867,6 +5028,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 613.41) (xy 318.77 613.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "184672fe-8df5-4a05-b875-e93b548d9e25")
+	)
+	(wire
+		(pts
 			(xy 593.09 293.37) (xy 584.2 293.37)
 		)
 		(stroke
@@ -4930,17 +5101,6 @@
 	)
 	(wire
 		(pts
-			(xy 725.17 572.77) (xy 652.78 572.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "1a8e6c96-a95e-484b-aa57-4e44d5c6e075")
-	)
-	(wire
-		(pts
 			(xy 839.47 552.45) (xy 839.47 570.23)
 		)
 		(stroke
@@ -4951,24 +5111,13 @@
 	)
 	(wire
 		(pts
-			(xy 725.17 440.69) (xy 725.17 572.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "1b5b223e-83bf-4d76-879a-872843fa96a8")
-	)
-	(wire
-		(pts
-			(xy 462.28 622.3) (xy 474.98 622.3)
+			(xy 372.11 622.3) (xy 372.11 629.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b6e937b-1b29-413a-8650-02fd8e881b52")
+		(uuid "1d5a5990-bbb2-4565-a6e3-4453446587db")
 	)
 	(wire
 		(pts
@@ -4992,7 +5141,7 @@
 	)
 	(wire
 		(pts
-			(xy 745.49 661.67) (xy 812.8 661.67)
+			(xy 745.49 675.64) (xy 812.8 675.64)
 		)
 		(stroke
 			(width 0)
@@ -5024,7 +5173,7 @@
 	)
 	(wire
 		(pts
-			(xy 812.8 621.03) (xy 812.8 577.85)
+			(xy 812.8 635) (xy 812.8 577.85)
 		)
 		(stroke
 			(width 0)
@@ -5042,17 +5191,6 @@
 			(type default)
 		)
 		(uuid "1ff18bdd-4b8b-4b0b-8a15-ce5b771cb477")
-	)
-	(wire
-		(pts
-			(xy 694.69 440.69) (xy 694.69 599.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 6 0 1)
-		)
-		(uuid "202b942d-70b9-4a29-9616-b275165c8601")
 	)
 	(wire
 		(pts
@@ -5088,7 +5226,7 @@
 	)
 	(wire
 		(pts
-			(xy 605.79 657.86) (xy 605.79 697.23)
+			(xy 605.79 671.83) (xy 605.79 692.15)
 		)
 		(stroke
 			(width 0)
@@ -5183,7 +5321,7 @@
 	)
 	(wire
 		(pts
-			(xy 887.73 654.05) (xy 887.73 661.67)
+			(xy 887.73 668.02) (xy 887.73 675.64)
 		)
 		(stroke
 			(width 0)
@@ -5191,16 +5329,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "2408385f-f84e-43ad-857c-08da047e815b")
-	)
-	(wire
-		(pts
-			(xy 285.75 622.3) (xy 297.18 622.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "244800f8-9232-4c32-8dcd-92c8b3a2ac02")
 	)
 	(wire
 		(pts
@@ -5248,7 +5376,7 @@
 	)
 	(wire
 		(pts
-			(xy 632.46 758.19) (xy 632.46 669.29)
+			(xy 632.46 772.16) (xy 632.46 683.26)
 		)
 		(stroke
 			(width 0)
@@ -5300,13 +5428,13 @@
 	)
 	(wire
 		(pts
-			(xy 408.94 565.15) (xy 408.94 629.92)
+			(xy 273.05 565.15) (xy 273.05 614.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28bb917b-7449-4926-a231-ab284ce0eb18")
+		(uuid "27c9192c-971a-49d6-b9b1-f92834dca798")
 	)
 	(wire
 		(pts
@@ -5385,6 +5513,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 622.3) (xy 387.35 622.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4f24d2-5214-4730-bfc4-dfdaa4f7dd95")
+	)
+	(wire
+		(pts
 			(xy 317.5 515.62) (xy 317.5 541.02)
 		)
 		(stroke
@@ -5428,6 +5566,17 @@
 	)
 	(wire
 		(pts
+			(xy 656.59 462.28) (xy 656.59 609.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "2c778dcd-01e9-4157-8d4c-6c4afbcb53e5")
+	)
+	(wire
+		(pts
 			(xy 674.37 212.09) (xy 293.37 212.09)
 		)
 		(stroke
@@ -5468,17 +5617,6 @@
 	)
 	(wire
 		(pts
-			(xy 605.79 657.86) (xy 632.46 657.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 6 0 1)
-		)
-		(uuid "2e0c33d0-fa7d-4cde-96b2-1f6a87e4ff0a")
-	)
-	(wire
-		(pts
 			(xy 464.82 629.92) (xy 478.79 629.92)
 		)
 		(stroke
@@ -5489,18 +5627,17 @@
 	)
 	(wire
 		(pts
-			(xy 652.78 572.77) (xy 652.78 612.14)
+			(xy 417.83 622.3) (xy 433.07 622.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 0 0 1)
 		)
-		(uuid "2e3dc0cf-d18b-4da9-9e9b-c6505f4b6d77")
+		(uuid "2e8a271b-3777-4a13-9551-81a7f44f3061")
 	)
 	(wire
 		(pts
-			(xy 887.73 486.41) (xy 887.73 622.3)
+			(xy 887.73 486.41) (xy 887.73 603.25)
 		)
 		(stroke
 			(width 0)
@@ -5519,16 +5656,6 @@
 			(color 255 6 0 1)
 		)
 		(uuid "2ff14af6-98e4-48bf-aa1c-a0a0707d0d7a")
-	)
-	(wire
-		(pts
-			(xy 502.92 622.3) (xy 516.89 622.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3010ccf2-ab2f-41e9-8dca-88cd21651044")
 	)
 	(wire
 		(pts
@@ -5709,6 +5836,27 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 622.3) (xy 328.93 629.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3867740e-1027-44f3-8588-d058b0f227d8")
+	)
+	(wire
+		(pts
+			(xy 605.79 699.77) (xy 605.79 711.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "3927abb6-f69a-4b0d-9e32-b54644c71d17")
+	)
+	(wire
+		(pts
 			(xy 391.16 629.92) (xy 391.16 562.61)
 		)
 		(stroke
@@ -5726,6 +5874,17 @@
 			(type default)
 		)
 		(uuid "3b757bbf-b768-4309-9adf-929d19022257")
+	)
+	(wire
+		(pts
+			(xy 656.59 609.6) (xy 735.33 609.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "3bc05f5f-e914-41f6-895b-2b205aa3d806")
 	)
 	(wire
 		(pts
@@ -5781,16 +5940,6 @@
 	)
 	(wire
 		(pts
-			(xy 420.37 622.3) (xy 433.07 622.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d88ce0e-8996-4528-acdf-98d74802dc0a")
-	)
-	(wire
-		(pts
 			(xy 163.83 337.82) (xy 163.83 320.04)
 		)
 		(stroke
@@ -5822,6 +5971,16 @@
 	)
 	(wire
 		(pts
+			(xy 459.74 622.3) (xy 459.74 629.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e294b2d-9e07-4773-a32a-28d2b7605eda")
+	)
+	(wire
+		(pts
 			(xy 593.09 252.73) (xy 565.15 252.73)
 		)
 		(stroke
@@ -5843,7 +6002,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 758.19) (xy 632.46 758.19)
+			(xy 133.35 772.16) (xy 632.46 772.16)
 		)
 		(stroke
 			(width 0)
@@ -5905,7 +6064,79 @@
 	)
 	(wire
 		(pts
-			(xy 925.83 693.42) (xy 925.83 490.22)
+			(xy 462.28 613.41) (xy 462.28 629.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424d38cf-ae72-4132-a023-ef895e7c85ee")
+	)
+	(wire
+		(pts
+			(xy 500.38 622.3) (xy 500.38 629.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4288276e-2f64-42d1-9367-51a6ea8c56aa")
+	)
+	(wire
+		(pts
+			(xy 283.21 622.3) (xy 283.21 629.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "436d62ba-548e-4e09-b7a8-06b851416a99")
+	)
+	(wire
+		(pts
+			(xy 665.48 462.28) (xy 665.48 477.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "449a0777-a321-4d3d-b613-d884ff675169")
+	)
+	(wire
+		(pts
+			(xy 459.74 622.3) (xy 474.98 622.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "449c6966-e91e-4356-9c58-c9041c67cb57")
+	)
+	(wire
+		(pts
+			(xy 579.12 504.19) (xy 579.12 613.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 11 0 1)
+		)
+		(uuid "45337687-c369-4ae9-8d75-ee747b3ab7dd")
+	)
+	(wire
+		(pts
+			(xy 318.77 613.41) (xy 318.77 565.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a5d391-a59b-4cd9-b770-831d617657dd")
+	)
+	(wire
+		(pts
+			(xy 925.83 707.39) (xy 925.83 490.22)
 		)
 		(stroke
 			(width 0)
@@ -5916,7 +6147,7 @@
 	)
 	(wire
 		(pts
-			(xy 652.78 441.96) (xy 669.29 441.96)
+			(xy 638.81 441.96) (xy 669.29 441.96)
 		)
 		(stroke
 			(width 0)
@@ -5935,16 +6166,6 @@
 			(color 255 11 0 1)
 		)
 		(uuid "47693707-476f-486e-8aae-9590a281199f")
-	)
-	(wire
-		(pts
-			(xy 408.94 629.92) (xy 417.83 629.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "479f7245-5e27-4166-9217-920248da2e99")
 	)
 	(wire
 		(pts
@@ -6085,7 +6306,7 @@
 	)
 	(wire
 		(pts
-			(xy 745.49 652.78) (xy 745.49 661.67)
+			(xy 745.49 666.75) (xy 745.49 675.64)
 		)
 		(stroke
 			(width 0)
@@ -6168,13 +6389,14 @@
 	)
 	(wire
 		(pts
-			(xy 462.28 622.3) (xy 462.28 629.92)
+			(xy 822.96 618.49) (xy 822.96 635)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 6 0 1)
 		)
-		(uuid "525f2010-b977-4af4-9004-e13a2ac2c144")
+		(uuid "52430d09-1687-4187-a6ee-c86762aa31c8")
 	)
 	(wire
 		(pts
@@ -6388,17 +6610,6 @@
 	)
 	(wire
 		(pts
-			(xy 725.17 440.69) (xy 746.76 440.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "5ce9327d-b80c-4bcf-9819-ebfd23f74fac")
-	)
-	(wire
-		(pts
 			(xy 565.15 154.94) (xy 565.15 252.73)
 		)
 		(stroke
@@ -6410,7 +6621,7 @@
 	)
 	(wire
 		(pts
-			(xy 822.96 669.29) (xy 789.94 669.29)
+			(xy 822.96 683.26) (xy 789.94 683.26)
 		)
 		(stroke
 			(width 0)
@@ -6504,7 +6715,7 @@
 	)
 	(wire
 		(pts
-			(xy 589.28 612.14) (xy 622.3 612.14)
+			(xy 589.28 626.11) (xy 622.3 626.11)
 		)
 		(stroke
 			(width 0)
@@ -6512,16 +6723,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "631a85e8-9a75-413e-a1eb-73b494c8ec52")
-	)
-	(wire
-		(pts
-			(xy 273.05 565.15) (xy 273.05 629.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6371d43b-3977-4a27-8b73-b4dd745053d0")
 	)
 	(wire
 		(pts
@@ -6556,7 +6757,17 @@
 	)
 	(wire
 		(pts
-			(xy 567.69 622.3) (xy 567.69 657.86)
+			(xy 374.65 629.92) (xy 374.65 613.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653eeaac-57be-4494-8ade-c8f8543821fe")
+	)
+	(wire
+		(pts
+			(xy 567.69 636.27) (xy 567.69 671.83)
 		)
 		(stroke
 			(width 0)
@@ -6640,7 +6851,7 @@
 	)
 	(wire
 		(pts
-			(xy 622.3 612.14) (xy 622.3 661.67)
+			(xy 622.3 626.11) (xy 622.3 675.64)
 		)
 		(stroke
 			(width 0)
@@ -6693,7 +6904,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 332.74) (xy 212.09 736.6)
+			(xy 212.09 332.74) (xy 212.09 750.57)
 		)
 		(stroke
 			(width 0)
@@ -6712,6 +6923,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "6c6fb6ca-e442-46ba-b071-1a1f48ace429")
+	)
+	(wire
+		(pts
+			(xy 638.81 441.96) (xy 638.81 603.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "6c763d5d-1bdd-481f-825b-140cb72fd5da")
 	)
 	(wire
 		(pts
@@ -6757,7 +6979,7 @@
 	)
 	(wire
 		(pts
-			(xy 822.96 668.02) (xy 822.96 669.29)
+			(xy 822.96 681.99) (xy 822.96 683.26)
 		)
 		(stroke
 			(width 0)
@@ -6768,18 +6990,7 @@
 	)
 	(wire
 		(pts
-			(xy 665.48 477.52) (xy 665.48 462.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "6e36574d-248f-4c13-9950-a7ae69e1b985")
-	)
-	(wire
-		(pts
-			(xy 632.46 669.29) (xy 694.69 669.29)
+			(xy 632.46 683.26) (xy 694.69 683.26)
 		)
 		(stroke
 			(width 0)
@@ -6800,7 +7011,18 @@
 	)
 	(wire
 		(pts
-			(xy 770.89 440.69) (xy 770.89 599.44)
+			(xy 638.81 603.25) (xy 717.55 603.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "6eee1b00-e7fe-4d06-b59d-2b9bf0e8d29c")
+	)
+	(wire
+		(pts
+			(xy 770.89 440.69) (xy 770.89 613.41)
 		)
 		(stroke
 			(width 0)
@@ -6808,6 +7030,16 @@
 			(color 255 6 0 1)
 		)
 		(uuid "6f646381-d23e-4a9c-92c2-612c86593d55")
+	)
+	(wire
+		(pts
+			(xy 450.85 565.15) (xy 450.85 613.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7001df08-0ad5-4f12-8907-2ed63226feac")
 	)
 	(wire
 		(pts
@@ -6843,16 +7075,6 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 565.15) (xy 450.85 629.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7164f73b-99c5-40e9-8240-5d1f95025911")
-	)
-	(wire
-		(pts
 			(xy 762 440.69) (xy 770.89 440.69)
 		)
 		(stroke
@@ -6861,6 +7083,17 @@
 			(color 255 6 0 1)
 		)
 		(uuid "71720184-7532-45fa-9e1f-874756411145")
+	)
+	(wire
+		(pts
+			(xy 579.12 613.41) (xy 694.69 613.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 11 0 1)
+		)
+		(uuid "717bfa0e-f42c-4f84-9069-0e1f4a547ac9")
 	)
 	(wire
 		(pts
@@ -6906,7 +7139,7 @@
 	)
 	(wire
 		(pts
-			(xy 684.53 654.05) (xy 684.53 661.67)
+			(xy 684.53 668.02) (xy 684.53 675.64)
 		)
 		(stroke
 			(width 0)
@@ -6914,6 +7147,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "726ba631-a616-47d5-9769-8ed1239fdb9c")
+	)
+	(wire
+		(pts
+			(xy 450.85 613.41) (xy 462.28 613.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f92515-a724-4cd0-b25a-bcdb4b077e00")
 	)
 	(wire
 		(pts
@@ -6938,7 +7181,7 @@
 	)
 	(wire
 		(pts
-			(xy 745.49 621.03) (xy 726.44 621.03)
+			(xy 745.49 626.11) (xy 726.44 626.11)
 		)
 		(stroke
 			(width 0)
@@ -6969,7 +7212,7 @@
 	)
 	(wire
 		(pts
-			(xy 617.22 462.28) (xy 617.22 582.93)
+			(xy 617.22 356.87) (xy 617.22 582.93)
 		)
 		(stroke
 			(width 0)
@@ -7022,17 +7265,6 @@
 	)
 	(wire
 		(pts
-			(xy 652.78 441.96) (xy 652.78 572.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "76184551-d30d-47b5-9ab4-848953f3dafe")
-	)
-	(wire
-		(pts
 			(xy 929.64 360.68) (xy 929.64 172.72)
 		)
 		(stroke
@@ -7053,7 +7285,7 @@
 	)
 	(wire
 		(pts
-			(xy 622.3 661.67) (xy 684.53 661.67)
+			(xy 622.3 675.64) (xy 684.53 675.64)
 		)
 		(stroke
 			(width 0)
@@ -7127,14 +7359,13 @@
 	)
 	(wire
 		(pts
-			(xy 617.22 462.28) (xy 665.48 462.28)
+			(xy 331.47 629.92) (xy 331.47 613.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 255 6 0 1)
 		)
-		(uuid "789a76a3-b728-4697-89c9-06de6aa1a6a4")
+		(uuid "79917d1b-80a6-495c-947b-3c9526886a49")
 	)
 	(wire
 		(pts
@@ -7155,6 +7386,17 @@
 			(type default)
 		)
 		(uuid "79dea5a0-50e5-4217-a986-d022152eba14")
+	)
+	(wire
+		(pts
+			(xy 656.59 462.28) (xy 665.48 462.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "7a07f27e-f831-4d2d-b340-ba0bc0b314ce")
 	)
 	(wire
 		(pts
@@ -7242,7 +7484,7 @@
 	)
 	(wire
 		(pts
-			(xy 726.44 621.03) (xy 726.44 661.67)
+			(xy 726.44 626.11) (xy 726.44 675.64)
 		)
 		(stroke
 			(width 0)
@@ -7264,16 +7506,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 629.92) (xy 328.93 629.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7deba696-4f95-4c41-8c2d-da75718565b7")
-	)
-	(wire
-		(pts
 			(xy 652.78 175.26) (xy 816.61 175.26)
 		)
 		(stroke
@@ -7291,16 +7523,6 @@
 			(type default)
 		)
 		(uuid "7e51d196-00cf-4021-a3f7-5e4c99098f7a")
-	)
-	(wire
-		(pts
-			(xy 273.05 629.92) (xy 283.21 629.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e8e5e71-088d-456d-be25-4dae71675f01")
 	)
 	(wire
 		(pts
@@ -7336,6 +7558,16 @@
 	)
 	(wire
 		(pts
+			(xy 492.76 613.41) (xy 492.76 565.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8001cf3b-a157-4288-9c75-6dc66c5df69b")
+	)
+	(wire
+		(pts
 			(xy 105.41 323.85) (xy 105.41 353.06)
 		)
 		(stroke
@@ -7347,7 +7579,7 @@
 	)
 	(wire
 		(pts
-			(xy 717.55 612.14) (xy 694.69 612.14)
+			(xy 717.55 626.11) (xy 694.69 626.11)
 		)
 		(stroke
 			(width 0)
@@ -7355,17 +7587,6 @@
 			(color 255 6 0 1)
 		)
 		(uuid "80eadfce-41f8-439b-ad69-5459da55fbf5")
-	)
-	(wire
-		(pts
-			(xy 665.48 462.28) (xy 669.29 462.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "81312244-5f78-4720-b322-7d100d7709b0")
 	)
 	(wire
 		(pts
@@ -7380,7 +7601,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 353.06) (xy 133.35 758.19)
+			(xy 133.35 353.06) (xy 133.35 772.16)
 		)
 		(stroke
 			(width 0)
@@ -7443,6 +7664,17 @@
 	)
 	(wire
 		(pts
+			(xy 717.55 603.25) (xy 887.73 603.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "83f0e5a4-3699-428a-9c39-26baf8e7bb15")
+	)
+	(wire
+		(pts
 			(xy 1047.75 317.5) (xy 1010.92 317.5)
 		)
 		(stroke
@@ -7464,7 +7696,7 @@
 	)
 	(wire
 		(pts
-			(xy 897.89 685.8) (xy 694.69 685.8)
+			(xy 897.89 699.77) (xy 694.69 699.77)
 		)
 		(stroke
 			(width 0)
@@ -7475,7 +7707,7 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 504.19) (xy 567.69 504.19)
+			(xy 453.39 504.19) (xy 579.12 504.19)
 		)
 		(stroke
 			(width 0)
@@ -7496,14 +7728,14 @@
 	)
 	(wire
 		(pts
-			(xy 622.3 612.14) (xy 652.78 612.14)
+			(xy 887.73 603.25) (xy 887.73 636.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 0 0 0 1)
 		)
-		(uuid "8618e3f5-1c45-4b77-8e49-6a9776146f18")
+		(uuid "85f0db52-5ed3-4c80-a516-4482dc757781")
 	)
 	(wire
 		(pts
@@ -7529,17 +7761,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 629.92) (xy 459.74 629.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87300a9e-6d17-488c-a118-a9f414e92b9e")
-	)
-	(wire
-		(pts
-			(xy 897.89 482.6) (xy 897.89 622.3)
+			(xy 897.89 482.6) (xy 897.89 609.6)
 		)
 		(stroke
 			(width 0)
@@ -7547,6 +7769,17 @@
 			(color 255 6 0 1)
 		)
 		(uuid "873360bc-46ce-49ee-a1ab-dfca7e8c111a")
+	)
+	(wire
+		(pts
+			(xy 605.79 671.83) (xy 632.46 671.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "87800f2c-2b7a-45d3-8ccf-013fd6533e55")
 	)
 	(wire
 		(pts
@@ -7636,7 +7869,7 @@
 	)
 	(wire
 		(pts
-			(xy 717.55 612.14) (xy 717.55 693.42)
+			(xy 717.55 626.11) (xy 717.55 707.39)
 		)
 		(stroke
 			(width 0)
@@ -7665,6 +7898,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "8c81175d-8305-4f5a-a766-fd892a3fa193")
+	)
+	(wire
+		(pts
+			(xy 694.69 440.69) (xy 694.69 613.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "8cbaa086-846d-4a39-9950-6430b6237e1c")
 	)
 	(wire
 		(pts
@@ -7908,16 +8152,6 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 622.3) (xy 374.65 629.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "959669c1-c110-498e-999b-be0cff07bc57")
-	)
-	(wire
-		(pts
 			(xy 652.78 162.56) (xy 674.37 162.56)
 		)
 		(stroke
@@ -7935,6 +8169,16 @@
 			(type default)
 		)
 		(uuid "971afa23-d345-4808-b705-3c005d3da848")
+	)
+	(wire
+		(pts
+			(xy 273.05 614.68) (xy 285.75 614.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f23c0e-bda5-40a9-a693-2d037abaced4")
 	)
 	(wire
 		(pts
@@ -7968,6 +8212,17 @@
 	)
 	(wire
 		(pts
+			(xy 735.33 609.6) (xy 897.89 609.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "9b91d3a9-94b2-4b0d-92d4-1a3ff78a0dca")
+	)
+	(wire
+		(pts
 			(xy 812.8 482.6) (xy 897.89 482.6)
 		)
 		(stroke
@@ -7979,7 +8234,7 @@
 	)
 	(wire
 		(pts
-			(xy 812.8 652.78) (xy 812.8 661.67)
+			(xy 812.8 666.75) (xy 812.8 675.64)
 		)
 		(stroke
 			(width 0)
@@ -8020,7 +8275,7 @@
 	)
 	(wire
 		(pts
-			(xy 652.78 612.14) (xy 684.53 612.14)
+			(xy 622.3 626.11) (xy 684.53 626.11)
 		)
 		(stroke
 			(width 0)
@@ -8083,7 +8338,7 @@
 	)
 	(wire
 		(pts
-			(xy 822.96 652.78) (xy 822.96 669.29)
+			(xy 822.96 666.75) (xy 822.96 683.26)
 		)
 		(stroke
 			(width 0)
@@ -8112,6 +8367,16 @@
 			(type default)
 		)
 		(uuid "a482bd0d-e928-4e90-a2b5-e1c89dc0d1e1")
+	)
+	(wire
+		(pts
+			(xy 420.37 629.92) (xy 420.37 613.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5390b63-2035-4533-a254-ff70f246cac8")
 	)
 	(wire
 		(pts
@@ -8177,7 +8442,17 @@
 	)
 	(wire
 		(pts
-			(xy 755.65 612.14) (xy 755.65 582.93)
+			(xy 500.38 622.3) (xy 516.89 622.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a988d70b-939a-4998-9053-fcde8335e80e")
+	)
+	(wire
+		(pts
+			(xy 755.65 626.11) (xy 755.65 582.93)
 		)
 		(stroke
 			(width 0)
@@ -8208,7 +8483,7 @@
 	)
 	(wire
 		(pts
-			(xy 567.69 657.86) (xy 605.79 657.86)
+			(xy 567.69 671.83) (xy 605.79 671.83)
 		)
 		(stroke
 			(width 0)
@@ -8230,7 +8505,7 @@
 	)
 	(wire
 		(pts
-			(xy 600.71 661.67) (xy 622.3 661.67)
+			(xy 600.71 675.64) (xy 622.3 675.64)
 		)
 		(stroke
 			(width 0)
@@ -8249,16 +8524,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "add4058a-3c79-47eb-a410-79b5e84dd676")
-	)
-	(wire
-		(pts
-			(xy 331.47 622.3) (xy 342.9 622.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae194735-d950-473a-b683-b452ff07b7c3")
 	)
 	(wire
 		(pts
@@ -8284,7 +8549,7 @@
 	)
 	(wire
 		(pts
-			(xy 812.8 661.67) (xy 887.73 661.67)
+			(xy 812.8 675.64) (xy 887.73 675.64)
 		)
 		(stroke
 			(width 0)
@@ -8337,16 +8602,6 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 565.15) (xy 363.22 629.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1714f49-2229-4f40-bf46-a1238233b48b")
-	)
-	(wire
-		(pts
 			(xy 341.63 541.02) (xy 341.63 554.99)
 		)
 		(stroke
@@ -8368,7 +8623,7 @@
 	)
 	(wire
 		(pts
-			(xy 897.89 654.05) (xy 897.89 685.8)
+			(xy 897.89 668.02) (xy 897.89 699.77)
 		)
 		(stroke
 			(width 0)
@@ -8399,6 +8654,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 613.41) (xy 363.22 613.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4559fec-9bd6-4f5c-ac0e-7cb9704e98eb")
+	)
+	(wire
+		(pts
 			(xy 429.26 567.69) (xy 433.07 567.69)
 		)
 		(stroke
@@ -8419,7 +8684,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 736.6) (xy 822.96 736.6)
+			(xy 212.09 750.57) (xy 822.96 750.57)
 		)
 		(stroke
 			(width 0)
@@ -8452,7 +8717,7 @@
 	)
 	(wire
 		(pts
-			(xy 755.65 621.03) (xy 755.65 612.14)
+			(xy 755.65 635) (xy 755.65 626.11)
 		)
 		(stroke
 			(width 0)
@@ -8525,7 +8790,7 @@
 	)
 	(wire
 		(pts
-			(xy 684.53 612.14) (xy 684.53 622.3)
+			(xy 684.53 626.11) (xy 684.53 636.27)
 		)
 		(stroke
 			(width 0)
@@ -8533,16 +8798,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "b93dadb8-c6d6-4a78-8e33-b11348bd4bdf")
-	)
-	(wire
-		(pts
-			(xy 492.76 629.92) (xy 500.38 629.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bae83778-d906-4dd8-9e5f-4596df5b1a85")
 	)
 	(wire
 		(pts
@@ -8556,7 +8811,7 @@
 	)
 	(wire
 		(pts
-			(xy 822.96 669.29) (xy 822.96 736.6)
+			(xy 822.96 683.26) (xy 822.96 750.57)
 		)
 		(stroke
 			(width 0)
@@ -8587,7 +8842,7 @@
 	)
 	(wire
 		(pts
-			(xy 755.65 652.78) (xy 755.65 669.29)
+			(xy 755.65 666.75) (xy 755.65 683.26)
 		)
 		(stroke
 			(width 0)
@@ -8598,7 +8853,7 @@
 	)
 	(wire
 		(pts
-			(xy 694.69 612.14) (xy 694.69 622.3)
+			(xy 694.69 626.11) (xy 694.69 636.27)
 		)
 		(stroke
 			(width 0)
@@ -8682,7 +8937,7 @@
 	)
 	(wire
 		(pts
-			(xy 965.2 349.25) (xy 965.2 621.03)
+			(xy 965.2 349.25) (xy 965.2 618.49)
 		)
 		(stroke
 			(width 0)
@@ -8693,14 +8948,14 @@
 	)
 	(wire
 		(pts
-			(xy 735.33 462.28) (xy 735.33 582.93)
+			(xy 717.55 440.69) (xy 746.76 440.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 255 6 0 1)
+			(color 0 0 0 1)
 		)
-		(uuid "c1d7edf4-2bbb-4b3e-99c4-209c57c6d556")
+		(uuid "c15229be-3521-4c2c-bba5-f43c1b635e2a")
 	)
 	(wire
 		(pts
@@ -8722,6 +8977,16 @@
 			(color 255 6 0 1)
 		)
 		(uuid "c346c89f-4ad0-4e97-9b42-b775f0281a71")
+	)
+	(wire
+		(pts
+			(xy 408.94 613.41) (xy 408.94 565.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c389ab6d-7de0-4d3f-8537-44d4f5d8550b")
 	)
 	(wire
 		(pts
@@ -8882,7 +9147,7 @@
 	)
 	(wire
 		(pts
-			(xy 694.69 599.44) (xy 694.69 612.14)
+			(xy 694.69 613.41) (xy 694.69 626.11)
 		)
 		(stroke
 			(width 0)
@@ -8893,7 +9158,7 @@
 	)
 	(wire
 		(pts
-			(xy 600.71 661.67) (xy 600.71 697.23)
+			(xy 600.71 675.64) (xy 600.71 711.2)
 		)
 		(stroke
 			(width 0)
@@ -8904,7 +9169,7 @@
 	)
 	(wire
 		(pts
-			(xy 694.69 685.8) (xy 694.69 669.29)
+			(xy 694.69 699.77) (xy 694.69 683.26)
 		)
 		(stroke
 			(width 0)
@@ -8946,7 +9211,18 @@
 	)
 	(wire
 		(pts
-			(xy 822.96 621.03) (xy 965.2 621.03)
+			(xy 717.55 440.69) (xy 717.55 603.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ca07a591-1c4f-4966-a41b-7573a53f2d39")
+	)
+	(wire
+		(pts
+			(xy 822.96 618.49) (xy 965.2 618.49)
 		)
 		(stroke
 			(width 0)
@@ -9042,17 +9318,6 @@
 	)
 	(wire
 		(pts
-			(xy 617.22 582.93) (xy 735.33 582.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 6 0 1)
-		)
-		(uuid "d0ef02a9-585b-4e9b-8cdd-a39245e76a59")
-	)
-	(wire
-		(pts
 			(xy 143.51 279.4) (xy 147.32 279.4)
 		)
 		(stroke
@@ -9074,7 +9339,7 @@
 	)
 	(wire
 		(pts
-			(xy 557.53 508) (xy 557.53 661.67)
+			(xy 557.53 508) (xy 557.53 675.64)
 		)
 		(stroke
 			(width 0)
@@ -9137,16 +9402,6 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 622.3) (xy 387.35 622.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d380f626-17ce-4ebb-8aeb-d47875299193")
-	)
-	(wire
-		(pts
 			(xy 664.21 167.64) (xy 664.21 200.66)
 		)
 		(stroke
@@ -9167,7 +9422,7 @@
 	)
 	(wire
 		(pts
-			(xy 694.69 654.05) (xy 694.69 669.29)
+			(xy 694.69 668.02) (xy 694.69 683.26)
 		)
 		(stroke
 			(width 0)
@@ -9178,7 +9433,18 @@
 	)
 	(wire
 		(pts
-			(xy 717.55 693.42) (xy 925.83 693.42)
+			(xy 745.49 626.11) (xy 745.49 635)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "d66262b7-7073-44d1-913a-614a201b5099")
+	)
+	(wire
+		(pts
+			(xy 717.55 707.39) (xy 925.83 707.39)
 		)
 		(stroke
 			(width 0)
@@ -9221,7 +9487,7 @@
 	)
 	(wire
 		(pts
-			(xy 557.53 661.67) (xy 600.71 661.67)
+			(xy 557.53 675.64) (xy 600.71 675.64)
 		)
 		(stroke
 			(width 0)
@@ -9306,7 +9572,7 @@
 	)
 	(wire
 		(pts
-			(xy 755.65 582.93) (xy 735.33 582.93)
+			(xy 617.22 582.93) (xy 755.65 582.93)
 		)
 		(stroke
 			(width 0)
@@ -9314,6 +9580,16 @@
 			(color 255 6 0 1)
 		)
 		(uuid "da431ed9-7713-418c-8a38-e81bcc281564")
+	)
+	(wire
+		(pts
+			(xy 328.93 622.3) (xy 342.9 622.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da48dfdb-ee7d-49cc-bcb9-09010dfcce6a")
 	)
 	(wire
 		(pts
@@ -9335,6 +9611,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "dae8b6b3-5ca2-436b-a720-e2c453e448bb")
+	)
+	(wire
+		(pts
+			(xy 420.37 613.41) (xy 408.94 613.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db0f350b-3dbe-42dc-85a8-04a9f73f88ea")
 	)
 	(wire
 		(pts
@@ -9368,17 +9654,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 622.3) (xy 285.75 629.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc47beb0-d1b5-4ed6-8311-951f1338aa1a")
-	)
-	(wire
-		(pts
-			(xy 632.46 669.29) (xy 632.46 657.86)
+			(xy 632.46 683.26) (xy 632.46 671.83)
 		)
 		(stroke
 			(width 0)
@@ -9419,6 +9695,16 @@
 			(color 255 11 0 1)
 		)
 		(uuid "dd53fa58-5473-428a-ba4c-4db53c09b19b")
+	)
+	(wire
+		(pts
+			(xy 417.83 622.3) (xy 417.83 629.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd7f6c6-0de9-4780-8983-3d8d9ec57901")
 	)
 	(wire
 		(pts
@@ -9651,6 +9937,17 @@
 	)
 	(wire
 		(pts
+			(xy 735.33 462.28) (xy 735.33 609.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 6 0 1)
+		)
+		(uuid "e753f5f7-c3b5-470c-ae65-3778a596bab9")
+	)
+	(wire
+		(pts
 			(xy 1068.07 347.98) (xy 1068.07 322.58)
 		)
 		(stroke
@@ -9683,6 +9980,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 622.3) (xy 297.18 622.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e990b203-accb-46e8-a83e-be306598a2c0")
+	)
+	(wire
+		(pts
 			(xy 812.8 577.85) (xy 814.07 577.85)
 		)
 		(stroke
@@ -9693,7 +10000,7 @@
 	)
 	(wire
 		(pts
-			(xy 770.89 599.44) (xy 694.69 599.44)
+			(xy 770.89 613.41) (xy 694.69 613.41)
 		)
 		(stroke
 			(width 0)
@@ -9723,16 +10030,6 @@
 			(color 255 6 0 1)
 		)
 		(uuid "ed9e44fa-cbae-4830-bf49-4bc1041f1e19")
-	)
-	(wire
-		(pts
-			(xy 318.77 565.15) (xy 318.77 629.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eda67066-9680-4e69-ba71-02f51c4ecc14")
 	)
 	(wire
 		(pts
@@ -9787,6 +10084,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 614.68) (xy 285.75 629.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5ec0b1-6eda-4ccf-976c-bc05983587bf")
+	)
+	(wire
+		(pts
 			(xy 816.61 547.37) (xy 825.5 547.37)
 		)
 		(stroke
@@ -9838,7 +10145,7 @@
 	)
 	(wire
 		(pts
-			(xy 669.29 440.69) (xy 669.29 441.96)
+			(xy 669.29 441.96) (xy 669.29 440.69)
 		)
 		(stroke
 			(width 0)
@@ -9849,7 +10156,7 @@
 	)
 	(wire
 		(pts
-			(xy 789.94 669.29) (xy 789.94 612.14)
+			(xy 789.94 683.26) (xy 789.94 626.11)
 		)
 		(stroke
 			(width 0)
@@ -9913,16 +10220,6 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 629.92) (xy 372.11 629.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f62db4bb-fee1-4f0d-aab2-d2877817572e")
-	)
-	(wire
-		(pts
 			(xy 784.86 356.87) (xy 617.22 356.87)
 		)
 		(stroke
@@ -9972,16 +10269,6 @@
 			(type default)
 		)
 		(uuid "f79ed3a0-725c-4288-a63f-8a477c79469b")
-	)
-	(wire
-		(pts
-			(xy 420.37 622.3) (xy 420.37 629.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8249e21-2198-416f-835e-f228d69c78a0")
 	)
 	(wire
 		(pts
@@ -10038,17 +10325,6 @@
 	)
 	(wire
 		(pts
-			(xy 567.69 504.19) (xy 567.69 530.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 11 0 1)
-		)
-		(uuid "fa9f0051-db2d-4692-9ae6-dec02c0bc48b")
-	)
-	(wire
-		(pts
 			(xy 858.52 549.91) (xy 872.49 549.91)
 		)
 		(stroke
@@ -10059,7 +10335,7 @@
 	)
 	(wire
 		(pts
-			(xy 589.28 372.11) (xy 589.28 612.14)
+			(xy 589.28 372.11) (xy 589.28 626.11)
 		)
 		(stroke
 			(width 0)
@@ -10081,7 +10357,7 @@
 	)
 	(wire
 		(pts
-			(xy 567.69 530.86) (xy 567.69 622.3)
+			(xy 567.69 530.86) (xy 567.69 636.27)
 		)
 		(stroke
 			(width 0)
@@ -10092,7 +10368,7 @@
 	)
 	(wire
 		(pts
-			(xy 726.44 661.67) (xy 745.49 661.67)
+			(xy 726.44 675.64) (xy 745.49 675.64)
 		)
 		(stroke
 			(width 0)
@@ -10103,17 +10379,7 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 565.15) (xy 492.76 629.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcc77318-2adc-4f3a-b29e-938eaf65ce21")
-	)
-	(wire
-		(pts
-			(xy 755.65 612.14) (xy 789.94 612.14)
+			(xy 755.65 626.11) (xy 789.94 626.11)
 		)
 		(stroke
 			(width 0)
@@ -10161,16 +10427,6 @@
 			(type default)
 		)
 		(uuid "ff9af686-bfe8-41d2-991a-60d448ac65d3")
-	)
-	(wire
-		(pts
-			(xy 331.47 622.3) (xy 331.47 629.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffc2f157-eb47-4d20-96ef-60a9374578d6")
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -10276,7 +10532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 596.9 177.8 0)
 			(effects
 				(font
@@ -10334,7 +10590,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
+		(property "Value" "Terminales de tornillo espaciados en 5mm"
 			(at 675.6401 528.32 0)
 			(effects
 				(font
@@ -10344,7 +10600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
 			(at 676.91 530.86 0)
 			(effects
 				(font
@@ -10415,7 +10671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 648.97 265.43 0)
 			(effects
 				(font
@@ -10481,7 +10737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 596.9 165.1 0)
 			(effects
 				(font
@@ -10623,7 +10879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 647.7 147.32 0)
 			(effects
 				(font
@@ -10756,7 +11012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 648.97 257.81 0)
 			(effects
 				(font
@@ -10822,7 +11078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 598.17 295.91 0)
 			(effects
 				(font
@@ -10948,73 +11204,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 897.89 627.38 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c21fa41-53a3-475c-8130-9e7e3729de53")
-		(property "Reference" "PX79"
-			(at 897.89 631.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 901.7 627.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 897.89 627.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 897.89 627.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 897.89 627.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5de1a7ec-a12a-4661-9b62-1f63a37a3ed7")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "PX79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 850.9 529.59 270)
 		(unit 1)
@@ -11077,6 +11266,142 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 139.7 297.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11ada9d5-34cf-44c7-9adf-4362f8fcae4f")
+		(property "Reference" "R7"
+			(at 139.7 292.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "2.4 KΩ   -  1/2 W"
+			(at 139.7 293.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+			(at 139.954 296.164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 139.7 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "590145bb-3b02-43f5-bbf6-5eab7d75ba07")
+		)
+		(pin "1"
+			(uuid "f249e731-3be2-4ae6-908b-1d0262895273")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 745.49 661.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "124bd1c6-a362-4cee-b702-8bd5f3030d83")
+		(property "Reference" "J18"
+			(at 748.03 661.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "switch"
+			(at 742.95 660.4001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 745.49 661.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 745.49 661.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 745.49 661.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "668d4e86-e0c6-496e-8e52-a417a8ffc0e1")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -11152,6 +11477,74 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 684.53 641.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bd4a67c-d738-40c8-a903-d54389d4dce1")
+		(property "Reference" "J9"
+			(at 687.07 640.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "switch"
+			(at 687.07 642.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 684.53 641.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 684.53 641.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 684.53 641.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9802ad7c-bea4-4c3a-a32f-d4300df26be0")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 596.9 187.96 0)
 		(mirror x)
 		(unit 1)
@@ -11177,7 +11570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 596.9 187.96 0)
 			(effects
 				(font
@@ -11243,7 +11636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-264-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
 			(at 672.465 464.82 0)
 			(effects
 				(font
@@ -11293,6 +11686,74 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 822.96 661.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20d272a1-a2bb-4c07-89c2-9f9a03ea2296")
+		(property "Reference" "J21"
+			(at 825.5 661.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "switch"
+			(at 820.42 660.4001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 822.96 661.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 822.96 661.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 822.96 661.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "067ff901-dbff-43e1-b2c3-6254f95c432c")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 648.97 285.75 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11317,7 +11778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 648.97 285.75 0)
 			(effects
 				(font
@@ -11548,7 +12009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 119.38 336.55 0)
 			(effects
 				(font
@@ -11614,7 +12075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 596.9 162.56 0)
 			(effects
 				(font
@@ -11680,7 +12141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 598.17 278.13 0)
 			(effects
 				(font
@@ -11745,7 +12206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 648.97 267.97 0)
 			(effects
 				(font
@@ -11810,7 +12271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 647.7 149.86 0)
 			(effects
 				(font
@@ -11875,7 +12336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 648.97 262.89 0)
 			(effects
 				(font
@@ -11941,7 +12402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 596.9 149.86 0)
 			(effects
 				(font
@@ -11981,73 +12442,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 822.96 647.7 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ee2f209-4efc-45ae-ad6e-6228fa23b4ec")
-		(property "Reference" "PX69"
-			(at 822.96 643.636 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 819.15 647.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 822.96 647.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 822.96 647.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 822.96 647.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27369585-25f3-4d59-8585-8395c5fb5072")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "PX69")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 502.92 635 90)
 		(unit 1)
@@ -12066,7 +12460,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
+		(property "Value" "Terminales de tornillo espaciados en 5mm"
 			(at 504.1899 637.54 0)
 			(effects
 				(font
@@ -12076,7 +12470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
 			(at 502.92 635 0)
 			(effects
 				(font
@@ -12122,74 +12516,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 139.7 332.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30602bec-cbb1-481d-b836-c1c89fe60132")
-		(property "Reference" "R31"
-			(at 139.7 328.168 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "2.2 KΩ  -  1/4 W"
-			(at 139.7 328.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
-			(at 139.954 331.724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 139.7 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "438f2bbb-5186-4ece-be2d-8d37ced8b794")
-		)
-		(pin "1"
-			(uuid "2b282acb-0d02-4996-b595-b25589ffa1b2")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 647.7 170.18 180)
 		(unit 1)
@@ -12215,7 +12541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 647.7 170.18 0)
 			(effects
 				(font
@@ -12280,7 +12606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 647.7 185.42 0)
 			(effects
 				(font
@@ -12346,7 +12672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
 			(at 284.48 571.5 0)
 			(effects
 				(font
@@ -12424,7 +12750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 647.7 167.64 0)
 			(effects
 				(font
@@ -12458,74 +12784,6 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "P35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 139.7 297.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "352abc46-c986-4554-a3ae-8e3d7ea926aa")
-		(property "Reference" "R29"
-			(at 139.7 292.608 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "2.2 KΩ   -  1/4 W"
-			(at 139.7 293.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
-			(at 139.954 296.164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 139.7 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f145e510-3638-4706-b2c2-267cb57ae0e1")
-		)
-		(pin "1"
-			(uuid "1a121f1a-c6aa-4f98-b872-68749927fb59")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -12626,7 +12884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 596.9 190.5 0)
 			(effects
 				(font
@@ -12692,7 +12950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 598.17 288.29 0)
 			(effects
 				(font
@@ -12757,7 +13015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 647.7 162.56 0)
 			(effects
 				(font
@@ -12798,34 +13056,35 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 887.73 627.38 90)
-		(mirror x)
+		(at 897.89 641.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "40df1539-95f7-4ebb-b6ec-1e415b7a41e5")
-		(property "Reference" "PX77"
-			(at 887.73 631.444 0)
+		(fields_autoplaced yes)
+		(uuid "3c79b380-8b3f-49d4-9161-70c19d458b63")
+		(property "Reference" "J15"
+			(at 900.43 640.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 891.54 627.38 0)
+		(property "Value" "switch"
+			(at 900.43 642.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 887.73 627.38 0)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 897.89 641.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12834,7 +13093,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 887.73 627.38 0)
+			(at 897.89 641.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12843,7 +13102,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 887.73 627.38 0)
+			(at 897.89 641.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12852,12 +13111,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1497603b-1b55-40c2-8021-7246595805d3")
+			(uuid "361d7b54-79d8-468f-9099-409abbd7466b")
 		)
 		(instances
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "PX77")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -12942,6 +13201,74 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 694.69 662.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45d8155e-91b6-42db-b4c0-b67a4afad1ab")
+		(property "Reference" "J17"
+			(at 697.23 662.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "switch"
+			(at 692.15 661.6701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 694.69 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 694.69 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 694.69 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d9056ab-f38e-472a-bbab-2da424994418")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 648.97 295.91 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12966,7 +13293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 648.97 295.91 0)
 			(effects
 				(font
@@ -13168,7 +13495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 598.17 267.97 0)
 			(effects
 				(font
@@ -13234,7 +13561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 596.9 180.34 0)
 			(effects
 				(font
@@ -13274,74 +13601,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 139.7 314.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ea1c297-76bb-40eb-9e78-a61ad8c41d79")
-		(property "Reference" "R30"
-			(at 139.7 310.388 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "2.2 KΩ  -  1/4 W"
-			(at 139.7 311.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
-			(at 139.954 313.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 139.7 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "018ba3e1-6754-4a6c-b4ac-b0718cddd690")
-		)
-		(pin "1"
-			(uuid "7b8c635d-247f-4c96-b118-2b0f41a3af29")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 754.38 530.86 270)
 		(mirror x)
@@ -13360,7 +13619,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
+		(property "Value" "Terminales de tornillo espaciados en 5mm"
 			(at 753.1101 528.32 0)
 			(effects
 				(font
@@ -13370,7 +13629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
 			(at 754.38 530.86 0)
 			(effects
 				(font
@@ -13434,7 +13693,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
+		(property "Value" "Terminales de tornillo espaciados en 5mm"
 			(at 463.5499 637.54 0)
 			(effects
 				(font
@@ -13444,7 +13703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
 			(at 462.28 635 0)
 			(effects
 				(font
@@ -13516,7 +13775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
 			(at 330.2 571.5 0)
 			(effects
 				(font
@@ -13595,7 +13854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 598.17 285.75 0)
 			(effects
 				(font
@@ -13729,7 +13988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 596.9 185.42 0)
 			(effects
 				(font
@@ -13771,7 +14030,7 @@
 	(symbol
 		(lib_name "Screw_Terminal_01x03_1")
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 603.25 702.31 270)
+		(at 603.25 716.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13780,7 +14039,7 @@
 		(fields_autoplaced yes)
 		(uuid "5794f0f6-9497-4e14-826b-31a8985bc641")
 		(property "Reference" "J7"
-			(at 608.33 701.0399 90)
+			(at 608.33 715.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13789,7 +14048,7 @@
 			)
 		)
 		(property "Value" "24VDC"
-			(at 608.33 703.5799 90)
+			(at 608.33 717.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13798,8 +14057,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 603.25 702.31 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
+			(at 603.25 716.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13808,7 +14067,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 603.25 702.31 0)
+			(at 603.25 716.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13817,7 +14076,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 603.25 702.31 0)
+			(at 603.25 716.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13956,7 +14215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 647.7 177.8 0)
 			(effects
 				(font
@@ -14099,7 +14358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 596.9 182.88 0)
 			(effects
 				(font
@@ -14140,73 +14399,6 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 745.49 647.7 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d6023e1-9476-4a77-a9c4-4eb3c416caae")
-		(property "Reference" "PX74"
-			(at 745.49 643.636 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 741.68 647.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 745.49 647.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 745.49 647.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 745.49 647.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a844f592-edfb-46ae-9dff-413ce7919726")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "PX74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 596.9 154.94 0)
 		(mirror x)
 		(unit 1)
@@ -14232,7 +14424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 596.9 154.94 0)
 			(effects
 				(font
@@ -14374,7 +14566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 647.7 157.48 0)
 			(effects
 				(font
@@ -14508,7 +14700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-264-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
 			(at 749.935 464.82 0)
 			(effects
 				(font
@@ -14582,7 +14774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 647.7 152.4 0)
 			(effects
 				(font
@@ -14647,7 +14839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 647.7 154.94 0)
 			(effects
 				(font
@@ -14715,7 +14907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 93.98 302.26 0)
 			(effects
 				(font
@@ -14781,7 +14973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 596.9 172.72 0)
 			(effects
 				(font
@@ -14821,6 +15013,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 139.7 314.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61706d55-224e-4386-9053-69e6156c44b6")
+		(property "Reference" "R8"
+			(at 139.7 310.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "2.4 KΩ   -  1/2 W"
+			(at 139.7 311.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+			(at 139.954 313.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 139.7 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "523060bd-85dd-4822-a5a4-557714c891a7")
+		)
+		(pin "1"
+			(uuid "1b093481-571d-4d44-952e-430b7dac8797")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 598.17 252.73 0)
 		(mirror x)
@@ -14847,7 +15107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 598.17 252.73 0)
 			(effects
 				(font
@@ -14913,7 +15173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 596.9 167.64 0)
 			(effects
 				(font
@@ -15030,73 +15290,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 684.53 648.97 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6690a98c-6f45-4f50-a12a-1e6210669ac8")
-		(property "Reference" "PX82"
-			(at 684.53 644.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 680.72 648.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 684.53 648.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 684.53 648.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 684.53 648.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6918754-05b5-4405-bf60-6fd5cf12a60b")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "PX82")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 468.63 106.68 270)
 		(unit 1)
@@ -15115,7 +15308,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
+		(property "Value" "Terminales de tornillo espaciados en 5mm"
 			(at 467.3601 104.14 0)
 			(effects
 				(font
@@ -15125,7 +15318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
 			(at 468.63 106.68 0)
 			(effects
 				(font
@@ -15165,73 +15358,6 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "J0_3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 694.69 648.97 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68a28021-4d5e-4c10-9d23-90290830386d")
-		(property "Reference" "PX84"
-			(at 694.69 644.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 690.88 648.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 694.69 648.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 694.69 648.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 694.69 648.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a57aaf9-df61-4b1f-b6c9-3e459d4e9cc6")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "PX84")
 					(unit 1)
 				)
 			)
@@ -15306,35 +15432,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 755.65 647.7 270)
-		(mirror x)
+		(lib_id "Device:Fuse")
+		(at 605.79 695.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6e3f2836-43c6-4121-84bf-ad34f9d4a0e4")
-		(property "Reference" "PX76"
-			(at 755.65 643.636 0)
+		(fields_autoplaced yes)
+		(uuid "6cf7b448-c0bf-4125-9001-615b8b32d11c")
+		(property "Reference" "F1"
+			(at 608.33 694.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 751.84 647.7 0)
+		(property "Value" "Fuse"
+			(at 608.33 697.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 755.65 647.7 0)
+		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open"
+			(at 604.012 695.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15343,7 +15469,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 755.65 647.7 0)
+			(at 605.79 695.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15351,8 +15477,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 755.65 647.7 0)
+		(property "Description" "Fuse"
+			(at 605.79 695.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15361,12 +15487,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "83046778-9f5f-4e88-8195-091bd29a4a4f")
+			(uuid "484fd9ed-8201-4cf4-a853-8e218d77a0c5")
+		)
+		(pin "2"
+			(uuid "49d8b68c-4e84-4ce8-82be-1b3a8130c357")
 		)
 		(instances
-			(project "HORNO_PCB"
+			(project ""
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "PX76")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -15401,7 +15530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 105.41 309.88 0)
 			(effects
 				(font
@@ -15442,6 +15571,74 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 755.65 640.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "708ea090-ce26-4a22-8532-3b8f51bef722")
+		(property "Reference" "J11"
+			(at 758.19 638.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "switch"
+			(at 758.19 641.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 755.65 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 755.65 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 755.65 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cd30ef8-b883-4656-91cf-f9bbd830bf5d")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 648.97 280.67 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15466,7 +15663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 648.97 280.67 0)
 			(effects
 				(font
@@ -15524,7 +15721,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
+		(property "Value" "Terminales de tornillo espaciados en 5mm"
 			(at 332.7399 637.54 0)
 			(effects
 				(font
@@ -15534,7 +15731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
 			(at 331.47 635 0)
 			(effects
 				(font
@@ -15581,73 +15778,6 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 897.89 648.97 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "772a98b0-61b8-4edf-ac23-1086a9ce4026")
-		(property "Reference" "PX85"
-			(at 897.89 644.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 894.08 648.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 897.89 648.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 897.89 648.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 897.89 648.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e92759b-9cca-4858-af84-96f2cfa3f84f")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "PX85")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 647.7 165.1 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15672,7 +15802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 647.7 165.1 0)
 			(effects
 				(font
@@ -15875,7 +16005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
 			(at 504.19 571.5 0)
 			(effects
 				(font
@@ -15929,6 +16059,74 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 694.69 641.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a53db44-d2e6-43b1-9d5a-6f86cc92b1ca")
+		(property "Reference" "J8"
+			(at 697.23 640.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "switch"
+			(at 697.23 642.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 694.69 641.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 694.69 641.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 694.69 641.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5e09299-7edc-41e2-9e02-99c995c60142")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 648.97 275.59 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15953,7 +16151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 648.97 275.59 0)
 			(effects
 				(font
@@ -16019,7 +16217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 598.17 270.51 0)
 			(effects
 				(font
@@ -16085,7 +16283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
 			(at 374.65 571.5 0)
 			(effects
 				(font
@@ -16164,7 +16362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 598.17 283.21 0)
 			(effects
 				(font
@@ -16205,73 +16403,6 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 812.8 626.11 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7f85f94d-4442-4309-80ae-e4803bc62fa5")
-		(property "Reference" "PX45"
-			(at 812.8 630.174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 816.61 626.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 812.8 626.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 812.8 626.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 812.8 626.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78eca75c-fa51-4f9f-a349-ec37cb6e0155")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "PX45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 119.38 327.66 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16299,7 +16430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 119.38 327.66 0)
 			(effects
 				(font
@@ -16432,7 +16563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 648.97 255.27 0)
 			(effects
 				(font
@@ -16500,7 +16631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 105.41 318.77 0)
 			(effects
 				(font
@@ -16650,7 +16781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 647.7 160.02 0)
 			(effects
 				(font
@@ -16691,73 +16822,6 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 684.53 627.38 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "878bfc79-e4fd-4790-bacf-84d7d30cf64e")
-		(property "Reference" "PX81"
-			(at 684.53 631.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 688.34 627.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 684.53 627.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 684.53 627.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 684.53 627.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b511ff5f-cfd8-426f-a537-f6e017861595")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "PX81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 648.97 288.29 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16782,7 +16846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 648.97 288.29 0)
 			(effects
 				(font
@@ -16847,7 +16911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 648.97 270.51 0)
 			(effects
 				(font
@@ -16913,7 +16977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 598.17 273.05 0)
 			(effects
 				(font
@@ -17133,7 +17197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 648.97 273.05 0)
 			(effects
 				(font
@@ -17191,7 +17255,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
+		(property "Value" "Terminales de tornillo espaciados en 5mm"
 			(at 421.6399 637.54 0)
 			(effects
 				(font
@@ -17201,7 +17265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
 			(at 420.37 635 0)
 			(effects
 				(font
@@ -17343,7 +17407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 648.97 260.35 0)
 			(effects
 				(font
@@ -17631,7 +17695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 598.17 280.67 0)
 			(effects
 				(font
@@ -17696,7 +17760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 647.7 172.72 0)
 			(effects
 				(font
@@ -17907,7 +17971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 647.7 182.88 0)
 			(effects
 				(font
@@ -17973,7 +18037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 596.9 147.32 0)
 			(effects
 				(font
@@ -18039,7 +18103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
 			(at 462.28 571.5 0)
 			(effects
 				(font
@@ -18118,7 +18182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 598.17 275.59 0)
 			(effects
 				(font
@@ -18184,7 +18248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 596.9 160.02 0)
 			(effects
 				(font
@@ -18225,6 +18289,74 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 684.53 662.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a463ea79-9184-4121-b84e-0011d1717224")
+		(property "Reference" "J16"
+			(at 687.07 662.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "switch"
+			(at 681.99 661.6701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 684.53 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 684.53 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 684.53 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ac92704-3065-4deb-a83c-15b4b3f1c550")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 648.97 252.73 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18249,7 +18381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 648.97 252.73 0)
 			(effects
 				(font
@@ -18382,7 +18514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 648.97 283.21 0)
 			(effects
 				(font
@@ -18500,73 +18632,6 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 755.65 626.11 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6865fdc-9cb2-4a68-80fd-7ea3216bdd58")
-		(property "Reference" "PX75"
-			(at 755.65 630.174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 759.46 626.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 755.65 626.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 755.65 626.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 755.65 626.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca34e272-5704-498f-ba18-4b6de14f01e1")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "PX75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 648.97 278.13 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18591,7 +18656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 648.97 278.13 0)
 			(effects
 				(font
@@ -18767,6 +18832,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 897.89 662.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9cebe50-11ea-441f-b519-44b827291315")
+		(property "Reference" "J23"
+			(at 900.43 662.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "switch"
+			(at 895.35 661.6701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 897.89 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 897.89 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 897.89 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdd2c90a-34ba-4bd7-b9f7-cd56669abde3")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 684.53 411.48 180)
 		(unit 1)
@@ -18853,7 +18986,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
+		(property "Value" "Terminales de tornillo espaciados en 5mm"
 			(at 1130.3 354.3299 0)
 			(effects
 				(font
@@ -18863,7 +18996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
 			(at 1132.84 353.06 0)
 			(effects
 				(font
@@ -19048,6 +19181,74 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 745.49 640.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0e0576f-539d-4840-a190-5e87097de54a")
+		(property "Reference" "J10"
+			(at 748.03 638.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "switch"
+			(at 748.03 641.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 745.49 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 745.49 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 745.49 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfc3ff2d-762b-4afe-bacd-00890c6e4871")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 93.98 293.37 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19075,7 +19276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 93.98 293.37 0)
 			(effects
 				(font
@@ -19183,73 +19384,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 887.73 648.97 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3f11d81-53b1-438b-b5fd-f89117d995b0")
-		(property "Reference" "PX78"
-			(at 887.73 644.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 883.92 648.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 887.73 648.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 887.73 648.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 887.73 648.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a739a805-a8a6-4298-af15-b3c99db00286")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "PX78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 875.03 588.01 270)
 		(mirror x)
@@ -19260,7 +19394,7 @@
 		(dnp no)
 		(uuid "b92170b5-30f0-4bfa-9b71-9daeaae3392f")
 		(property "Reference" "J0_13"
-			(at 872.236 592.074 90)
+			(at 874.014 592.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19268,7 +19402,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
+		(property "Value" "Terminales de tornillo espaciados en 5mm"
 			(at 873.7601 585.47 0)
 			(effects
 				(font
@@ -19278,7 +19412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
 			(at 875.03 588.01 0)
 			(effects
 				(font
@@ -19324,6 +19458,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 812.8 661.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b99e44da-3979-49bb-9998-bce27ec4e22e")
+		(property "Reference" "J20"
+			(at 815.34 661.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "switch"
+			(at 810.26 660.4001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 812.8 661.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 812.8 661.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 812.8 661.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36180d69-aff8-4b9c-9245-08aeed5778a4")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Relay:SANYOU_SRD_Form_C")
 		(at 421.64 560.07 270)
 		(unit 1)
@@ -19350,7 +19552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
 			(at 420.37 571.5 0)
 			(effects
 				(font
@@ -19564,7 +19766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 647.7 190.5 0)
 			(effects
 				(font
@@ -19630,7 +19832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 598.17 260.35 0)
 			(effects
 				(font
@@ -19695,7 +19897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 648.97 290.83 0)
 			(effects
 				(font
@@ -19846,7 +20048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 596.9 170.18 0)
 			(effects
 				(font
@@ -19904,7 +20106,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
+		(property "Value" "Terminales de tornillo espaciados en 5mm"
 			(at 375.9199 637.54 0)
 			(effects
 				(font
@@ -19914,7 +20116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
 			(at 374.65 635 0)
 			(effects
 				(font
@@ -19986,7 +20188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 596.9 175.26 0)
 			(effects
 				(font
@@ -20052,7 +20254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 598.17 293.37 0)
 			(effects
 				(font
@@ -20161,6 +20363,74 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 887.73 662.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf8f9bf5-2ac3-45fc-af1c-a0d9cf920e8e")
+		(property "Reference" "J22"
+			(at 890.27 662.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "switch"
+			(at 885.19 661.6701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 887.73 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 887.73 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 887.73 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ad5dcc9-d97e-4b5e-a6cc-16ec95c1084b")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
 		(at 647.7 180.34 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20185,7 +20455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 647.7 180.34 0)
 			(effects
 				(font
@@ -20251,7 +20521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 598.17 290.83 0)
 			(effects
 				(font
@@ -20359,6 +20629,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 755.65 661.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5c82f86-ca02-4664-8935-679de86640d2")
+		(property "Reference" "J19"
+			(at 758.19 661.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "switch"
+			(at 753.11 660.4001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 755.65 661.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 755.65 661.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 755.65 661.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0266dfcb-f500-44d4-b01f-2878ac2d693e")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 152.4 332.74 180)
 		(unit 1)
@@ -20430,73 +20768,6 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 694.69 627.38 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9f507c3-7957-4a19-a27a-3e1080773ce8")
-		(property "Reference" "PX83"
-			(at 694.69 631.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 698.5 627.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 694.69 627.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 694.69 627.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 694.69 627.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19bd68b8-643c-4269-9832-42f2f02e276e")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "PX83")
 					(unit 1)
 				)
 			)
@@ -20716,6 +20987,210 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 812.8 640.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e165a20b-2566-4517-8e33-9afbb0f4b579")
+		(property "Reference" "J12"
+			(at 815.34 638.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "switch"
+			(at 815.34 641.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 812.8 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 812.8 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 812.8 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "676fa704-a618-4e11-bb07-cb341fc80fcd")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 887.73 641.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e30e4397-75f0-4d00-8034-40c0efb638ca")
+		(property "Reference" "J14"
+			(at 890.27 640.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "switch"
+			(at 890.27 642.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 887.73 641.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 887.73 641.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 887.73 641.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "150f3617-9155-49cc-9f89-1ab0abc6d9a0")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 822.96 640.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e44ba94f-dd3b-4f2b-bb0d-9b5a4ec6af8a")
+		(property "Reference" "J13"
+			(at 825.5 638.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "switch"
+			(at 825.5 641.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
+			(at 822.96 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 822.96 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 822.96 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a40b26e1-1e3c-4fd5-9dcd-15da08997f0d")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 199.39 297.18 90)
 		(unit 1)
@@ -20811,7 +21286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 598.17 255.27 0)
 			(effects
 				(font
@@ -20869,7 +21344,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Terminales de tornillo espaciados en 3.5mm"
+		(property "Value" "Terminales de tornillo espaciados en 5mm"
 			(at 287.0199 637.54 0)
 			(effects
 				(font
@@ -20879,7 +21354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
 			(at 285.75 635 0)
 			(effects
 				(font
@@ -20951,7 +21426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 596.9 152.4 0)
 			(effects
 				(font
@@ -21213,7 +21688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 596.9 157.48 0)
 			(effects
 				(font
@@ -21247,73 +21722,6 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "RX")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 822.96 626.11 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f205e591-dbea-4fb5-9ad6-f3327e92e24b")
-		(property "Reference" "PX62"
-			(at 822.96 630.174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 826.77 626.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 822.96 626.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 822.96 626.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 822.96 626.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77a1c440-d017-49e3-8743-18f9009047f7")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "PX62")
 					(unit 1)
 				)
 			)
@@ -21422,7 +21830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 647.7 187.96 0)
 			(effects
 				(font
@@ -21488,7 +21896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 598.17 265.43 0)
 			(effects
 				(font
@@ -21553,7 +21961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 648.97 293.37 0)
 			(effects
 				(font
@@ -21593,17 +22001,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 812.8 647.7 270)
-		(mirror x)
+		(lib_id "Device:R_US")
+		(at 139.7 332.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f7df0051-8bd1-4df9-b954-eaf548e85fa0")
-		(property "Reference" "PX55"
-			(at 812.8 643.636 0)
+		(uuid "f6554e7c-a074-4801-9ddb-c9f9a1bd8edd")
+		(property "Reference" "R12"
+			(at 139.7 328.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21611,17 +22018,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 808.99 647.7 0)
+		(property "Value" "2.4 KΩ   -  1/2 W"
+			(at 139.7 328.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 812.8 647.7 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+			(at 139.954 331.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21630,7 +22036,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 812.8 647.7 0)
+			(at 139.7 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21638,22 +22044,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 812.8 647.7 0)
+		(property "Description" "Resistor, US symbol"
+			(at 139.7 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "7c228b3b-bd92-4ad6-9fc6-9692417a4115")
 		)
 		(pin "1"
-			(uuid "9ed083ed-888e-4a96-a721-670519fd999e")
+			(uuid "4333cdde-f508-44da-8ffd-8ae35b6f8942")
 		)
 		(instances
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "PX55")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -21686,7 +22095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 598.17 262.89 0)
 			(effects
 				(font
@@ -21720,73 +22129,6 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "VCC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 745.49 626.11 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb092941-cc2a-4d95-8317-6fcb60105462")
-		(property "Reference" "PX73"
-			(at 745.49 630.174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 749.3 626.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 745.49 626.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 745.49 626.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 745.49 626.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b125cae1-f127-4459-9f9e-224cd8b229cf")
-		)
-		(instances
-			(project "HORNO_PCB"
-				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
-					(reference "PX73")
 					(unit 1)
 				)
 			)
@@ -21967,7 +22309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 598.17 257.81 0)
 			(effects
 				(font
@@ -22032,7 +22374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed"
 			(at 647.7 175.26 0)
 			(effects
 				(font
