@@ -7308,12 +7308,6 @@
 		(uuid "bbd4a8a2-fb10-4dd5-8af3-a2f711c8c35c")
 	)
 	(junction
-		(at 171.45 337.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bcefcd37-5ad2-4c12-93d3-38ac53305d14")
-	)
-	(junction
 		(at 683.26 462.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7324,12 +7318,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7de9661-53a0-4da3-8721-584831bbbbf2")
-	)
-	(junction
-		(at 186.69 337.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8c3e80c-8a79-49ed-bd45-7940f953345f")
 	)
 	(junction
 		(at 133.35 353.06)
@@ -12252,17 +12240,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 337.82) (xy 171.45 337.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "c6562b17-5557-4042-96af-6714c1493744")
-	)
-	(wire
-		(pts
 			(xy 466.09 111.76) (xy 466.09 147.32)
 		)
 		(stroke
@@ -15981,7 +15958,7 @@
 			(uuid "dd7dbfdb-2a5c-4e9e-8d65-eb3e647be4a2")
 		)
 		(instances
-			(project ""
+			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "J7")
 					(unit 1)
@@ -16095,7 +16072,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Terminales de tornillo espaciados en 5mm"
+		(property "Value" "Alimentacion dispositivo serial"
 			(at 488.9501 104.14 0)
 			(effects
 				(font
@@ -16534,7 +16511,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "switch"
+		(property "Value" "+5V     +24V"
 			(at 492.76 133.3499 90)
 			(effects
 				(font
@@ -16864,7 +16841,7 @@
 			(uuid "49d8b68c-4e84-4ce8-82be-1b3a8130c357")
 		)
 		(instances
-			(project ""
+			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "F1")
 					(unit 1)
@@ -20918,7 +20895,7 @@
 			(uuid "6e9a5eff-fff8-45b3-8cbe-6cb64309c5e9")
 		)
 		(instances
-			(project ""
+			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "U25")
 					(unit 1)
