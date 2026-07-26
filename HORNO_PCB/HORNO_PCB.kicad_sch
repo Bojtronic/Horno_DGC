@@ -6839,6 +6839,16 @@
 		)
 		(uuid "81871a5f-1bfa-40f4-a30b-fbb3c2227e4c")
 	)
+	(text "TX"
+		(exclude_from_sim no)
+		(at 468.122 103.378 0)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+		)
+		(uuid "85273d36-16b3-48d6-85bb-0c0d278aafe4")
+	)
 	(text "Dispositivo serial"
 		(exclude_from_sim no)
 		(at 479.806 96.774 0)
@@ -6978,6 +6988,16 @@
 			)
 		)
 		(uuid "fd219b36-b453-4d70-bec6-d9fd8caeec97")
+	)
+	(text "RX"
+		(exclude_from_sim no)
+		(at 471.932 103.124 0)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+		)
+		(uuid "fd5865a4-04bd-4d54-8ce3-6bc9330bf5ea")
 	)
 	(junction
 		(at 341.63 530.86)
