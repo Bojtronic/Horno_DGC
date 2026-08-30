@@ -1,148 +1,88 @@
+#include <Arduino.h>
+
 #include "config.h"
-#include "sensores.h"
-#include "control.h"
-#include "seguridad.h"
-#include "comunicacion.h"
-#include "hmi.h"
-#include "test.h"
+
+//==================================================
+// TESTS
+//==================================================
+
+#include "test_entradas.h"
+#include "test_salidas.h"
+#include "test_temperatura.h"
 
 
-// ================= CONFIGURACIÓN INICIAL =================
-void setup() {
-  //Serial.begin(115200);
-  //delay(1500);
+//==================================================
+// SETUP
+//==================================================
 
-  nextionSerial.begin(9600, SERIAL_8N1, NEXTION_RX, NEXTION_TX);
-  nexInit();
+void setup()
+{
+    DEVICE_SERIAL.begin(115200);
 
-  configurarPines();
-  inicializarTermocuplas();
-  
-  startBtn.attachPush(startBtnCallback, &startBtn);
-  stopBtn.attachPush(stopBtnCallback, &stopBtn);
-  manualBtn.attachPush(manualBtnCallback, &manualBtn);
+    delay(500);
 
-  valvula1Btn.attachPush(valvula1BtnCallback, &valvula1Btn);
-  valvula2Btn.attachPush(valvula2BtnCallback, &valvula2Btn);
-  bomba1Btn.attachPush(bomba1BtnCallback, &bomba1Btn);
-  bomba2Btn.attachPush(bomba2BtnCallback, &bomba2Btn);
-
-  // Conectar a WiFi
-  //connectToWiFi();
-  /*
-  Serial.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
-  Serial.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
-  Serial.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
-  Serial.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
-  Serial.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
-  */
-}
-
-int numTest = 0;
+    DEVICE_SERIAL.println();
+    DEVICE_SERIAL.println("========================================");
+    DEVICE_SERIAL.println("       SISTEMA DE PRUEBAS ESP32");
+    DEVICE_SERIAL.println("========================================");
+    DEVICE_SERIAL.println();
 
 
-// ================= BUCLE PRINCIPAL =================
-void loop() {
-  nexLoop(nex_listen_list);
-  
-  leerPulsadores();
+    //==================================================
+    // SELECCIONAR TEST
+    //==================================================
 
-  unsigned long now = millis();
+    // TEST DE ENTRADAS
+    // Descomentar para probar entradas digitales
+    //
+    // Entrada 1 -> Relé 1
+    // Entrada 2 -> Relé 2
+    // Entrada 3 -> Relé 3
+    // Entrada 4 -> Relé 4
 
-  if (now - lastReadTime >= LECTURA_INTERVAL) {
-    lastReadTime = now;
-    
-    
-    if(numTest < 4){
-      numTest++;
-    }
-    else{
-      numTest = 0;
-    }
-
-    //leerNiveles();
-    //leerPresion();
-    //leerTemperaturas();
-    
-    testProcesando(numTest);
-    
-    
-    //ejecutarPruebas();
-
-    
-
-    //leerSensores();
-    verificarSeguridad();
-    controlarSistema();
-    
-    // Manejo de comunicación con servidor
-    handleServerCommunication(); 
-
-    
-
-    //Serial.println("("**************** PROCESO ****************"); 
-  }
+    //testEntradasInit();
 
 
-  if (now - Bomba1Time >= ESCRITURA_BOMBA1_INTERVAL) {
-    Bomba1Time = now;
-    actualizarBomba1();  
-  }
+    // TEST DE SALIDAS
+    // Descomentar para probar los 6 relés
+    //
+    // Cada salida permanece activa 3 segundos.
+    // Después de la salida 6:
+    // todas las salidas permanecen activas 10 segundos.
+    //
+    testSalidasInit();
 
-  if (now - Bomba2Time >= ESCRITURA_BOMBA2_INTERVAL) {
-    Bomba2Time = now;
-    actualizarBomba2();  
-  }
 
-  if (now - Valv1Time >= ESCRITURA_VALV1_INTERVAL) {
-    Valv1Time = now;
-    actualizarValvula1();  
-  }
-
-  if (now - Valv2Time >= ESCRITURA_VALV2_INTERVAL) {
-    Valv2Time = now;
-    actualizarValvula2();  
-  }
-
-  if (now - EstadoTime >= ESCRITURA_ESTADO_INTERVAL) {
-    EstadoTime = now;
-    actualizarEstadoSistemaHMI();
-  }
-
-  if (now - NivelTime >= ESCRITURA_NIVEL_INTERVAL) {
-    NivelTime = now;
-    actualizarNivel();  
-  }
-
-  if (now - PresionTime >= ESCRITURA_PRESION_INTERVAL) {
-    PresionTime = now;
-    actualizarPresion();  
-  }
-
-  if (now - TempTanqueTime >= ESCRITURA_TEMPTANQUE_INTERVAL) {
-    TempTanqueTime = now;
-    actualizarTemperaturaTanque();  
-  }
-
-  if (now - TempHornoTime >= ESCRITURA_TEMPHORNO_INTERVAL) {
-    TempHornoTime = now;
-    actualizarTemperaturaHorno();
-  }
-
-  if (now - TempCamaraTime >= ESCRITURA_TEMPCAMARA_INTERVAL) {
-    TempCamaraTime = now;
-    actualizarTemperaturaCamara();  
-  }
-
-  if (now - TempSalidaTime >= ESCRITURA_TEMPSALIDA_INTERVAL) {
-    TempSalidaTime = now;
-    actualizarTemperaturaSalida();  
-  }
-
-  //Serial.println("-------------- LOOP --------------");
-  
-  delay(10);
-  
+    // TEST DE TEMPERATURA
+    // Descomentar para probar los 3 MAX31855
+    //
+    //testTemperaturaInit();
 }
 
 
+//==================================================
+// LOOP
+//==================================================
+
+void loop()
+{
+    //==================================================
+    // TEST DE ENTRADAS
+    //==================================================
+
+    //testEntradasUpdate();
+
+
+    //==================================================
+    // TEST DE SALIDAS
+    //==================================================
+
+    testSalidasUpdate();
+
+
+    //==================================================
+    // TEST DE TEMPERATURA
+    //==================================================
+
+    //testTemperaturaUpdate();
+}
