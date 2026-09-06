@@ -9368,6 +9368,16 @@
 	)
 	(wire
 		(pts
+			(xy 744.22 256.54) (xy 652.78 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4717183e-46d5-4d1c-b9ea-e34c1786ccbf")
+	)
+	(wire
+		(pts
 			(xy 386.08 530.86) (xy 386.08 541.02)
 		)
 		(stroke
@@ -9638,6 +9648,16 @@
 			(color 255 6 0 1)
 		)
 		(uuid "52430d09-1687-4187-a6ee-c86762aa31c8")
+	)
+	(wire
+		(pts
+			(xy 744.22 275.59) (xy 652.78 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a92b8a-9370-43f1-a9f3-25ccb3836fdb")
 	)
 	(wire
 		(pts
@@ -10490,6 +10510,16 @@
 			(type default)
 		)
 		(uuid "75fe24f9-0c30-4756-ad9c-71ea7c958ae9")
+	)
+	(wire
+		(pts
+			(xy 744.22 289.56) (xy 652.78 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76277d11-500b-4dfa-997a-110cb5b684e7")
 	)
 	(wire
 		(pts
@@ -12223,6 +12253,16 @@
 	)
 	(wire
 		(pts
+			(xy 744.22 294.64) (xy 652.78 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3fd2293-e710-45da-9aaf-bef7f825bf73")
+	)
+	(wire
+		(pts
 			(xy 1112.52 373.38) (xy 1080.77 373.38)
 		)
 		(stroke
@@ -12303,6 +12343,16 @@
 			(color 255 11 0 1)
 		)
 		(uuid "c64caa07-9708-4553-a311-9fecf08e8cc3")
+	)
+	(wire
+		(pts
+			(xy 744.22 270.51) (xy 652.78 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c66ddef9-611b-4bd8-8a3b-c88006fcf513")
 	)
 	(wire
 		(pts
@@ -12387,6 +12437,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "c7f2e382-6247-42ef-a907-f123e8537f0b")
+	)
+	(wire
+		(pts
+			(xy 652.78 256.54) (xy 744.22 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c82903c2-dc99-4869-97dd-7bc656a5f3f4")
 	)
 	(wire
 		(pts
@@ -15336,6 +15396,80 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 749.3 254 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fe75939-c0f4-4233-9435-1b997cdd0ba5")
+		(property "Reference" "J0_16"
+			(at 751.84 253.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Terminales de tornillo espaciados en 5mm"
+			(at 751.84 252.7301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
+			(at 749.3 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 749.3 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Terminales de tornillo espaciados en 3.5mm"
+			(at 749.3 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "59a5a5c8-d06b-4bbe-be27-b2f79083cf62")
+		)
+		(pin "1"
+			(uuid "6d4a80be-2592-437e-8230-8fa0265cd1b3")
+		)
+		(pin "3"
+			(uuid "f1cdb0fd-1725-4348-9b76-2662b866c2da")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J0_16")
 					(unit 1)
 				)
 			)
@@ -19904,6 +20038,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 749.3 292.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baaf97cd-3c52-4b38-b047-1b646ae6f7a5")
+		(property "Reference" "J0_19"
+			(at 751.84 292.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Terminales de tornillo espaciados en 5mm"
+			(at 751.84 290.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
+			(at 749.3 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 749.3 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Terminales de tornillo espaciados en 3.5mm"
+			(at 749.3 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2381547-771b-4818-8d0c-677e7462eb07")
+		)
+		(pin "1"
+			(uuid "824d2869-37d7-42b3-bd10-30ce81908446")
+		)
+		(pin "3"
+			(uuid "515bc42b-7081-4c7d-b5f3-fb896c4f0edb")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J0_19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 683.26 482.6 180)
 		(unit 1)
@@ -20261,6 +20469,80 @@
 			(project "HORNO_PCB"
 				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 749.3 273.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc9a5eb5-60e9-413c-9744-3539533210c4")
+		(property "Reference" "J0_17"
+			(at 751.84 273.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Terminales de tornillo espaciados en 5mm"
+			(at 751.84 271.7801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
+			(at 749.3 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 749.3 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Terminales de tornillo espaciados en 3.5mm"
+			(at 749.3 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9aff14b-7366-492e-9f09-04a89c78b902")
+		)
+		(pin "1"
+			(uuid "857be0a1-187f-4dd8-b27a-f90b609d12f8")
+		)
+		(pin "3"
+			(uuid "e11aed05-7825-4532-9697-e6afec99b241")
+		)
+		(instances
+			(project "HORNO_PCB"
+				(path "/70384b34-09dd-4fe3-975b-9645e85de3d4"
+					(reference "J0_17")
 					(unit 1)
 				)
 			)
