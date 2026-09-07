@@ -28281,7 +28281,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "3.3 VDC"
+	(gr_text "24 VDC"
 		(at 488 186 90)
 		(layer "F.SilkS")
 		(uuid "4256fa8f-c199-49e6-9921-9d6ba454d58e")
